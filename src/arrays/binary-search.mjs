@@ -30,28 +30,20 @@
  Memory Complexity: O(log n)
 */
 export function recursiveBinarySearch(arr, key, low, high) {
-  let result = -1;
-  // let low = 0;
-  //let high = arr.length - 1;
-  let mid;
+  if (low > high) {
+    return -1;
+  }
 
-  mid = low + Math.round(high - low);
+  const mid = low + Math.floor((high - low) / 2);
+
   if (arr[mid] === key) {
-    result = mid;
-
-    return result;
+    return mid;
   }
   if (arr[mid] < key) {
-    low = mid + 1;
+    return recursiveBinarySearch(arr, key, mid + 1, high);
   } else {
-    high = mid - 1;
+    return recursiveBinarySearch(arr, key, low, mid - 1);
   }
-
-  if (low <= high) {
-    result = recursiveBinarySearch(arr, key, low, high);
-  }
-
-  return result;
 }
 
 // test
@@ -65,16 +57,24 @@ log(
 log(recursiveBinarySearch([10, 20, 30, 35, 40, 50], 30, 0, 5), 2);
 log(recursiveBinarySearch([10, 20, 20, 20, 40, 50], 40, 0, 5), 4);
 
+let arr = [
+  1, 10, 20, 47, 59, 63, 75, 88, 99, 107, 120, 133, 155, 162, 176, 188, 199,
+  200, 210, 222,
+];
+let inputs = [
+  [10, 1],
+  [49, -1],
+  [99, 8],
+  [110, -1],
+  [176, 14],
+];
 
-let arr = [1, 10, 20, 47, 59, 63, 75, 88, 99, 107, 120, 133, 155, 162, 176, 188, 199, 200, 210, 222]
-let inputs = [[10,1], [49, -1], [99,8],[110,-1], [176,14]]
-
-for(var i =0; i< inputs.length ; i++ ) {
-  log(recursiveBinarySearch(arr, inputs[i][0], 0, arr.length-1), inputs[i][1]);
+for (var i = 0; i < inputs.length; i++) {
+  log(
+    recursiveBinarySearch(arr, inputs[i][0], 0, arr.length - 1),
+    inputs[i][1]
+  );
 }
-
-
-
 
 /* Approach 1: Iterative Search 
  Runtime Complexity: O(log n)
@@ -88,7 +88,7 @@ export function iterativeBinarySearch(arr, key) {
 
   // find the mid
   while (low <= high) {
-    mid = low + Math.round(high - low);
+    mid = low + Math.floor((high - low)/2);
     if (arr[mid] === key) {
       result = mid;
 
@@ -107,9 +107,9 @@ export function iterativeBinarySearch(arr, key) {
 function log(result, expected) {
   console.log('========');
   if (result === expected) {
-    console.info('%c PASS','color:black;background-color:lawngreen');
+    console.info('%c PASS', 'color:black;background-color:lawngreen');
   } else {
-    console.info('%c FAIL','color:white;background-color:red');
+    console.info('%c FAIL', 'color:white;background-color:red');
   }
 
   console.log(`result: ${result}, expected: ${expected}`);
@@ -122,6 +122,6 @@ log(iterativeBinarySearch([4, 5, 6, 7, 8, 9, 10, 11], 9), 5);
 log(iterativeBinarySearch([-10, -9, -8, -7, -6, -5, -4, 5, 6, 7, 8], -6), 4);
 log(iterativeBinarySearch([10, 20, 30, 35, 40, 50], 30), 2);
 log(iterativeBinarySearch([10, 20, 20, 20, 40, 50], 40), 4);
-for(var i =0; i< inputs.length ; i++ ) {
+for (var i = 0; i < inputs.length; i++) {
   log(iterativeBinarySearch(arr, inputs[i][0]), inputs[i][1]);
 }
