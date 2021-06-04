@@ -81,18 +81,15 @@ for (var i = 0; i < inputs.length; i++) {
  Memory Complexity: O(1)
 */
 export function iterativeBinarySearch(arr, key) {
-  let result = -1;
   let low = 0;
   let high = arr.length - 1;
   let mid;
 
-  // find the mid
   while (low <= high) {
-    mid = low + Math.floor((high - low)/2);
+    // find the mid
+    mid = low + Math.floor((high - low) / 2);
     if (arr[mid] === key) {
-      result = mid;
-
-      return result;
+      return mid;
     }
     if (arr[mid] < key) {
       low = mid + 1;
@@ -101,7 +98,7 @@ export function iterativeBinarySearch(arr, key) {
     }
   }
 
-  return result;
+  return -1;
 }
 
 function log(result, expected) {
