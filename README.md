@@ -59,3 +59,15 @@ node .\src\arrays\binary-search.mjs
 ### Find Maximum in Sliding Window
 
 Given a large array of integers and a window of size w, find the current maximum value in the window as the window slides through the entire array.
+
+## Math & Stats
+
+### Integer Division Without Using \* or /
+
+Divide two integers without using '/' (division) or '\*' (multiplication) operators.
+
+```shell
+node .\src\math-and-stats\integer-division.mjs
+```
+
+![](https://imgur.com/Cf7cz4W.png)
