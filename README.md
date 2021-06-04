@@ -6,18 +6,21 @@ Make sure you know Computer science [basic data structures](#data-structures-you
 
 Once they give you problem, don't start coding. Ask clarifying questions to make sure you understand the problem.
 
-Example: 
+Example:
+
 - Will there be null/empty values on input?
 - Will all numbers in a binary tree integers?
-- 
+-
 
 ## What you should prepare?
 
 ### Big O
-Learn Big O. Make sure you give what would be the `runtime complexity` and `memory complexity`.  
 
-`Iterative functions` take no extra memory and therefore, `memory complexity` is `constant` O(1). 
-`Recursive functions` take extra on the stack therefore, `memory complexity` is `lograrithmic` O(_logn_) 
+Learn Big O. Make sure you give what would be the `runtime complexity` and `memory complexity`.
+
+`Iterative functions` take no extra memory and therefore, `memory complexity` is `constant` O(1).
+
+`Recursive functions` take extra on the stack therefore, `memory complexity` is `lograrithmic` O(_logn_)
 
 ### Data Structures you should know
 
@@ -37,7 +40,9 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 - Depth-first search
 - Merge sort
 
-## While solving problem
+## Working with this repo
+
+Download or clone in local machine. Then run individual file in node console to see the results.
 
 ## Arrays
 
