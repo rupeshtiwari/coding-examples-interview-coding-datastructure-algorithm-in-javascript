@@ -3,7 +3,7 @@
  * 
  * 40/4 = 10
  * 
- * Dd | Dr | Q | T   
+ * dividend | divisor | quotient | temp   
  * 40 | 4 | 1 | 4
  * 40 | 4 | 2 | 8
  * 40 | 4 | 4 | 16
@@ -11,23 +11,23 @@
  * 40 | 4 | 16 | 64
  * 
  * ===========================
- * Dd | Dr | Q | T   
+ * dividend | divisor | quotient | temp   
  * 40 | 4 | 8 | 32
  * 8 | 4 | 1 | 4
  * 8 | 4 | 2 | 8
  * 
  * ==============
  * 
- * Q=> 2+8
+ * quotient=> 2+8
  * 
- * Q + fn(Dd-T, Dr)
+ * quotient + fn(dividend-temp, divisor)
  * 
  * 
  * Base Conditions
  * 0/1= return 0;
  * 1/0 = return -1; 
- * Dr>Dd = return 0;
- * Dd === Dr = return 1;
+ * divisor>dividend = return 0;
+ * dividend === divisor = return 1;
  * 
  * Runtime complexity: O(logn) since lograthmic scaling.
  * Runtime complexity: O(1) since iterative solution
