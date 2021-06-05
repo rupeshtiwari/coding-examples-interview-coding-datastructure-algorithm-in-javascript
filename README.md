@@ -195,6 +195,8 @@ You should know about `Binary Tree` and `Binary Search Tree`.
 
 A binary tree is a type of tree in which each node has `at most two children` (0, 1 or 2) which are referred as left child and right child.
 
+![](https://i.imgur.com/fkRP5Ju.png)
+
 #### Binary Search Tree (BST)
 
 In Binary Search Tree nodes are:
