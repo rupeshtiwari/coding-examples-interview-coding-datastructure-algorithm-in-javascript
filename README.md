@@ -161,6 +161,15 @@ The newly created node will become head of the linked list. · Size of the list 
 We’re given the pointer/reference to the head of a singly linked list, reverse it and return the pointer/reference to the head of the reversed linked list.
 
 ![](https://i.imgur.com/lamsYrL.png)
+
+Problem Solving steps
+
+![](https://i.imgur.com/0wZ4lB1.png)
+
+Running program output
+
+![](https://i.imgur.com/FAHJMeF.png)
+
 ### Stack
 
 Depth First Search (DFS) uses a `stack` for storing the nodes that it is visiting.
