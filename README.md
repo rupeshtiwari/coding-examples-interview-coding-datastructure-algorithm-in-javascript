@@ -17,7 +17,10 @@
     - [Insert at tail](#insert-at-tail)
     - [Reverse a Singly Linked List](#reverse-a-singly-linked-list)
   - [Stack](#stack)
+    - [Popping element from stack](#popping-element-from-stack)
   - [Queue](#queue)
+    - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
+    - [Enqueue an element in Queue](#enqueue-an-element-in-queue)
   - [Tree](#tree)
     - [Binary Tree](#binary-tree)
     - [Binary Search Tree (BST)](#binary-search-tree-bst)
@@ -119,6 +122,7 @@ Data-structure represents how data will be stored in memory.
 Arrays can store a fixed number of elements, whereas a collection stores object dynamically so there is no size restrictions it grows and shrinks automatically.
 
 - **Insert** at the end (push) is efficient.
+- **Insert** at in between is not efficient.
 
 #### Implement Binary Search on a Sorted Array
 
@@ -206,9 +210,39 @@ Running program output
 
 Depth First Search (DFS) uses a `stack` for storing the nodes that it is visiting.
 
+#### Popping element from stack
+
+```ts
+var stack = [1, 2, 3, 4];
+stack.pop(); // 4 , stack [1,2,3]
+stack.pop(); // 3 , stack [1,2]
+stack.pop(); // 2 , stack [1]
+stack.pop(); // 1 , stack []
+```
+
 ### Queue
 
 Breadth First Search (BFS) uses a `queue` for storing the nodes that it is visiting.
+
+#### Dequeue an element from Queue
+
+```ts
+var queue = [1, 2, 3, 4];
+queue.shift(); // 1 , queue [2,3,4]
+queue.shift(); // 2 , queue [3,4]
+queue.shift(); // 3 , queue [4]
+queue.shift(); // 4 , queue []
+```
+
+#### Enqueue an element in Queue
+
+```ts
+var queue = [];
+
+queue.unshift(1); //   queue [1]
+queue.unshift(2); //   queue [2,1]
+queue.unshift(3); //   queue [3,2,1]
+```
 
 ### Tree
 
@@ -308,20 +342,22 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 | Time complexity: Fast                                                     | Time complexity: Slow                                                                                    |
 | Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
 
-
-## Sorting 
+## Sorting
 
 ### Merge Sort
 
 Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
 
+[Exercise File](src/sorting/merge-sort.mjs)
 
-## Math.floor 
+## Math.floor
+
 2.5 = 2
 2.8 = 2
 2.4 = 2
 
 ## Math.round
+
 2.5 = 3
 2.8 = 3
 2.4 = 2
