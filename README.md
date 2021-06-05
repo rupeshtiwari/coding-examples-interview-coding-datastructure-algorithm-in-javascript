@@ -34,6 +34,7 @@
     - [DFS Vs BFS](#dfs-vs-bfs)
 - [Sorting](#sorting)
   - [Merge Sort](#merge-sort)
+    - [Merge Sort Algorithm Simulator](#merge-sort-algorithm-simulator)
     - [Implement Merge Sort](#implement-merge-sort)
     - [Find Median Values](#find-median-values)
 - [Math.floor](#mathfloor)
@@ -350,9 +351,11 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 
 Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
 
-https://www.youtube.com/watch?v=UxnyImctVzg 
+https://www.youtube.com/watch?v=UxnyImctVzg
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UxnyImctVzg/0.jpg)](https://www.youtube.com/watch?v=UxnyImctVzg)
+#### Merge Sort Algorithm Simulator
+
+[![Merge Sort Algorithm Simulator](https://img.youtube.com/vi/UxnyImctVzg/0.jpg)](https://www.youtube.com/watch?v=UxnyImctVzg 'Merge Sort Algorithm Simulator')
 
 #### Implement Merge Sort
 
