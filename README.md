@@ -138,6 +138,16 @@ class LinkedListNode {
 }
 ```
 
+Below are the types of LinkedList:
+
+**Singly Linked List**
+
+![](https://i.imgur.com/byjRY7x.png)
+
+**Doubly Linked List**
+
+**Circular Linked List**
+
 ### Stack
 
 Depth First Search (DFS) uses a `stack` for storing the nodes that it is visiting.
