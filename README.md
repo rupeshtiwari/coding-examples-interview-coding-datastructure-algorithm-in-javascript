@@ -140,13 +140,21 @@ class LinkedListNode {
 
 Below are the types of LinkedList:
 
-**Singly Linked List**
+- **Singly Linked List**
+- **Doubly Linked List**
+- **Circular Linked List**
 
-![](https://i.imgur.com/byjRY7x.png)
+  ![](https://i.imgur.com/byjRY7x.png)
 
-**Doubly Linked List**
+#### Insert at head
 
-**Circular Linked List**
+The newly created node will become head of the linked list. · Size of the list is increased by one.
+
+![](https://i.imgur.com/79qwSqL.png)
+
+#### Insert at tail
+
+![](https://i.imgur.com/Wz9Uovq.png)
 
 ### Stack
 
