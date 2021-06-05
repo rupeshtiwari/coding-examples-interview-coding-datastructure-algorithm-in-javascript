@@ -1,82 +1,88 @@
-class LinkedListNode {
+export class LinkedListNode {
   constructor(data) {
     this.data = data;
     this.next = null;
   }
 }
 
-class LinkedList {
-  constructor() {
-    this.head = null;
-    this.length = 0;
-  }
+/**
+ * O(1)
+ * @param head
+ * @param data
+ * @returns
+ */
+export function insertAtHead(head, data) {
+  const newNode = new LinkedListNode(data);
+  newNode.next = head;
 
-  insertAtHead(value) {
-    var newNode = new LinkedListNode(value);
-    newNode.next = this.head;
-    this.head = newNode;
-    this.length++;
-
-    return newNode;
-  }
-
-  insertAtTail(value) {
-    var newNode = new LinkedListNode(value);
-    let head = this.head;
-
-    if (!head) {
-      head = newNode;
-      this.length++;
-
-      return newNode;
-    }
-
-    let temp = head;
-
-    while (temp.next) {
-      temp = temp.next;
-    }
-
-    // temp is tail
-    temp.next = newNode;
-
-    this.length++;
-
-    return newNode;
-  }
-
-  toString() {
-    if (!this.head) {
-      return '';
-    }
-
-    let temp = this.head;
-    let data = '';
-
-    while (temp) {
-      data += ',' + temp.data;
-      temp = temp.next;
-    }
-
-    return data.substr(1,data.length);
-  }
+  return newNode;
 }
 
-function createRandomLinkedList(length) {
-  const list = new LinkedList();
-  for (let i = 0; i < length; i++) {
-    list.insertAtHead(Math.floor(Math.random() * 100 + 1));
+/**
+ * Time Complexity O(n)
+ * Space Complexity O(1)
+ * @param head head
+ * @param node node to add at the tail
+ * @returns head
+ */
+export function insertAtTail(head, node) {
+  if (!head || !head.next) {
+    return node;
   }
 
-  return list;
+  let temp = head;
+
+  while (temp.next) {
+    temp = temp.next;
+  }
+
+  temp.next = node;
+
+  return head;
+}
+
+export function createRandomLinkedList(length) {
+  let head = null;
+  for (let index = 0; index < length; index++) {
+    head = insertAtHead(head, Math.floor(Math.random() * 100 + 1));
+  }
+
+  return head;
+}
+
+export function creatLinkedListFromArray(arr) {
+  let head = null;
+  while (arr.length) {
+    head = insertAtHead(head, arr.pop());
+  }
+
+  return head;
+}
+
+export function display(head) {
+  if (!head) {
+    return '';
+  }
+
+  let text = '';
+  let temp = head;
+  while (temp.next) {
+    text += `, ${temp.data}`;
+    temp = temp.next;
+  }
+
+  text += `, ${temp.data}`;
+
+  return text.substr(1, text.length);
 }
 
 // Test-----------------------
-const list = new LinkedList();
-list.insertAtHead(2);
-console.log(list.toString());
+/*
+console.log(display(insertAtHead(null, 2)));
 
-list.insertAtTail(5);
-console.log(list.toString());
+console.log(insertAtTail(null, { data: 3 }));
 
-console.log(createRandomLinkedList(20).toString());
+console.log(display(createRandomLinkedList(20)));
+
+console.log(display(creatLinkedListFromArray([2, 3, 4, 5, 6])));
+*/
