@@ -29,7 +29,7 @@
  Runtime Complexity: O(log n)
  Memory Complexity: O(log n)
 */
-export function recursiveBinarySearch(arr, key, low, high) {
+function recursiveBinarySearch(arr, key, low, high) {
   if (low > high) {
     return -1;
   }
@@ -80,7 +80,7 @@ for (var i = 0; i < inputs.length; i++) {
  Runtime Complexity: O(log n)
  Memory Complexity: O(1)
 */
-export function iterativeBinarySearch(arr, key) {
+ function iterativeBinarySearch(arr, key) {
   let low = 0;
   let high = arr.length - 1;
   let mid;
