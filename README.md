@@ -1,3 +1,39 @@
+- [What you should prepare?](#what-you-should-prepare)
+  - [Big O](#big-o)
+  - [Data Structures you should know](#data-structures-you-should-know)
+  - [Fundamental algorithms you should know](#fundamental-algorithms-you-should-know)
+- [Working with this repo](#working-with-this-repo)
+- [Math & Stats](#math--stats)
+  - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
+- [Mock Interview](#mock-interview)
+  - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
+  - [ADT](#adt)
+- [Data-Structure](#data-structure)
+  - [Array](#array)
+    - [Implement Binary Search on a Sorted Array](#implement-binary-search-on-a-sorted-array)
+    - [Find Maximum in Sliding Window](#find-maximum-in-sliding-window)
+  - [Linked List](#linked-list)
+    - [Insert at head](#insert-at-head)
+    - [Insert at tail](#insert-at-tail)
+    - [Reverse a Singly Linked List](#reverse-a-singly-linked-list)
+  - [Stack](#stack)
+  - [Queue](#queue)
+  - [Tree](#tree)
+    - [Binary Tree](#binary-tree)
+    - [Binary Search Tree (BST)](#binary-search-tree-bst)
+  - [Trie](#trie)
+  - [Heap ( Priority Queue )](#heap--priority-queue-)
+  - [Hash-Table](#hash-table)
+  - [Graph](#graph)
+  - [Graph Algorithms](#graph-algorithms)
+    - [Depth-First Search (DFS)](#depth-first-search-dfs)
+    - [Breadth-First Search (BFS)](#breadth-first-search-bfs)
+    - [DFS Vs BFS](#dfs-vs-bfs)
+- [Sorting](#sorting)
+  - [Merge Sort](#merge-sort)
+- [Math.floor](#mathfloor)
+- [Math.round](#mathround)
+
 ### What you should know before coding interview?
 
 Make sure you know Computer science [basic data structures](#data-structures-you-should-know). Also you should be aware of [fundamental algorithms](#fundamental-algorithms-you-should-know).
@@ -38,27 +74,11 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 
 - Breadth-first search
 - Depth-first search
-- Merge sort
+- Merge sort & Quick sort
 
 ## Working with this repo
 
 Download or clone in local machine. Then run individual file in node console to see the results.
-
-## Arrays
-
-### Implement Binary Search on a Sorted Array
-
-Given a sorted array of integers, return the index of the given key. Return -1 if the key is not found.
-
-Run below script
-
-```
-node .\src\arrays\binary-search.js
-```
-
-### Find Maximum in Sliding Window
-
-Given a large array of integers and a window of size w, find the current maximum value in the window as the window slides through the entire array.
 
 ## Math & Stats
 
@@ -90,7 +110,7 @@ O(logn)
 
 abstract data type (ADT) - ADT is defined as a user point of view of a data type and Does not talk about how exactly it will be implemented.
 
-### Data-Structure
+## Data-Structure
 
 Data-structure represents how data will be stored in memory.
 
@@ -99,8 +119,20 @@ Data-structure represents how data will be stored in memory.
 Arrays can store a fixed number of elements, whereas a collection stores object dynamically so there is no size restrictions it grows and shrinks automatically.
 
 - **Insert** at the end (push) is efficient.
-- **Remove** from the end (pop) is efficient.
-- **shift** is not efficient as the whole array elements need to be shifted to make the adjustment.
+
+#### Implement Binary Search on a Sorted Array
+
+Given a sorted array of integers, return the index of the given key. Return -1 if the key is not found.
+
+Run below script
+
+```
+node .\src\arrays\binary-search.js
+```
+
+#### Find Maximum in Sliding Window
+
+Given a large array of integers and a window of size w, find the current maximum value in the window as the window slides through the entire array.
 
 ### Linked List
 
@@ -243,7 +275,7 @@ A heap is a useful data structure when you want to get max/min one by one from d
 
 It is just like a dictionary or key value pair.
 
-## Graph
+### Graph
 
 ![](https://i.imgur.com/kYlxMWJ.png)
 
@@ -275,3 +307,21 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 | Uses Stack to sort                                                        | Uses Queue to sort                                                                                       |
 | Time complexity: Fast                                                     | Time complexity: Slow                                                                                    |
 | Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
+
+
+## Sorting 
+
+### Merge Sort
+
+Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
+
+
+## Math.floor 
+2.5 = 2
+2.8 = 2
+2.4 = 2
+
+## Math.round
+2.5 = 3
+2.8 = 3
+2.4 = 2
