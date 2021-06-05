@@ -34,6 +34,8 @@
     - [DFS Vs BFS](#dfs-vs-bfs)
 - [Sorting](#sorting)
   - [Merge Sort](#merge-sort)
+    - [Implement Merge Sort](#implement-merge-sort)
+    - [Find Median Values](#find-median-values)
 - [Math.floor](#mathfloor)
 - [Math.round](#mathround)
 
@@ -348,7 +350,19 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 
 Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
 
-[Exercise File](src/sorting/merge-sort.mjs)
+#### Implement Merge Sort
+
+[Exercise File](src/sorting/merge-sort/merge-sort.mjs)
+
+#### Find Median Values
+
+2 sorted arrays find the median element. Median is the middle index its not an average of values in an sorted array.
+
+![](https://i.imgur.com/anPm3Yx.png)
+
+So in order to find median we can use the stich algorithm since arrays are already sorted. Then we can find the middle index.
+
+[Exercise File](src/sorting/merge-sort/find-median-values.mjs)
 
 ## Math.floor
 
