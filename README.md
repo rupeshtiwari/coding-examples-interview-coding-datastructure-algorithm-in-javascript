@@ -178,12 +178,24 @@ Depth First Search (DFS) uses a `stack` for storing the nodes that it is visitin
 
 Breadth First Search (BFS) uses a `queue` for storing the nodes that it is visiting.
 
-### Trees
+### Tree
 
 A tree has hierarchical data and it has nodes.
 
-**root**: top node of tree is called root and has no parent.
-**node**: every node has parent ( except root ) and 0 or more children's.
+![](https://i.imgur.com/wUiUy0B.png)
+
+- **Root**: top node of tree is called root and has no parent and has no incoming edges.
+- **Node**: every node has parent ( except root ) and 0 or more children's.
+- **Edge**: used to connect two nodes.
+- **Path**: A path is an ordered list of nodes that are connected by edges.
+- **Leaf**: A leaf node is a node that has no children.
+- **Height of the tree**: The height of a tree is the number of edges on the longest path between the root and a leaf.
+- **The level of node**: The level of a node is the number of edges on the path from the root node to that node.
+- **Children**: Nodes that have incoming edges from the same node to be said to be the children of that node.
+- **Parent**: Node is a parent of all the child nodes that are linked by outgoing edges. - **Sibling**: Nodes in the tree that are children of the same parent are called siblings.
+- **Ancestor**:  A node reachable by repeated moving from child to parent.
+
+![](https://imgur.com/L04E7lo.png)
 
 ![](https://i.imgur.com/Jzwpguk.png)
 
