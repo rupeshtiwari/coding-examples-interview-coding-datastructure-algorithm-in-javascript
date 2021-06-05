@@ -350,6 +350,10 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 
 Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
 
+https://www.youtube.com/watch?v=UxnyImctVzg 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UxnyImctVzg/0.jpg)](https://www.youtube.com/watch?v=UxnyImctVzg)
+
 #### Implement Merge Sort
 
 [Exercise File](src/sorting/merge-sort/merge-sort.mjs)
