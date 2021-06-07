@@ -1,14 +1,18 @@
+- [Working with this repo](#working-with-this-repo)
+- [What to practice?](#what-to-practice)
+- [How to Approach?](#how-to-approach)
+  - [Before you code](#before-you-code)
+  - [While you code](#while-you-code)
+  - [After you code](#after-you-code)
+  - [Ask Questions before coding](#ask-questions-before-coding)
 - [What you should prepare?](#what-you-should-prepare)
   - [Computer Science Concepts](#computer-science-concepts)
-    - [Big O Time complexity](#big-o-time-complexity)
-    - [Big O Space complexity](#big-o-space-complexity)
-    - [Recursion](#recursion)
-  - [Data Structures you should know](#data-structures-you-should-know)
-  - [Algorithms you should know](#algorithms-you-should-know)
-- [Working with this repo](#working-with-this-repo)
-- [Mock Interview](#mock-interview)
-  - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
-  - [ADT](#adt)
+- [Big O complexity](#big-o-complexity)
+  - [Big O Time complexity](#big-o-time-complexity)
+  - [Big O Space complexity](#big-o-space-complexity)
+- [Recursion](#recursion)
+- [Data Structures](#data-structures)
+- [Algorithms](#algorithms)
 - [Data-Structure](#data-structure)
   - [Array](#array)
     - [Implement Binary Search on a Sorted Array](#implement-binary-search-on-a-sorted-array)
@@ -33,7 +37,7 @@
     - [Depth-First Search (DFS)](#depth-first-search-dfs)
     - [Breadth-First Search (BFS)](#breadth-first-search-bfs)
     - [DFS Vs BFS](#dfs-vs-bfs)
-- [Algorithms](#algorithms)
+- [Algorithms](#algorithms-1)
   - [Merge Sort](#merge-sort)
     - [Merge Sort Algorithm Simulator](#merge-sort-algorithm-simulator)
     - [Implement Merge Sort](#implement-merge-sort)
@@ -45,10 +49,23 @@
   - [Array slice](#array-slice)
   - [Math.floor](#mathfloor)
   - [Math.round](#mathround)
+- [Mock Interview](#mock-interview)
+  - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
+  - [ADT](#adt)
+## Working with this repo
 
-### What you should know before coding interview?
+Download or clone in local machine. Then run individual file in node console to see the results.
+## What to practice?
 
 Make sure you know Computer science [basic data structures](#data-structures-you-should-know). Also you should be aware of [fundamental algorithms](#fundamental-algorithms-you-should-know).
+
+## How to Approach?
+
+### Before you code
+
+### While you code
+
+### After you code
 
 ### Ask Questions before coding
 
@@ -58,13 +75,12 @@ Example:
 
 - Will there be null/empty values on input?
 - Will all numbers in a binary tree integers?
--
 
 ## What you should prepare?
 
+- [] Computer Science Concepts
 - [] DataStructure
 - [] Algorithms
-- [] Concepts
 
 ### Computer Science Concepts
 
@@ -73,19 +89,21 @@ Example:
 - [] Recursion
 - [] Memoization / Dynamic Programming
 
-#### Big O Time complexity
+## Big O complexity
+
+### Big O Time complexity
 
 Learn Big O. Make sure you give what would be the `runtime complexity` and `memory complexity`.
 
-#### Big O Space complexity
+### Big O Space complexity
 
 `Iterative functions` take no extra memory and therefore, `memory complexity` is `constant` O(1).
 
 `Recursive functions` take extra on the stack therefore, `memory complexity` is `lograrithmic` O(_logn_)
 
-#### Recursion
+## Recursion
 
-### Data Structures you should know
+## Data Structures
 
 - [x] Array
 - [] Hash Table
@@ -98,7 +116,7 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 - [] Heaps
 - [] Vectors
 
-### Algorithms you should know
+## Algorithms
 
 - [x] Merge sort
 - [] Quick sort
@@ -106,27 +124,6 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 - [] Depth-first search
 - [x] Binary Search
 
-## Working with this repo
-
-Download or clone in local machine. Then run individual file in node console to see the results.
-
-## Mock Interview
-
-### Get the Average value at each level of the tree
-
-![](https://imgur.com/N6agnSk.png)
-
-Traverse by depth and collect all the numbers.
-And calculate average also.
-
-Runtime Complexity
-O(logn)
-Space Complexity
-O(logn)
-
-### ADT
-
-abstract data type (ADT) - ADT is defined as a user point of view of a data type and Does not talk about how exactly it will be implemented.
 
 ## Data-Structure
 
@@ -436,3 +433,24 @@ Math.round(2.5) = 3
 Math.round(2.8) = 3
 Math.round(2.4) = 2
 ```
+
+
+
+
+## Mock Interview
+
+### Get the Average value at each level of the tree
+
+![](https://imgur.com/N6agnSk.png)
+
+Traverse by depth and collect all the numbers.
+And calculate average also.
+
+Runtime Complexity
+O(logn)
+Space Complexity
+O(logn)
+
+### ADT
+
+abstract data type (ADT) - ADT is defined as a user point of view of a data type and Does not talk about how exactly it will be implemented.
