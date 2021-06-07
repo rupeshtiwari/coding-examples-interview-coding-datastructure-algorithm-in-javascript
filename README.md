@@ -297,6 +297,8 @@ In Binary Search Tree nodes are:
 
 BSTs get an average case of `O(log n)` on gets, adds, and deletes, but they can have a worst case of `O(n)` if you do something like add a sorted list to a BST. Go ahead, do a BST then add [1,2,3,4,5] to it.
 
+- [Binary Search Tree Implementation Exercise](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010) 
+
 ### Trie
 
 Trie is a tree, in which we store only one character at each node. This final key value pair is stored in the leaves.
