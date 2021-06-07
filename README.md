@@ -13,7 +13,7 @@
 - [Recursion](#recursion)
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
-- [Data-Structure](#data-structure)
+- [Data Structure Q & A](#data-structure-q--a)
   - [Array](#array)
     - [Implement Binary Search on a Sorted Array](#implement-binary-search-on-a-sorted-array)
     - [Find Maximum in Sliding Window](#find-maximum-in-sliding-window)
@@ -107,29 +107,27 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 
 ## Data Structures
 
-- [x] Array
-- [] Hash Table
-- [x] Linked List
-- [] Stack
-- [] Queue
-- [] Tree
-- [] Tries
-- [] Graphs
-- [] Heaps
-- [] Vectors
+[x] Array
+[] Hash Table
+[x] Linked List
+[] Stack
+[] Queue
+[] Tree
+[] Tries
+[] Graphs
+[] Heaps
+[] Vectors
 
 ## Algorithms
 
-- [x] Merge sort
-- [] Quick sort
-- [] Breadth-first search
-- [] Depth-first search
-- [x] Binary Search
+[x] Merge sort
+[] Quick sort
+[] Breadth-first search
+[] Depth-first search
+[x] Binary Search
 
-## Data-Structure
-
-Data-structure represents how data will be stored in memory.
-
+ 
+## Data Structure Q & A
 ### Array
 
 Arrays can store a fixed number of elements, whereas a collection stores object dynamically so there is no size restrictions it grows and shrinks automatically.
