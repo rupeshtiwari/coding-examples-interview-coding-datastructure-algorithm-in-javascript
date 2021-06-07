@@ -4,9 +4,9 @@
   - [Before you code](#before-you-code)
   - [While you code](#while-you-code)
   - [After you code](#after-you-code)
-  - [Ask Questions before coding](#ask-questions-before-coding)
+    - [Ask Questions before coding](#ask-questions-before-coding)
 - [What you should prepare?](#what-you-should-prepare)
-  - [Computer Science Concepts](#computer-science-concepts)
+- [Computer Science Concepts](#computer-science-concepts)
 - [Big O complexity](#big-o-complexity)
   - [Big O Time complexity](#big-o-time-complexity)
   - [Big O Space complexity](#big-o-space-complexity)
@@ -52,9 +52,11 @@
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
+
 ## Working with this repo
 
 Download or clone in local machine. Then run individual file in node console to see the results.
+
 ## What to practice?
 
 Make sure you know Computer science [basic data structures](#data-structures-you-should-know). Also you should be aware of [fundamental algorithms](#fundamental-algorithms-you-should-know).
@@ -67,7 +69,7 @@ Make sure you know Computer science [basic data structures](#data-structures-you
 
 ### After you code
 
-### Ask Questions before coding
+#### Ask Questions before coding
 
 Once they give you problem, don't start coding. Ask clarifying questions to make sure you understand the problem.
 
@@ -82,7 +84,7 @@ Example:
 - [] DataStructure
 - [] Algorithms
 
-### Computer Science Concepts
+## Computer Science Concepts
 
 - [] Big O Time
 - [] Big O Space
@@ -123,7 +125,6 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 - [] Breadth-first search
 - [] Depth-first search
 - [x] Binary Search
-
 
 ## Data-Structure
 
@@ -433,9 +434,6 @@ Math.round(2.5) = 3
 Math.round(2.8) = 3
 Math.round(2.4) = 2
 ```
-
-
-
 
 ## Mock Interview
 
