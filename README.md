@@ -37,8 +37,9 @@
     - [Depth-First Search (DFS)](#depth-first-search-dfs)
     - [Breadth-First Search (BFS)](#breadth-first-search-bfs)
     - [DFS Vs BFS](#dfs-vs-bfs)
-- [Algorithms](#algorithms-1)
+- [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
+    - [Merge Sort Implementation](#merge-sort-implementation)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
   - [BFS (Breath First Search)](#bfs-breath-first-search)
@@ -352,7 +353,7 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 | Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
 | Time Complexity: O(V+E)                                                   | Time Complexity: O(V+E)                                                                                  |
 
-## Algorithms
+## Algorithms Q&A
 
 ### Merge Sort
 
@@ -362,14 +363,14 @@ https://www.youtube.com/watch?v=UxnyImctVzg
 
 ![](https://i.imgur.com/YpQSB5J.png)
 
-**Merge Sort Implementation Visualization**
+#### Merge Sort Implementation
+
+Merge Sort Implementation Visualization:
 
 [![Merge Sort Algorithm Simulator](https://img.youtube.com/vi/UxnyImctVzg/0.jpg)](https://www.youtube.com/watch?v=UxnyImctVzg 'Merge Sort Algorithm Simulator')
 
-**Implementation of Merge Sort**
-
-- [Merge Sort Implementation Question](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010) 
-- [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/zYZaaZr?editors=0010) 
+- [Merge Sort Implementation Exercise](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010)
+- [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/zYZaaZr?editors=0010)
 
 #### Find Median Values (With Merge Sort Algorithm)
 
@@ -385,7 +386,7 @@ So in order to find median we can use the stich algorithm since arrays are alrea
 
 ![](https://i.imgur.com/LudZhvH.png)
 
-- [Implement Quick Sort Question](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
+- [Implement Quick Sort Exercise](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
 - [Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
 
 ### BFS (Breath First Search)
