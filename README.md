@@ -1,10 +1,11 @@
 - [What you should prepare?](#what-you-should-prepare)
-  - [Big O](#big-o)
+  - [Computer Science Concepts](#computer-science-concepts)
+    - [Big O Time complexity](#big-o-time-complexity)
+    - [Big O Space complexity](#big-o-space-complexity)
+    - [Recursion](#recursion)
   - [Data Structures you should know](#data-structures-you-should-know)
-  - [Fundamental algorithms you should know](#fundamental-algorithms-you-should-know)
+  - [Algorithms you should know](#algorithms-you-should-know)
 - [Working with this repo](#working-with-this-repo)
-- [Math & Stats](#math--stats)
-  - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
@@ -32,13 +33,17 @@
     - [Depth-First Search (DFS)](#depth-first-search-dfs)
     - [Breadth-First Search (BFS)](#breadth-first-search-bfs)
     - [DFS Vs BFS](#dfs-vs-bfs)
-- [Sorting](#sorting)
+- [Algorithms](#algorithms)
   - [Merge Sort](#merge-sort)
     - [Merge Sort Algorithm Simulator](#merge-sort-algorithm-simulator)
     - [Implement Merge Sort](#implement-merge-sort)
-    - [Find Median Values](#find-median-values)
-- [Math.floor](#mathfloor)
-- [Math.round](#mathround)
+    - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
+  - [BFS (Breath First Search)](#bfs-breath-first-search)
+- [Math & Stats](#math--stats)
+  - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
+  - [Array slice](#array-slice)
+  - [Math.floor](#mathfloor)
+  - [Math.round](#mathround)
 
 ### What you should know before coding interview?
 
@@ -56,47 +61,53 @@ Example:
 
 ## What you should prepare?
 
-### Big O
+- [] DataStructure
+- [] Algorithms
+- [] Concepts
+
+### Computer Science Concepts
+
+- [] Big O Time
+- [] Big O Space
+- [] Recursion
+- [] Memoization / Dynamic Programming
+
+#### Big O Time complexity
 
 Learn Big O. Make sure you give what would be the `runtime complexity` and `memory complexity`.
+
+#### Big O Space complexity
 
 `Iterative functions` take no extra memory and therefore, `memory complexity` is `constant` O(1).
 
 `Recursive functions` take extra on the stack therefore, `memory complexity` is `lograrithmic` O(_logn_)
 
+#### Recursion
+
 ### Data Structures you should know
 
-- Hash Table
-- Linked List
-- Stack
-- Queue
-- Tree
-- Tries
-- Graphs
-- Vectors
-- Heaps
+- [x] Array
+- [] Hash Table
+- [x] Linked List
+- [] Stack
+- [] Queue
+- [] Tree
+- [] Tries
+- [] Graphs
+- [] Heaps
+- [] Vectors
 
-### Fundamental algorithms you should know
+### Algorithms you should know
 
-- Breadth-first search
-- Depth-first search
-- Merge sort & Quick sort
+- [x] Merge sort
+- [] Quick sort
+- [] Breadth-first search
+- [] Depth-first search
+- [x] Binary Search
 
 ## Working with this repo
 
 Download or clone in local machine. Then run individual file in node console to see the results.
-
-## Math & Stats
-
-### Integer Division Without Using \* or /
-
-Divide two integers without using '/' (division) or '\*' (multiplication) operators.
-
-```shell
-node .\src\math-and-stats\integer-division.js
-```
-
-![](https://imgur.com/Cf7cz4W.png)
 
 ## Mock Interview
 
@@ -344,14 +355,17 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 | Uses Stack to sort                                                        | Uses Queue to sort                                                                                       |
 | Time complexity: Fast                                                     | Time complexity: Slow                                                                                    |
 | Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
+| Time Complexity: O(V+E)                                                   | Time Complexity: O(V+E)                                                                                  |
 
-## Sorting
+## Algorithms
 
 ### Merge Sort
 
 Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
 
 https://www.youtube.com/watch?v=UxnyImctVzg
+
+![](https://i.imgur.com/YpQSB5J.png)
 
 #### Merge Sort Algorithm Simulator
 
@@ -361,7 +375,7 @@ https://www.youtube.com/watch?v=UxnyImctVzg
 
 [Exercise File](src/sorting/merge-sort/merge-sort.mjs)
 
-#### Find Median Values
+#### Find Median Values (With Merge Sort Algorithm)
 
 2 sorted arrays find the median element. Median is the middle index its not an average of values in an sorted array.
 
@@ -371,14 +385,46 @@ So in order to find median we can use the stich algorithm since arrays are alrea
 
 [Exercise File](src/sorting/merge-sort/find-median-values.mjs)
 
-## Math.floor
+### BFS (Breath First Search)
 
-2.5 = 2
-2.8 = 2
-2.4 = 2
+## Math & Stats
 
-## Math.round
+### Integer Division Without Using \* or /
 
-2.5 = 3
-2.8 = 3
-2.4 = 2
+Divide two integers without using '/' (division) or '\*' (multiplication) operators.
+
+```shell
+node .\src\math-and-stats\integer-division.js
+```
+
+![](https://imgur.com/Cf7cz4W.png)
+
+### Array slice
+
+Slice does not mutate the original array.
+`slice(index,count) `: Starts taking number from given index and go till given count.
+
+[Example of slice](https://i.imgur.com/9iaew6W.png):
+
+```js
+[20,39,48,58,16,36,48].slice(0,3) = [20,39,48,58]
+[20,39,48,58,16,36,48].slice(3,7) = [58,16,36,48]
+```
+
+![](https://i.imgur.com/9iaew6W.png)
+
+### Math.floor
+
+```javascript
+Math.floor(2.5) = 2
+Math.floor(2.8) = 2
+Math.floor(2.4) = 2
+```
+
+### Math.round
+
+```javascript
+Math.round(2.5) = 3
+Math.round(2.8) = 3
+Math.round(2.4) = 2
+```
