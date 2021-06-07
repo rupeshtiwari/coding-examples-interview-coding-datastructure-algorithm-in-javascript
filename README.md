@@ -20,8 +20,8 @@
   - [Stack](#stack)
     - [Popping element from stack](#popping-element-from-stack)
   - [Queue](#queue)
-    - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
     - [Enqueue an element in Queue](#enqueue-an-element-in-queue)
+    - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
   - [Tree](#tree)
     - [Binary Tree](#binary-tree)
     - [Binary Search Tree (BST)](#binary-search-tree-bst)
@@ -38,6 +38,7 @@
     - [Merge Sort Algorithm Simulator](#merge-sort-algorithm-simulator)
     - [Implement Merge Sort](#implement-merge-sort)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
+  - [Quick Sort](#quick-sort)
   - [BFS (Breath First Search)](#bfs-breath-first-search)
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
@@ -238,6 +239,16 @@ stack.pop(); // 1 , stack []
 
 Breadth First Search (BFS) uses a `queue` for storing the nodes that it is visiting.
 
+#### Enqueue an element in Queue
+
+```ts
+var queue = [];
+
+queue.push(1); //   queue [1]
+queue.push(2); //   queue [1,2]
+queue.push(3); //   queue [1,2,3]
+```
+
 #### Dequeue an element from Queue
 
 ```ts
@@ -246,16 +257,6 @@ queue.shift(); // 1 , queue [2,3,4]
 queue.shift(); // 2 , queue [3,4]
 queue.shift(); // 3 , queue [4]
 queue.shift(); // 4 , queue []
-```
-
-#### Enqueue an element in Queue
-
-```ts
-var queue = [];
-
-queue.unshift(1); //   queue [1]
-queue.unshift(2); //   queue [2,1]
-queue.unshift(3); //   queue [3,2,1]
 ```
 
 ### Tree
@@ -384,6 +385,13 @@ https://www.youtube.com/watch?v=UxnyImctVzg
 So in order to find median we can use the stich algorithm since arrays are already sorted. Then we can find the middle index.
 
 [Exercise File](src/sorting/merge-sort/find-median-values.mjs)
+
+### Quick Sort
+
+![](https://i.imgur.com/LudZhvH.png)
+
+- [Implement Quick Sort Question](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
+- [Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
 
 ### BFS (Breath First Search)
 
