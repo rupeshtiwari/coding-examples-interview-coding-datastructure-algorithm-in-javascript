@@ -26,9 +26,9 @@
   - [Queue](#queue)
     - [Enqueue an element in Queue](#enqueue-an-element-in-queue)
     - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
-  - [Tree](#tree)
-    - [Binary Tree](#binary-tree)
-    - [Binary Search Tree (BST)](#binary-search-tree-bst)
+- [Tree](#tree)
+  - [Binary Tree](#binary-tree)
+  - [Binary Search Tree (BST)](#binary-search-tree-bst)
   - [Trie](#trie)
   - [Heap ( Priority Queue )](#heap--priority-queue-)
   - [Hash-Table](#hash-table)
@@ -42,6 +42,7 @@
     - [Merge Sort Implementation](#merge-sort-implementation)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
+    - [Quick Sort Implementation](#quick-sort-implementation)
   - [BFS (Breath First Search)](#bfs-breath-first-search)
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
@@ -254,7 +255,7 @@ queue.shift(); // 3 , queue [4]
 queue.shift(); // 4 , queue []
 ```
 
-### Tree
+## Tree
 
 A tree has hierarchical data and it has nodes.
 
@@ -279,20 +280,22 @@ If you want to store hierarchical data use Tree.
 
 You should know about `Binary Tree` and `Binary Search Tree`.
 
-#### Binary Tree
+### Binary Tree
 
 A binary tree is a type of tree in which each node has `at most two children` (0, 1 or 2) which are referred as left child and right child.
 
 ![](https://i.imgur.com/fkRP5Ju.png)
 
-#### Binary Search Tree (BST)
+### Binary Search Tree (BST)
 
 In Binary Search Tree nodes are:
 
 - The key in the left subtree is less than the key in its parent node.
 - The key in the right subtree is greater or equal the key in its parent node.
 
-![](https://i.imgur.com/Dk04fw4.png)
+![](https://i.imgur.com/u5WpbHe.png)
+
+BSTs get an average case of `O(log n)` on gets, adds, and deletes, but they can have a worst case of `O(n)` if you do something like add a sorted list to a BST. Go ahead, do a BST then add [1,2,3,4,5] to it.
 
 ### Trie
 
@@ -384,7 +387,11 @@ So in order to find median we can use the stich algorithm since arrays are alrea
 
 ### Quick Sort
 
+When Browser's are not using Merge sort they most of the time use Quick sort variations.
+
 ![](https://i.imgur.com/LudZhvH.png)
+
+#### Quick Sort Implementation
 
 - [Implement Quick Sort Exercise](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
 - [Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
