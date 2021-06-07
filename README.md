@@ -39,8 +39,6 @@
     - [DFS Vs BFS](#dfs-vs-bfs)
 - [Algorithms](#algorithms-1)
   - [Merge Sort](#merge-sort)
-    - [Merge Sort Algorithm Simulator](#merge-sort-algorithm-simulator)
-    - [Implement Merge Sort](#implement-merge-sort)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
   - [BFS (Breath First Search)](#bfs-breath-first-search)
@@ -107,27 +105,27 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 
 ## Data Structures
 
-[x] Array
-[] Hash Table
-[x] Linked List
-[] Stack
-[] Queue
-[] Tree
-[] Tries
-[] Graphs
-[] Heaps
-[] Vectors
+- [x] Array
+- [ ] Hash Table
+- [x] Linked List
+- [ ] Stack
+- [ ] Queue
+- [ ] Tree
+- [ ] Tries
+- [ ] Graphs
+- [ ] Heaps
+- [ ] Vectors
 
 ## Algorithms
 
-[x] Merge sort
-[] Quick sort
-[] Breadth-first search
-[] Depth-first search
-[x] Binary Search
+- [x] Merge sort
+- [ ] Quick sort
+- [ ] Breadth-first search
+- [ ] Depth-first search
+- [x] Binary Search
 
- 
 ## Data Structure Q & A
+
 ### Array
 
 Arrays can store a fixed number of elements, whereas a collection stores object dynamically so there is no size restrictions it grows and shrinks automatically.
@@ -364,13 +362,14 @@ https://www.youtube.com/watch?v=UxnyImctVzg
 
 ![](https://i.imgur.com/YpQSB5J.png)
 
-#### Merge Sort Algorithm Simulator
+**Merge Sort Implementation Visualization**
 
 [![Merge Sort Algorithm Simulator](https://img.youtube.com/vi/UxnyImctVzg/0.jpg)](https://www.youtube.com/watch?v=UxnyImctVzg 'Merge Sort Algorithm Simulator')
 
-#### Implement Merge Sort
+**Implementation of Merge Sort**
 
-[Exercise File](src/sorting/merge-sort/merge-sort.mjs)
+- [Merge Sort Implementation Question](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010) 
+- [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/zYZaaZr?editors=0010) 
 
 #### Find Median Values (With Merge Sort Algorithm)
 
