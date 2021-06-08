@@ -28,8 +28,8 @@
     - [Enqueue an element in Queue](#enqueue-an-element-in-queue)
     - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
   - [Tree](#tree)
-    - [Breadth-first Traversal](#breadth-first-traversal)
-    - [Depth-first Traversal](#depth-first-traversal)
+    - [Breadth-first Traversal (BFS)](#breadth-first-traversal-bfs)
+    - [Depth-first Traversal (DFS)](#depth-first-traversal-dfs)
     - [DFS Vs BFS](#dfs-vs-bfs)
   - [Binary Tree](#binary-tree)
     - [Binary Search Tree (BST)](#binary-search-tree-bst)
@@ -287,7 +287,7 @@ If you want to store hierarchical data use Tree.
 
 You should know about `Binary Tree` and `Binary Search Tree`.
 
-#### Breadth-first Traversal
+#### Breadth-first Traversal (BFS)
 
 In BFS algorithm, a graph is traversed in layer-by-layer fashion. point. The queue is used to implement BFS.
 
@@ -304,7 +304,7 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 - [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
-#### Depth-first Traversal
+#### Depth-first Traversal (DFS)
 
 The DFS algorithm we start from starting point and go into depth of graph until we reach a dead end and then move up to parent node (Backtrack). The stack is used to implement DFS.
 
