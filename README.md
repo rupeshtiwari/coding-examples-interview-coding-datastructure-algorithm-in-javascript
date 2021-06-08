@@ -27,16 +27,16 @@
   - [Queue](#queue)
     - [Enqueue an element in Queue](#enqueue-an-element-in-queue)
     - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
-- [Tree](#tree)
-  - [Breadth-first Traversal](#breadth-first-traversal)
-  - [Depth-first Traversal](#depth-first-traversal)
-  - [DFS Vs BFS](#dfs-vs-bfs)
-- [Binary Tree](#binary-tree)
-  - [Binary Search Tree (BST)](#binary-search-tree-bst)
-- [Trie](#trie)
-- [Heap ( Priority Queue )](#heap--priority-queue-)
-- [Hash-Table](#hash-table)
-- [Graph](#graph)
+  - [Tree](#tree)
+    - [Breadth-first Traversal](#breadth-first-traversal)
+    - [Depth-first Traversal](#depth-first-traversal)
+    - [DFS Vs BFS](#dfs-vs-bfs)
+  - [Binary Tree](#binary-tree)
+    - [Binary Search Tree (BST)](#binary-search-tree-bst)
+  - [Trie](#trie)
+  - [Heap ( Priority Queue )](#heap--priority-queue-)
+  - [Hash-Table](#hash-table)
+  - [Graph](#graph)
 - [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
     - [Merge Sort Implementation](#merge-sort-implementation)
@@ -262,7 +262,7 @@ queue.shift(); // 3 , queue [4]
 queue.shift(); // 4 , queue []
 ```
 
-## Tree
+### Tree
 
 A tree has hierarchical data and it has nodes.
 
@@ -287,7 +287,7 @@ If you want to store hierarchical data use Tree.
 
 You should know about `Binary Tree` and `Binary Search Tree`.
 
-### Breadth-first Traversal
+#### Breadth-first Traversal
 
 In BFS algorithm, a graph is traversed in layer-by-layer fashion. point. The queue is used to implement BFS.
 
@@ -304,7 +304,7 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 - [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
-### Depth-first Traversal
+#### Depth-first Traversal
 
 The DFS algorithm we start from starting point and go into depth of graph until we reach a dead end and then move up to parent node (Backtrack). The stack is used to implement DFS.
 
@@ -319,7 +319,7 @@ The DFS algorithm we start from starting point and go into depth of graph until 
 - [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
-### DFS Vs BFS
+#### DFS Vs BFS
 
 | DFS                                                                       | BFS                                                                                                      |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -329,13 +329,13 @@ The DFS algorithm we start from starting point and go into depth of graph until 
 | Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
 | Time Complexity: O(V+E)                                                   | Time Complexity: O(V+E)                                                                                  |
 
-## Binary Tree
+### Binary Tree
 
 A binary tree is a type of tree in which each node has `at most two children` (0, 1 or 2) which are referred as left child and right child.
 
 ![](https://i.imgur.com/fkRP5Ju.png)
 
-### Binary Search Tree (BST)
+#### Binary Search Tree (BST)
 
 In Binary Search Tree nodes are:
 
@@ -355,7 +355,7 @@ Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 - [Binary Search Tree Implementation Exercise](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
 - [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/LYWBYMM?editors=0010)
 
-## Trie
+### Trie
 
 Trie is a tree, in which we store only one character at each node. This final key value pair is stored in the leaves.
 
@@ -363,7 +363,7 @@ Trie is a tree, in which we store only one character at each node. This final ke
 
 Trie is also suitable for solving partial match and range query problems.
 
-## Heap ( Priority Queue )
+### Heap ( Priority Queue )
 
 Each node in the heap follows the rule that the `parent value is greater than its two children` are.
 
@@ -376,11 +376,11 @@ There are two types of the heap data structure:
 
 A heap is a useful data structure when you want to get max/min one by one from data.
 
-## Hash-Table
+### Hash-Table
 
 It is just like a dictionary or key value pair.
 
-## Graph
+### Graph
 
 ![](https://i.imgur.com/kYlxMWJ.png)
 
