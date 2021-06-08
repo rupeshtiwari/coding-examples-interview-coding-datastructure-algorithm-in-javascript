@@ -1,11 +1,14 @@
 /**
  * Search all possible routes from PHX and BKK
+* RunTime complexity O(V+E) V= Node, E = edges
+ * Space complexity O(n) = linear
+ * It takes 8 steps to find the destination
  * @param start node
  */
 
 import { createGraph } from './implement-graph.mjs';
 
-function bfs(graph, start, end) {
+function bfs(graph, start, toFind) {
   const queue = [];
   queue.push(start);
   const visited = new Set();
@@ -18,8 +21,8 @@ function bfs(graph, start, end) {
     if (!destinations) continue;
 
     for (const destination of destinations) {
-      if (end === destination) {
-        console.log(`====We found Bangkok====`);
+      if (toFind === destination) {
+          console.log('!! We found !!', toFind, 'in', visited.size, ' steps');
       }
 
       if (!visited.has(destination)) {
@@ -34,6 +37,9 @@ function bfs(graph, start, end) {
 const graph = createGraph();
 bfs(graph, 'PHX', 'BKK');
 
+
+ 
+bfs(graph, 'LIM', 'BKK');
 /**
  * PHX => [ ABC, XYZ ]
  * ABC => [ BBB, CCC ]

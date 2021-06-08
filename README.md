@@ -319,7 +319,7 @@ The DFS algorithm we start from starting point and go into depth of graph until 
 - **Strategy**: `Recursive`
 - **Time Complexity**: `O(n logn)`
 - **Space Complexity**: `O(n logn)`
-- Use `Stack` while coding.
+- Use `Recursive Call Stack` while coding.
 
 ![](https://i.imgur.com/DdFyXGx.png)
 
@@ -411,7 +411,13 @@ Find all possible routes from `PHX` to `BKK`. Also then you can decide which pat
 
 ![](https://i.imgur.com/CvPhRQx.png)
 
+![]((https://i.imgur.com/DrWF78t.png)
+
 #### Depth First Search (DFS)
+
+![](https://i.imgur.com/wHevaTK.png)
+
+[Exercise Answer Source Code: Find shortest path using DFS](./src/data-structure/5-graph/depth-first-search.mjs)
 
 ## Algorithms Q&A
 

@@ -16,6 +16,10 @@ export class Graph {
       ? this.nodes.get(destination).push(origin)
       : this.nodes.set(destination, [origin]);
   }
+
+  getEdges(origin) {
+    return this.nodes.get(origin);
+  }
 }
 
 export const routes = [
