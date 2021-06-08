@@ -405,11 +405,11 @@ Graph represents network. It has Nodes, Vertices and Edges.
 When you want to find all possible routes between airports then you want to use BFS.
 Find all possible routes from `PHX` to `BKK`. Also then you can decide which path is the shortest one.
 
-![](https://i.imgur.com/CvPhRQx.png)
-
 ![](https://i.imgur.com/Fc8HIae.png)
 
-[Find all possible routes using BFS Exercise & Answer](./src/data-structure/5-graph/breadth-first-search.mjs)
+[Exercise Answer Source Code: Find all possible routes using BFS](./src/data-structure/5-graph/breadth-first-search.mjs)
+
+![](https://i.imgur.com/CvPhRQx.png)
 
 #### Depth First Search (DFS)
 
