@@ -29,16 +29,14 @@
     - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
 - [Tree](#tree)
   - [Breadth-first Traversal](#breadth-first-traversal)
+  - [Depth-first Traversal](#depth-first-traversal)
+  - [DFS Vs BFS](#dfs-vs-bfs)
 - [Binary Tree](#binary-tree)
   - [Binary Search Tree (BST)](#binary-search-tree-bst)
 - [Trie](#trie)
-  - [Heap ( Priority Queue )](#heap--priority-queue-)
-  - [Hash-Table](#hash-table)
-  - [Graph](#graph)
-  - [Graph Algorithms](#graph-algorithms)
-    - [Depth-First Search (DFS)](#depth-first-search-dfs)
-    - [Breadth-First Search (BFS)](#breadth-first-search-bfs)
-    - [DFS Vs BFS](#dfs-vs-bfs)
+- [Heap ( Priority Queue )](#heap--priority-queue-)
+- [Hash-Table](#hash-table)
+- [Graph](#graph)
 - [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
     - [Merge Sort Implementation](#merge-sort-implementation)
@@ -291,11 +289,45 @@ You should know about `Binary Tree` and `Binary Search Tree`.
 
 ### Breadth-first Traversal
 
+In BFS algorithm, a graph is traversed in layer-by-layer fashion. point. The queue is used to implement BFS.
+
+![](https://i.imgur.com/i7nf4go.png)
+
+Example: Suppose you have given a tree structure and asked to calculate the average of numbers at each level.
+
+- **Strategy**: `Iterative`
+- **Time Complexity**: `O(n logn)`
+- **Space Complexity**: `O(n logn)`
+
 ![](https://i.imgur.com/DdFyXGx.png)
 
 - [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
-  Answer
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
+
+### Depth-first Traversal
+
+The DFS algorithm we start from starting point and go into depth of graph until we reach a dead end and then move up to parent node (Backtrack). The stack is used to implement DFS.
+
+![](https://i.imgur.com/4P7FMDl.png)
+
+- **Strategy**: `Recursive`
+- **Time Complexity**: `O(n logn)`
+- **Space Complexity**: `O(n logn)`
+
+![](https://i.imgur.com/DdFyXGx.png)
+
+- [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
+- [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
+
+### DFS Vs BFS
+
+| DFS                                                                       | BFS                                                                                                      |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Search from root to the leaf                                              | Search level by level                                                                                    |
+| Uses Stack to sort                                                        | Uses Queue to sort                                                                                       |
+| Time complexity: Fast                                                     | Time complexity: Slow                                                                                    |
+| Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
+| Time Complexity: O(V+E)                                                   | Time Complexity: O(V+E)                                                                                  |
 
 ## Binary Tree
 
@@ -331,7 +363,7 @@ Trie is a tree, in which we store only one character at each node. This final ke
 
 Trie is also suitable for solving partial match and range query problems.
 
-### Heap ( Priority Queue )
+## Heap ( Priority Queue )
 
 Each node in the heap follows the rule that the `parent value is greater than its two children` are.
 
@@ -344,43 +376,16 @@ There are two types of the heap data structure:
 
 A heap is a useful data structure when you want to get max/min one by one from data.
 
-### Hash-Table
+## Hash-Table
 
 It is just like a dictionary or key value pair.
 
-### Graph
+## Graph
 
 ![](https://i.imgur.com/kYlxMWJ.png)
 
 Graph represents network. It has Nodes, Vertices and Edges.
-
-### Graph Algorithms
-
-- Depth-First Search (DFS)
-- Breadth-First Search (BFS)
-
-#### Depth-First Search (DFS)
-
-The DFS algorithm we start from starting point and go into depth of graph until we reach a dead end and then move up to parent node (Backtrack). The stack is used to implement DFS.
-![](https://i.imgur.com/4P7FMDl.png)
-
-#### Breadth-First Search (BFS)
-
-In BFS algorithm, a graph is traversed in layer-by-layer fashion. point. The queue is used to implement BFS.
-
-![](https://i.imgur.com/i7nf4go.png)
-
-Example: Suppose you have given a tree structure and asked to calculate the average of numbers at each level.
-
-#### DFS Vs BFS
-
-| DFS                                                                       | BFS                                                                                                      |
-| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Search from root to the leaf                                              | Search level by level                                                                                    |
-| Uses Stack to sort                                                        | Uses Queue to sort                                                                                       |
-| Time complexity: Fast                                                     | Time complexity: Slow                                                                                    |
-| Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
-| Time Complexity: O(V+E)                                                   | Time Complexity: O(V+E)                                                                                  |
+                                                                               |
 
 ## Algorithms Q&A
 
