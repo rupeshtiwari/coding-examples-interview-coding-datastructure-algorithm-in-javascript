@@ -295,9 +295,16 @@ In Binary Search Tree nodes are:
 
 ![](https://i.imgur.com/u5WpbHe.png)
 
+[Checkout Binary Search Tree Visualization here.](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+
 BSTs get an average case of `O(log n)` on gets, adds, and deletes, but they can have a worst case of `O(n)` if you do something like add a sorted list to a BST. Go ahead, do a BST then add [1,2,3,4,5] to it.
 
-- [Binary Search Tree Implementation Exercise](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010) 
+Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
+
+![](https://i.imgur.com/qkefQzD.png)
+
+- [Binary Search Tree Implementation Exercise](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
+- [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
 
 ### Trie
 
