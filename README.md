@@ -1,3 +1,4 @@
+- [Important thing to remember](#important-thing-to-remember)
 - [Working with this repo](#working-with-this-repo)
 - [What to practice?](#what-to-practice)
 - [How to Approach?](#how-to-approach)
@@ -54,6 +55,12 @@
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
 - [References](#references)
+
+## Important thing to remember
+
+- Remember: Run through `your code` not through the `algorithm` while executing test.
+- While `solving` problem: give yourself difficult values like use 7-8 elements of array not just 3 elements array. [1,2,3] instead use [12,34,22,51,6,96,43,8]
+- While `executing` your code always start with very easy example [2,3,1]
 
 ## Working with this repo
 
@@ -283,6 +290,12 @@ If you want to store hierarchical data use Tree.
 You should know about `Binary Tree` and `Binary Search Tree`.
 
 ### Breadth-first Traversal
+
+![](https://i.imgur.com/DdFyXGx.png)
+
+- [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
+  Answer
+- [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
 ## Binary Tree
 
