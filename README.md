@@ -38,8 +38,8 @@
   - [Hash-Table](#hash-table)
   - [Graph](#graph)
     - [Implement Graph](#implement-graph)
-    - [Breadth First Search](#breadth-first-search)
-    - [Breadth First Search](#breadth-first-search-1)
+    - [Breadth First Search (BFS)](#breadth-first-search-bfs)
+    - [Depth First Search (DFS)](#depth-first-search-dfs)
 - [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
     - [Merge Sort Implementation](#merge-sort-implementation)
@@ -400,23 +400,18 @@ Graph represents network. It has Nodes, Vertices and Edges.
 [Exercise](https://codepen.io/roopkt/pen/ZEejLJe?editors=0010)
 [Answer](https://codepen.io/roopkt/pen/vYxagrP?editors=0010)
 
-#### Breadth First Search
+#### Breadth First Search (BFS)
 
 When you want to find all possible routes between airports then you want to use BFS.
 Find all possible routes from `PHX` to `BKK`. Also then you can decide which path is the shortest one.
 
 ![](https://i.imgur.com/CvPhRQx.png)
 
-[Breadth First Search Find all possible routes Exercise & Answer](./src/data-structure/5-graph/breadth-first-search.mjs)
+![](https://i.imgur.com/Fc8HIae.png)
 
-#### Breadth First Search
+[Find all possible routes using BFS Exercise & Answer](./src/data-structure/5-graph/breadth-first-search.mjs)
 
-When you want to find all possible routes between airports then you want to use this.
-Find all possible routes from `PHX` to `BKK`
-
-![](https://i.imgur.com/CvPhRQx.png)
-
-[Breadth First Search Exercise Answer](./src/data-structure/5-graph/breadth-first-search.mjs)
+#### Depth First Search (DFS)
 
 ## Algorithms Q&A
 
