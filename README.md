@@ -28,15 +28,18 @@
     - [Enqueue an element in Queue](#enqueue-an-element-in-queue)
     - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
   - [Tree](#tree)
-    - [Breadth-first Traversal (BFS)](#breadth-first-traversal-bfs)
-    - [Depth-first Traversal (DFS)](#depth-first-traversal-dfs)
-    - [DFS Vs BFS](#dfs-vs-bfs)
+    - [Breadth-first Traversal (BFT)](#breadth-first-traversal-bft)
+    - [Depth-first Traversal (DFT)](#depth-first-traversal-dft)
+    - [Difference between Breadth-first vs Depth-first traversal](#difference-between-breadth-first-vs-depth-first-traversal)
   - [Binary Tree](#binary-tree)
     - [Binary Search Tree (BST)](#binary-search-tree-bst)
   - [Trie](#trie)
   - [Heap ( Priority Queue )](#heap--priority-queue-)
   - [Hash-Table](#hash-table)
   - [Graph](#graph)
+    - [Implement Graph](#implement-graph)
+    - [Breadth First Search](#breadth-first-search)
+    - [Breadth First Search](#breadth-first-search-1)
 - [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
     - [Merge Sort Implementation](#merge-sort-implementation)
@@ -264,7 +267,9 @@ queue.shift(); // 4 , queue []
 
 ### Tree
 
-A tree has hierarchical data and it has nodes.
+A tree has hierarchical data and it has nodes. It is a type of graph. Each node (except root) has exactly on parent and zero or more children.
+A tree is `acyclic` meaning it has no cycles: "a cycle is a path [AKA sequence] of edges and vertices wherein a vertex is reachable from itself".
+Therefore, a tree is also called as `Directed Acyclic Graph (DAG)`.
 
 ![](https://i.imgur.com/wUiUy0B.png)
 
@@ -287,7 +292,7 @@ If you want to store hierarchical data use Tree.
 
 You should know about `Binary Tree` and `Binary Search Tree`.
 
-#### Breadth-first Traversal (BFS)
+#### Breadth-first Traversal (BFT)
 
 In BFS algorithm, a graph is traversed in layer-by-layer fashion. point. The queue is used to implement BFS.
 
@@ -298,13 +303,14 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 - **Strategy**: `Iterative`
 - **Time Complexity**: `O(n logn)`
 - **Space Complexity**: `O(n logn)`
+- Use `Queue` while coding.
 
 ![](https://i.imgur.com/DdFyXGx.png)
 
 - [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
-#### Depth-first Traversal (DFS)
+#### Depth-first Traversal (DFT)
 
 The DFS algorithm we start from starting point and go into depth of graph until we reach a dead end and then move up to parent node (Backtrack). The stack is used to implement DFS.
 
@@ -313,21 +319,22 @@ The DFS algorithm we start from starting point and go into depth of graph until 
 - **Strategy**: `Recursive`
 - **Time Complexity**: `O(n logn)`
 - **Space Complexity**: `O(n logn)`
+- Use `Stack` while coding.
 
 ![](https://i.imgur.com/DdFyXGx.png)
 
 - [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
-#### DFS Vs BFS
+#### Difference between Breadth-first vs Depth-first traversal
 
-| DFS                                                                       | BFS                                                                                                      |
-| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Search from root to the leaf                                              | Search level by level                                                                                    |
-| Uses Stack to sort                                                        | Uses Queue to sort                                                                                       |
-| Time complexity: Fast                                                     | Time complexity: Slow                                                                                    |
-| Where to use: if you can find at root or leaf, find connected components. | Where to use: Find shortest path,find connected components. When you think you have less data go for it. |
-| Time Complexity: O(V+E)                                                   | Time Complexity: O(V+E)                                                                                  |
+| BFS                                                                                                                                                                  | DFS                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| Search level by level                                                                                                                                                | Search from root to the leaf    |
+| Uses Queue to sort                                                                                                                                                   | Uses Stack to sort              |
+| Time complexity: Slow                                                                                                                                                | Time complexity: Fast           |
+| Where to use: solution is not far from the root of the tree,If the tree is very deep and solutions are rare, If solutions are frequent but located deep in the tree, | Where to use: tree is very wide |
+| Time Complexity: O(V+E)                                                                                                                                              | Time Complexity: O(V+E)         |
 
 ### Binary Tree
 
@@ -385,7 +392,31 @@ It is just like a dictionary or key value pair.
 ![](https://i.imgur.com/kYlxMWJ.png)
 
 Graph represents network. It has Nodes, Vertices and Edges.
-                                                                               |
+
+#### Implement Graph
+
+![](https://i.imgur.com/eqzKDIV.png)
+
+[Exercise](https://codepen.io/roopkt/pen/ZEejLJe?editors=0010)
+[Answer](https://codepen.io/roopkt/pen/vYxagrP?editors=0010)
+
+#### Breadth First Search
+
+When you want to find all possible routes between airports then you want to use BFS.
+Find all possible routes from `PHX` to `BKK`. Also then you can decide which path is the shortest one.
+
+![](https://i.imgur.com/CvPhRQx.png)
+
+[Breadth First Search Find all possible routes Exercise & Answer](./src/data-structure/5-graph/breadth-first-search.mjs)
+
+#### Breadth First Search
+
+When you want to find all possible routes between airports then you want to use this.
+Find all possible routes from `PHX` to `BKK`
+
+![](https://i.imgur.com/CvPhRQx.png)
+
+[Breadth First Search Exercise Answer](./src/data-structure/5-graph/breadth-first-search.mjs)
 
 ## Algorithms Q&A
 
