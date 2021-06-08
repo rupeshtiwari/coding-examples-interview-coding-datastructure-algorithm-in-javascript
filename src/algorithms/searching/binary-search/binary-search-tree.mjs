@@ -50,16 +50,15 @@ export class Tree {
 
     const node = new Tree(data);
     let temp = start;
-    let process = true;
 
-    while (process) {
+    while (true) {
       if (data >= temp.data) {
         if (temp.right) {
           temp = temp.right;
           continue;
         } else {
           temp.right = node;
-          process = null;
+          break;
         }
       } else if (data < temp.data) {
         if (temp.left) {
@@ -67,7 +66,7 @@ export class Tree {
           continue;
         } else {
           temp.left = node;
-          process = null;
+          break;
         }
       }
     }

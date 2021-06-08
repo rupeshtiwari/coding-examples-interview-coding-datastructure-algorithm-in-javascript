@@ -27,9 +27,10 @@
     - [Enqueue an element in Queue](#enqueue-an-element-in-queue)
     - [Dequeue an element from Queue](#dequeue-an-element-from-queue)
 - [Tree](#tree)
-  - [Binary Tree](#binary-tree)
+  - [Breadth-first Traversal](#breadth-first-traversal)
+- [Binary Tree](#binary-tree)
   - [Binary Search Tree (BST)](#binary-search-tree-bst)
-  - [Trie](#trie)
+- [Trie](#trie)
   - [Heap ( Priority Queue )](#heap--priority-queue-)
   - [Hash-Table](#hash-table)
   - [Graph](#graph)
@@ -52,6 +53,7 @@
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
+- [References](#references)
 
 ## Working with this repo
 
@@ -280,7 +282,9 @@ If you want to store hierarchical data use Tree.
 
 You should know about `Binary Tree` and `Binary Search Tree`.
 
-### Binary Tree
+### Breadth-first Traversal
+
+## Binary Tree
 
 A binary tree is a type of tree in which each node has `at most two children` (0, 1 or 2) which are referred as left child and right child.
 
@@ -304,9 +308,9 @@ Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 ![](https://i.imgur.com/qkefQzD.png)
 
 - [Binary Search Tree Implementation Exercise](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
-- [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
+- [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/LYWBYMM?editors=0010)
 
-### Trie
+## Trie
 
 Trie is a tree, in which we store only one character at each node. This final key value pair is stored in the leaves.
 
@@ -466,3 +470,8 @@ O(logn)
 ### ADT
 
 abstract data type (ADT) - ADT is defined as a user point of view of a data type and Does not talk about how exactly it will be implemented.
+
+## References
+
+- http://btholt.github.io/four-semesters-of-cs/
+- https://btholt.github.io/four-semesters-of-cs-part-two/
