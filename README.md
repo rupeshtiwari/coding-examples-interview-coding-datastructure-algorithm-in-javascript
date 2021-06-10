@@ -57,6 +57,7 @@
   - [ADT](#adt)
 - [Interview Questions Easy](#interview-questions-easy)
   - [Trees and Graphs](#trees-and-graphs)
+  - [Route Between Nodes](#route-between-nodes)
 - [References](#references)
 
 ## Important thing to remember
@@ -527,7 +528,13 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 ### Trees and Graphs
 
-1- [Route Between Nodes](src/data-structure/5-graph/route-between-nodes.mjs)
+### Route Between Nodes
+
+![](https://i.imgur.com/7Xhkftd.png)
+
+[Answer Source Code Route Between Nodes](src/data-structure/5-graph/route-between-nodes.mjs)
+
+![](https://i.imgur.com/JAYs7el.png)
 
 ## References
 
