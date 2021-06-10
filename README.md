@@ -307,7 +307,7 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 
 ![](https://i.imgur.com/DdFyXGx.png)
 
-- [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
+- [Breadth-first Traversal Question](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
 #### Depth-first Traversal (DFT)
@@ -323,7 +323,7 @@ The DFS algorithm we start from starting point and go into depth of graph until 
 
 ![](https://i.imgur.com/DdFyXGx.png)
 
-- [Breadth-first Traversal Exercise](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
+- [Breadth-first Traversal Question](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
 #### Difference between Breadth-first vs Depth-first traversal
@@ -359,7 +359,7 @@ Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 
 ![](https://i.imgur.com/qkefQzD.png)
 
-- [Binary Search Tree Implementation Exercise](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
+- [Binary Search Tree Implementation Question](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
 - [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/LYWBYMM?editors=0010)
 
 ### Trie
@@ -397,7 +397,7 @@ Graph represents network. It has Nodes, Vertices and Edges.
 
 ![](https://i.imgur.com/eqzKDIV.png)
 
-[Exercise](https://codepen.io/roopkt/pen/ZEejLJe?editors=0010)
+[Question](https://codepen.io/roopkt/pen/ZEejLJe?editors=0010)
 [Answer](https://codepen.io/roopkt/pen/vYxagrP?editors=0010)
 
 #### Breadth First Search (BFS)
@@ -407,7 +407,7 @@ Find all possible routes from `PHX` to `BKK`. Also then you can decide which pat
 
 ![](https://i.imgur.com/Fc8HIae.png)
 
-[Exercise Answer Source Code: Find all possible routes using BFS](./src/data-structure/5-graph/breadth-first-search.mjs)
+[Question Answer Source Code: Find all possible routes using BFS](./src/data-structure/5-graph/breadth-first-search.mjs)
 
 ![](https://i.imgur.com/CvPhRQx.png)
 
@@ -417,7 +417,7 @@ Find all possible routes from `PHX` to `BKK`. Also then you can decide which pat
 
 ![](https://i.imgur.com/wHevaTK.png)
 
-[Exercise Answer Source Code: Find shortest path using DFS](./src/data-structure/5-graph/depth-first-search.mjs)
+[Question Answer Source Code: Find shortest path using DFS](./src/data-structure/5-graph/depth-first-search.mjs)
 
 ## Algorithms Q&A
 
@@ -435,8 +435,8 @@ Merge Sort Implementation Visualization:
 
 [![Merge Sort Algorithm Simulator](https://img.youtube.com/vi/UxnyImctVzg/0.jpg)](https://www.youtube.com/watch?v=UxnyImctVzg 'Merge Sort Algorithm Simulator')
 
-- [Merge Sort Implementation Exercise](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010)
-- [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/zYZaaZr?editors=0010)
+- [Merge Sort Implementation Question](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010)
+- [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/ZEeMPPL?editors=0010)
 
 #### Find Median Values (With Merge Sort Algorithm)
 
@@ -446,7 +446,7 @@ Merge Sort Implementation Visualization:
 
 So in order to find median we can use the stich algorithm since arrays are already sorted. Then we can find the middle index.
 
-[Exercise File](src/sorting/merge-sort/find-median-values.mjs)
+[Question File](src/sorting/merge-sort/find-median-values.mjs)
 
 ### Quick Sort
 
@@ -456,7 +456,7 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 
 #### Quick Sort Implementation
 
-- [Implement Quick Sort Exercise](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
+- [Implement Quick Sort Question](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
 - [Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
 
 ### BFS (Breath First Search)
@@ -481,7 +481,7 @@ Slice does not mutate the original array.
 [Example of slice](https://i.imgur.com/9iaew6W.png):
 
 ```js
-[20,39,48,58,16,36,48].slice(0,3) = [20,39,48,58]
+[20,39,48,58,16,36,48].slice(0,3) = [20,39,48]
 [20,39,48,58,16,36,48].slice(3,7) = [58,16,36,48]
 ```
 
