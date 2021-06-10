@@ -55,6 +55,8 @@
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
+- [Interview Questions Easy](#interview-questions-easy)
+  - [Trees and Graphs](#trees-and-graphs)
 - [References](#references)
 
 ## Important thing to remember
@@ -90,16 +92,16 @@ Example:
 
 ## What you should prepare?
 
-- [ ] Computer Science Concepts
-- [ ] DataStructure
-- [ ] Algorithms
+- [x] Computer Science Concepts
+- [x] DataStructure
+- [x] Algorithms
 
 ## Computer Science Concepts
 
-- [ ] Big O Time
-- [ ] Big O Space
-- [ ] Recursion
-- [ ] Memoization / Dynamic Programming
+- [x] Big O Time
+- [x] Big O Space
+- [x] Recursion
+- [x] Memoization / Dynamic Programming
 
 ## Big O complexity
 
@@ -118,22 +120,22 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 ## Data Structures
 
 - [x] Array
-- [ ] Hash Table
+- [x] Hash Table
 - [x] Linked List
-- [ ] Stack
-- [ ] Queue
-- [ ] Tree
+- [x] Stack
+- [x] Queue
+- [x] Tree
 - [ ] Tries
-- [ ] Graphs
+- [x] Graphs
 - [ ] Heaps
 - [ ] Vectors
 
 ## Algorithms
 
 - [x] Merge sort
-- [ ] Quick sort
-- [ ] Breadth-first search
-- [ ] Depth-first search
+- [x] Quick sort
+- [x] Breadth-first search
+- [x] Depth-first search
 - [x] Binary Search
 
 ## Data Structure Q & A
@@ -248,7 +250,7 @@ Breadth First Search (BFS) uses a `queue` for storing the nodes that it is visit
 #### Enqueue an element in Queue
 
 ```ts
-var queue = [ ];
+var queue = [];
 
 queue.push(1); //   queue [1]
 queue.push(2); //   queue [1,2]
@@ -520,6 +522,12 @@ O(logn)
 ### ADT
 
 abstract data type (ADT) - ADT is defined as a user point of view of a data type and Does not talk about how exactly it will be implemented.
+
+## Interview Questions Easy
+
+### Trees and Graphs
+
+1- [Route Between Nodes](src/data-structure/5-graph/route-between-nodes.mjs)
 
 ## References
 
