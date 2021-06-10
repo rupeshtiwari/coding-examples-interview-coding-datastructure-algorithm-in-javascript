@@ -1,3 +1,6 @@
+[Visit this page in Website for Coding interview](http://www.rupeshtiwari.com/coding-examples-cs-fundamentals/) 
+
+
 - [Important thing to remember](#important-thing-to-remember)
 - [Working with this repo](#working-with-this-repo)
 - [What to practice?](#what-to-practice)
