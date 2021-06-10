@@ -90,16 +90,16 @@ Example:
 
 ## What you should prepare?
 
-- [] Computer Science Concepts
-- [] DataStructure
-- [] Algorithms
+- [ ] Computer Science Concepts
+- [ ] DataStructure
+- [ ] Algorithms
 
 ## Computer Science Concepts
 
-- [] Big O Time
-- [] Big O Space
-- [] Recursion
-- [] Memoization / Dynamic Programming
+- [ ] Big O Time
+- [ ] Big O Space
+- [ ] Recursion
+- [ ] Memoization / Dynamic Programming
 
 ## Big O complexity
 
@@ -163,7 +163,7 @@ Given a large array of integers and a window of size w, find the current maximum
 
 Linked lists are dynamic data structure and memory is allocated at run time. They don't store data contiguously rather they use link to point to other elements.
 
-![](https://i.imgur.com/tMN6TD5.png)
+![ ](https://i.imgur.com/tMN6TD5.png)
 
 Performance wise linked lists are slower than arrays because there is no direct access to linked list elements.
 
@@ -173,7 +173,7 @@ You have to copy 1,2 in new array then insert 3 and copy rest of the values. Run
 
 Therefore, we use linked list to store 1-6 and we can easily insert 3 in between 2 and 4.
 
-![](https://i.imgur.com/r689svn.png)
+![ ](https://i.imgur.com/r689svn.png)
 
 The linked list is a list of items, called nodes. Nodes have two parts, `value` part and `link` part. Value part is used to stores the data. The link part is a reference, which is used to store addresses of the next element in the list.
 
@@ -182,9 +182,9 @@ The linked list is a list of items, called nodes. Nodes have two parts, `value` 
 - **Value**: The data that is stored in each node of the linked list.
 - **Link**: Link part of the node is used to store the reference of other node.
 
-![](https://i.imgur.com/LeGU67n.png)
+![ ](https://i.imgur.com/LeGU67n.png)
 
-![](https://i.imgur.com/nHFfpov.png)
+![ ](https://i.imgur.com/nHFfpov.png)
 
 ```ts
 class LinkedListNode {
@@ -201,31 +201,31 @@ Below are the types of LinkedList:
 - **Doubly Linked List**
 - **Circular Linked List**
 
-  ![](https://i.imgur.com/byjRY7x.png)
+  ![ ](https://i.imgur.com/byjRY7x.png)
 
 #### Insert at head
 
 The newly created node will become head of the linked list. · Size of the list is increased by one.
 
-![](https://i.imgur.com/79qwSqL.png)
+![ ](https://i.imgur.com/79qwSqL.png)
 
 #### Insert at tail
 
-![](https://i.imgur.com/Wz9Uovq.png)
+![ ](https://i.imgur.com/Wz9Uovq.png)
 
 #### Reverse a Singly Linked List
 
 We’re given the pointer/reference to the head of a singly linked list, reverse it and return the pointer/reference to the head of the reversed linked list.
 
-![](https://i.imgur.com/lamsYrL.png)
+![ ](https://i.imgur.com/lamsYrL.png)
 
 Problem Solving steps
 
-![](https://i.imgur.com/0wZ4lB1.png)
+![ ](https://i.imgur.com/0wZ4lB1.png)
 
 Running program output
 
-![](https://i.imgur.com/FAHJMeF.png)
+![ ](https://i.imgur.com/FAHJMeF.png)
 
 ### Stack
 
@@ -238,7 +238,7 @@ var stack = [1, 2, 3, 4];
 stack.pop(); // 4 , stack [1,2,3]
 stack.pop(); // 3 , stack [1,2]
 stack.pop(); // 2 , stack [1]
-stack.pop(); // 1 , stack []
+stack.pop(); // 1 , stack [ ]
 ```
 
 ### Queue
@@ -248,7 +248,7 @@ Breadth First Search (BFS) uses a `queue` for storing the nodes that it is visit
 #### Enqueue an element in Queue
 
 ```ts
-var queue = [];
+var queue = [ ];
 
 queue.push(1); //   queue [1]
 queue.push(2); //   queue [1,2]
@@ -262,7 +262,7 @@ var queue = [1, 2, 3, 4];
 queue.shift(); // 1 , queue [2,3,4]
 queue.shift(); // 2 , queue [3,4]
 queue.shift(); // 3 , queue [4]
-queue.shift(); // 4 , queue []
+queue.shift(); // 4 , queue [ ]
 ```
 
 ### Tree
@@ -271,7 +271,7 @@ A tree has hierarchical data and it has nodes. It is a type of graph. Each node 
 A tree is `acyclic` meaning it has no cycles: "a cycle is a path [AKA sequence] of edges and vertices wherein a vertex is reachable from itself".
 Therefore, a tree is also called as `Directed Acyclic Graph (DAG)`.
 
-![](https://i.imgur.com/wUiUy0B.png)
+![ ](https://i.imgur.com/wUiUy0B.png)
 
 - **Root**: top node of tree is called root and has no parent and has no incoming edges.
 - **Node**: every node has parent ( except root ) and 0 or more children's.
@@ -284,9 +284,9 @@ Therefore, a tree is also called as `Directed Acyclic Graph (DAG)`.
 - **Parent**: Node is a parent of all the child nodes that are linked by outgoing edges. - **Sibling**: Nodes in the tree that are children of the same parent are called siblings.
 - **Ancestor**:  A node reachable by repeated moving from child to parent.
 
-![](https://imgur.com/L04E7lo.png)
+![ ](https://imgur.com/L04E7lo.png)
 
-![](https://i.imgur.com/Jzwpguk.png)
+![ ](https://i.imgur.com/Jzwpguk.png)
 
 If you want to store hierarchical data use Tree.
 
@@ -296,7 +296,7 @@ You should know about `Binary Tree` and `Binary Search Tree`.
 
 In BFS algorithm, a graph is traversed in layer-by-layer fashion. point. The queue is used to implement BFS.
 
-![](https://i.imgur.com/i7nf4go.png)
+![ ](https://i.imgur.com/i7nf4go.png)
 
 Example: Suppose you have given a tree structure and asked to calculate the average of numbers at each level.
 
@@ -305,7 +305,7 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 - **Space Complexity**: `O(n logn)`
 - Use `Queue` while coding.
 
-![](https://i.imgur.com/DdFyXGx.png)
+![ ](https://i.imgur.com/DdFyXGx.png)
 
 - [Breadth-first Traversal Question](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
@@ -314,14 +314,14 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 
 The DFS algorithm we start from starting point and go into depth of graph until we reach a dead end and then move up to parent node (Backtrack). The stack is used to implement DFS.
 
-![](https://i.imgur.com/4P7FMDl.png)
+![ ](https://i.imgur.com/4P7FMDl.png)
 
 - **Strategy**: `Recursive`
 - **Time Complexity**: `O(n logn)`
 - **Space Complexity**: `O(n logn)`
 - Use `Recursive Call Stack` while coding.
 
-![](https://i.imgur.com/DdFyXGx.png)
+![ ](https://i.imgur.com/DdFyXGx.png)
 
 - [Breadth-first Traversal Question](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
@@ -340,7 +340,7 @@ The DFS algorithm we start from starting point and go into depth of graph until 
 
 A binary tree is a type of tree in which each node has `at most two children` (0, 1 or 2) which are referred as left child and right child.
 
-![](https://i.imgur.com/fkRP5Ju.png)
+![ ](https://i.imgur.com/fkRP5Ju.png)
 
 #### Binary Search Tree (BST)
 
@@ -349,7 +349,7 @@ In Binary Search Tree nodes are:
 - The key in the left subtree is less than the key in its parent node.
 - The key in the right subtree is greater or equal the key in its parent node.
 
-![](https://i.imgur.com/u5WpbHe.png)
+![ ](https://i.imgur.com/u5WpbHe.png)
 
 [Checkout Binary Search Tree Visualization here.](https://www.cs.usfca.edu/~galles/visualization/BST.html)
 
@@ -357,7 +357,7 @@ BSTs get an average case of `O(log n)` on gets, adds, and deletes, but they can 
 
 Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 
-![](https://i.imgur.com/qkefQzD.png)
+![ ](https://i.imgur.com/qkefQzD.png)
 
 - [Binary Search Tree Implementation Question](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
 - [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/LYWBYMM?editors=0010)
@@ -366,7 +366,7 @@ Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 
 Trie is a tree, in which we store only one character at each node. This final key value pair is stored in the leaves.
 
-![](https://i.imgur.com/o9UWgEN.png)
+![ ](https://i.imgur.com/o9UWgEN.png)
 
 Trie is also suitable for solving partial match and range query problems.
 
@@ -374,7 +374,7 @@ Trie is also suitable for solving partial match and range query problems.
 
 Each node in the heap follows the rule that the `parent value is greater than its two children` are.
 
-![](https://i.imgur.com/J5If65C.png)
+![ ](https://i.imgur.com/J5If65C.png)
 
 There are two types of the heap data structure:
 
@@ -389,13 +389,13 @@ It is just like a dictionary or key value pair.
 
 ### Graph
 
-![](https://i.imgur.com/kYlxMWJ.png)
+![ ](https://i.imgur.com/kYlxMWJ.png)
 
 Graph represents network. It has Nodes, Vertices and Edges.
 
 #### Implement Graph
 
-![](https://i.imgur.com/eqzKDIV.png)
+![ ](https://i.imgur.com/eqzKDIV.png)
 
 [Question](https://codepen.io/roopkt/pen/ZEejLJe?editors=0010)
 [Answer](https://codepen.io/roopkt/pen/vYxagrP?editors=0010)
@@ -405,17 +405,17 @@ Graph represents network. It has Nodes, Vertices and Edges.
 When you want to find all possible routes between airports then you want to use BFS.
 Find all possible routes from `PHX` to `BKK`. Also then you can decide which path is the shortest one.
 
-![](https://i.imgur.com/Fc8HIae.png)
+![ ](https://i.imgur.com/Fc8HIae.png)
 
 [Question Answer Source Code: Find all possible routes using BFS](./src/data-structure/5-graph/breadth-first-search.mjs)
 
-![](https://i.imgur.com/CvPhRQx.png)
+![ ](https://i.imgur.com/CvPhRQx.png)
 
-![]((https://i.imgur.com/DrWF78t.png)
+![ ]((https://i.imgur.com/DrWF78t.png)
 
 #### Depth First Search (DFS)
 
-![](https://i.imgur.com/wHevaTK.png)
+![ ](https://i.imgur.com/wHevaTK.png)
 
 [Question Answer Source Code: Find shortest path using DFS](./src/data-structure/5-graph/depth-first-search.mjs)
 
@@ -427,7 +427,7 @@ Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum tim
 
 https://www.youtube.com/watch?v=UxnyImctVzg
 
-![](https://i.imgur.com/YpQSB5J.png)
+![ ](https://i.imgur.com/YpQSB5J.png)
 
 #### Merge Sort Implementation
 
@@ -442,7 +442,7 @@ Merge Sort Implementation Visualization:
 
 2 sorted arrays find the median element. Median is the middle index its not an average of values in an sorted array.
 
-![](https://i.imgur.com/anPm3Yx.png)
+![ ](https://i.imgur.com/anPm3Yx.png)
 
 So in order to find median we can use the stich algorithm since arrays are already sorted. Then we can find the middle index.
 
@@ -452,7 +452,7 @@ So in order to find median we can use the stich algorithm since arrays are alrea
 
 When Browser's are not using Merge sort they most of the time use Quick sort variations.
 
-![](https://i.imgur.com/LudZhvH.png)
+![ ](https://i.imgur.com/LudZhvH.png)
 
 #### Quick Sort Implementation
 
@@ -471,7 +471,7 @@ Divide two integers without using '/' (division) or '\*' (multiplication) operat
 node .\src\math-and-stats\integer-division.js
 ```
 
-![](https://imgur.com/Cf7cz4W.png)
+![ ](https://imgur.com/Cf7cz4W.png)
 
 ### Array slice
 
@@ -485,7 +485,7 @@ Slice does not mutate the original array.
 [20,39,48,58,16,36,48].slice(3,7) = [58,16,36,48]
 ```
 
-![](https://i.imgur.com/9iaew6W.png)
+![ ](https://i.imgur.com/9iaew6W.png)
 
 ### Math.floor
 
@@ -507,7 +507,7 @@ Math.round(2.4) = 2
 
 ### Get the Average value at each level of the tree
 
-![](https://imgur.com/N6agnSk.png)
+![ ](https://imgur.com/N6agnSk.png)
 
 Traverse by depth and collect all the numbers.
 And calculate average also.
