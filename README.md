@@ -1,5 +1,4 @@
-[Visit this page in Website for Coding interview](http://www.rupeshtiwari.com/coding-examples-cs-fundamentals/) 
-
+[Visit this page in Website for Coding interview](http://www.rupeshtiwari.com/coding-examples-cs-fundamentals/)
 
 - [Important thing to remember](#important-thing-to-remember)
 - [Working with this repo](#working-with-this-repo)
@@ -354,7 +353,7 @@ A binary tree is a type of tree in which each node has `at most two children` (0
 
 #### Minimal Binary Tree
 
-A Minimal Binary Tree has about the same number of nodes on the left of each node as on the right. 
+A Minimal Binary Tree has about the same number of nodes on the left of each node as on the right.
 
 #### Binary Search Tree (BST)
 
@@ -376,19 +375,25 @@ Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 - [Binary Search Tree Implementation Question](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
 - [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/LYWBYMM?editors=0010)
 
-
 Binary Search can be done both in iterative or recursive way.
 
-![](https://i.imgur.com/Qu4YQk3.png)
+![](https://i.imgur.com/PWjbCaZ.png)
 
 #### Binary Search Iterative
 
 ![](https://i.imgur.com/CQSDjqZ.png)
 
-#### Binary Search Recursive 
+#### Binary Search Recursive
 
-![](https://i.imgur.com/gn7mwvR.png)
+![](https://i.imgur.com/h2azawY.png)
 
+Simulating Recursive Binary Search for an existing number in a sorted increasing order unique integer array.
+
+![](https://i.imgur.com/gSRARcL.png)
+
+Simulating Recursive Binary Search for an non-existing number in a sorted increasing order unique integer array.
+
+![](https://i.imgur.com/wC7TAsu.png)
 
 ### Trie
 
@@ -561,9 +566,7 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 ![](https://i.imgur.com/JAYs7el.png)
 
-
-
-#### Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height. 
+#### Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height.
 
 ## References
 
