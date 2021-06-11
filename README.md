@@ -35,7 +35,10 @@
     - [Depth-first Traversal (DFT)](#depth-first-traversal-dft)
     - [Difference between Breadth-first vs Depth-first traversal](#difference-between-breadth-first-vs-depth-first-traversal)
   - [Binary Tree](#binary-tree)
+    - [Minimal Binary Tree](#minimal-binary-tree)
     - [Binary Search Tree (BST)](#binary-search-tree-bst)
+    - [Binary Search Iterative](#binary-search-iterative)
+    - [Binary Search Recursive](#binary-search-recursive)
   - [Trie](#trie)
   - [Heap ( Priority Queue )](#heap--priority-queue-)
   - [Hash-Table](#hash-table)
@@ -60,7 +63,8 @@
   - [ADT](#adt)
 - [Interview Questions Easy](#interview-questions-easy)
   - [Trees and Graphs](#trees-and-graphs)
-  - [Route Between Nodes](#route-between-nodes)
+    - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
+    - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height.](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
 - [References](#references)
 
 ## Important thing to remember
@@ -348,6 +352,10 @@ A binary tree is a type of tree in which each node has `at most two children` (0
 
 ![ ](https://i.imgur.com/fkRP5Ju.png)
 
+#### Minimal Binary Tree
+
+A Minimal Binary Tree has about the same number of nodes on the left of each node as on the right. 
+
 #### Binary Search Tree (BST)
 
 In Binary Search Tree nodes are:
@@ -367,6 +375,20 @@ Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 
 - [Binary Search Tree Implementation Question](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
 - [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/LYWBYMM?editors=0010)
+
+
+Binary Search can be done both in iterative or recursive way.
+
+![](https://i.imgur.com/Qu4YQk3.png)
+
+#### Binary Search Iterative
+
+![](https://i.imgur.com/CQSDjqZ.png)
+
+#### Binary Search Recursive 
+
+![](https://i.imgur.com/gn7mwvR.png)
+
 
 ### Trie
 
@@ -531,13 +553,17 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 ### Trees and Graphs
 
-### Route Between Nodes
+#### Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.
 
 ![](https://i.imgur.com/7Xhkftd.png)
 
-[Answer Source Code Route Between Nodes](src/data-structure/5-graph/route-between-nodes.mjs)
+[Answer Source Code Route Between Nodes](src/data-structure/interview-questions/graph/1-route-between-nodes.mjs)
 
 ![](https://i.imgur.com/JAYs7el.png)
+
+
+
+#### Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height. 
 
 ## References
 
