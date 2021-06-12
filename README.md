@@ -65,6 +65,8 @@
   - [Recursion Interview Questions](#recursion-interview-questions)
     - [Calculate x to the power n using recursion](#calculate-x-to-the-power-n-using-recursion)
     - [Calculate Modular Exponentiation using recursion](#calculate-modular-exponentiation-using-recursion)
+  - [Binary Search](#binary-search)
+    - [Finding first and last occurrence of a number in sorted array.](#finding-first-and-last-occurrence-of-a-number-in-sorted-array)
 - [References](#references)
 
 ## Important thing to remember
@@ -661,6 +663,18 @@ Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`.
 
 - [Question](https://codepen.io/roopkt/pen/GRWYVEa?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/gOmBVWJ?editors=0010)
+
+### Binary Search
+
+#### Finding first and last occurrence of a number in sorted array.
+
+`[2,4,10,10,10,18,20]` find first and last occurrence of number `10`. 
+
+![Finding first and last occurrence of a number in sorted array](https://i.imgur.com/ZWJFGOk.png)
+
+- [Question](https://codepen.io/roopkt/pen/NWpEKgv?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/yLMQBXj?editors=0010)
+
 
 ## References
 
