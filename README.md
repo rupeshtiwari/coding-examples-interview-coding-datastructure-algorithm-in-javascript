@@ -47,9 +47,9 @@
     - [Depth First Search (DFS)](#depth-first-search-dfs)
 - [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
-    - [Merge Sort Implementation](#merge-sort-implementation)
-    - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
+    - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
+  - [Quick Sort](#quick-sort-1)
     - [Quick Sort Implementation](#quick-sort-implementation)
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
@@ -470,14 +470,34 @@ https://www.youtube.com/watch?v=UxnyImctVzg
 
 ![Merge Sort Algorithm Simulation](https://i.imgur.com/wDIB4Vz.png)
 
-#### Merge Sort Implementation
-
 Merge Sort Implementation Visualization:
 
 [![Merge Sort Algorithm Simulator](https://img.youtube.com/vi/UxnyImctVzg/0.jpg)](https://www.youtube.com/watch?v=UxnyImctVzg 'Merge Sort Algorithm Simulator')
 
 - [Merge Sort Implementation Question](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010)
 - [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/ZEeMPPL?editors=0010)
+
+### Quick Sort
+
+**Quick sort Algorithm**
+
+![Quick sort Algorithm](https://i.imgur.com/m61xGnU.png)
+
+**Pseudo Code for Quick Sort Algorithm**
+
+![Pseudo Code for Quick Sort Algorithm](https://i.imgur.com/4gM1PFE.png)
+
+**Quick Sort Algorithm Simulation**
+
+![Quick Sort Algorithm Simulation](https://i.imgur.com/ERCfeCg.png)
+
+**Quick Sort Partition Algorithm**
+
+![Quick Sort Partition Algorithm](https://i.imgur.com/zewMoKV.png)
+
+**Quick Sort Partition Algorithm Simulation**
+
+![Quick Sort Partition Algorithm Simulation](https://i.imgur.com/CkpjhGn.png)
 
 #### Find Median Values (With Merge Sort Algorithm)
 
