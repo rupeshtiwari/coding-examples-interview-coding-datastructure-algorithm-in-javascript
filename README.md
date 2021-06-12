@@ -61,6 +61,8 @@
   - [Trees and Graphs](#trees-and-graphs)
     - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
+  - [Recursion Interview Questions](#recursion-interview-questions)
+    - [Calculate x to the power n using recursion](#calculate-x-to-the-power-n-using-recursion)
 - [References](#references)
 
 ## Important thing to remember
@@ -625,6 +627,26 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 ![](https://i.imgur.com/scpMVbO.png)
 
 [Answer for Creating Minimal Tree Interview Question](src/interview-questions/graph/2-minimal-bs-tree.mjs)
+
+
+### Recursion Interview Questions
+
+#### Calculate x to the power n using recursion
+
+**x to the power n Brute Force** 
+
+![x to the power n Brute Force](https://i.imgur.com/wy1ANJ5.png)
+
+
+**x to the power n using simple recursion un-optimized** 
+
+![x to the power n using simple recursion un-optimized](https://i.imgur.com/Ed1sLqi.png)
+
+
+**x to the power n using optimized recursion with multiple subproblems** 
+
+![x to the power n using optimized recursion with multiple subproblems](https://i.imgur.com/Ym3qjhj.png)
+
 
 ## References
 
