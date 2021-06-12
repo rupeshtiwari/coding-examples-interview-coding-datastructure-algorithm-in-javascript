@@ -316,8 +316,6 @@ Example: Suppose you have given a tree structure and asked to calculate the aver
 - **Space Complexity**: `O(n logn)`
 - Use `Queue` while coding.
 
-![ ](https://i.imgur.com/DdFyXGx.png)
-
 - [Breadth-first Traversal Question](https://codepen.io/roopkt/pen/bGqjVZe?editors=0010)
 - [Breadth-first Traversal Answer](https://codepen.io/roopkt/pen/XWMBdWv?editors=0010)
 
