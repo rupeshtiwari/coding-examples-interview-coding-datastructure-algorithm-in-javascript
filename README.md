@@ -512,15 +512,19 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 ![ ](https://i.imgur.com/LudZhvH.png)
 
 **Implement Quick Sort Algorithm Question**
+
 [Implement Quick Sort Question](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
 
-**Quick Sort Answer with extra Array Space complexity O(n)**
+**Quick Sort Answer with extra Array and Space complexity is O(n)**
 
 [Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
 
-**Quick Sort Answer in-place partition with Space complexity O(1) Most Efficient algorithm**
+**Quick Sort Answer with in-place partition and Space complexity O(1) the most Efficient algorithm**
 
 [Implement IN place Quick Sort Answer](https://codepen.io/roopkt/pen/OJpBYKz?editors=0010)
+
+- [quick sort in-place](src/algorithms/sorting/quick-sort/quick-sort-inplace.mjs)
+- [quick sort ](src/algorithms/sorting/quick-sort/quick-sort.mjs)
 
 ## Math & Stats
 
