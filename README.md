@@ -521,7 +521,7 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 
 **Quick Sort Answer with in-place partition and Space complexity O(1) the most Efficient algorithm**
 
-[Implement IN place Quick Sort Answer](https://codepen.io/roopkt/pen/OJpBYKz?editors=0010)
+[Implement in-place algorithm for Quick Sort Answer](https://codepen.io/roopkt/pen/OJpBYKz?editors=0010)
 
 - [quick sort in-place](src/algorithms/sorting/quick-sort/quick-sort-inplace.mjs)
 - [quick sort ](src/algorithms/sorting/quick-sort/quick-sort.mjs)
