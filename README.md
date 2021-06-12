@@ -124,6 +124,22 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 
 ## Recursion
 
+**Factorial Simple Recursion**
+
+![Factorial Simple Recursion](https://i.imgur.com/5hArLdr.png)
+
+**Recursive Factorial Simulation**
+
+![Recursive Factorial Simulation](https://i.imgur.com/prXbTHd.png)
+
+**Recursive Factorial Time complexity O(n)**
+
+![Recursive Factorial Time complexity](https://i.imgur.com/rPoxJoA.png)
+
+**Recursive Factorial Space complexity is O(n)**
+ 
+![Recursive Factorial Space complexity](https://i.imgur.com/uceKl4R.png)
+
 ## Data Structures
 
 - [x] Array
