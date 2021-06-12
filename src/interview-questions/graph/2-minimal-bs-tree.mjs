@@ -1,14 +1,32 @@
 class Node {
-  constructor(data) {
-    this.value = data;
+  constructor(value) {
+    this.value = value;
     this.left = null;
     this.right = null;
   }
+
   toString() {
-    return `${this.value}, left -> ${this.left?.value}, right -> ${this.right?.value}`;
+    function print(prefix, node, isLeft) {
+      if (!node) return;
+      if (prefix) {
+        console.log(prefix + (isLeft ? '↙️--' : '↘️--') + node.value);
+      } else {
+        console.log('▶️' + node.value);
+      }
+      print(prefix + (isLeft ? '🔽   ' : '   '), node.left, true);
+      print(prefix + (isLeft ? '🔽   ' : '   '), node.right, false);
+    }
+    print('', this, false);
   }
 }
 
+/**
+ * Time complexity O(nlogn)
+ * @param arr Array
+ * @param start start index
+ * @param end end index of array
+ * @returns root node
+ */
 export function createMinimalBSTree(arr, start, end) {
   if (end < start) {
     return;

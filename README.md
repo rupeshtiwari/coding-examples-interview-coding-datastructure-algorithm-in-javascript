@@ -74,7 +74,12 @@
 
 ## Working with this repo
 
-Download or clone in local machine. Then run individual file in node console to see the results.
+- Download or clone in local machine. 
+- Run `npm ci`
+- Then run individual file to see result on console.
+- You should use `node filename` in console to see results.
+
+
 
 ## What to practice?
 
