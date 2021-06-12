@@ -51,7 +51,6 @@
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
     - [Quick Sort Implementation](#quick-sort-implementation)
-  - [BFS (Breath First Search)](#bfs-breath-first-search)
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
   - [Array slice](#array-slice)
@@ -63,7 +62,7 @@
 - [Interview Questions Easy](#interview-questions-easy)
   - [Trees and Graphs](#trees-and-graphs)
     - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
-    - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height.](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
+    - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
 - [References](#references)
 
 ## Important thing to remember
@@ -74,12 +73,10 @@
 
 ## Working with this repo
 
-- Download or clone in local machine. 
+- Download or clone in local machine.
 - Run `npm ci`
 - Then run individual file to see result on console.
 - You should use `node filename` in console to see results.
-
-
 
 ## What to practice?
 
@@ -435,8 +432,8 @@ Graph represents network. It has Nodes, Vertices and Edges.
 
 ![ ](https://i.imgur.com/eqzKDIV.png)
 
-[Question](https://codepen.io/roopkt/pen/ZEejLJe?editors=0010)
-[Answer](https://codepen.io/roopkt/pen/vYxagrP?editors=0010)
+[Implement Graph Question](https://codepen.io/roopkt/pen/ZEejLJe?editors=0010)
+[Implement Graph Answer](https://codepen.io/roopkt/pen/vYxagrP?editors=0010)
 
 #### Breadth First Search (BFS)
 
@@ -484,7 +481,7 @@ Merge Sort Implementation Visualization:
 
 So in order to find median we can use the stich algorithm since arrays are already sorted. Then we can find the middle index.
 
-[Question File](src/sorting/merge-sort/find-median-values.mjs)
+[Find Median Values Question & Answer](src/sorting/merge-sort/find-median-values.mjs)
 
 ### Quick Sort
 
@@ -496,8 +493,6 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 
 - [Implement Quick Sort Question](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
 - [Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
-
-### BFS (Breath First Search)
 
 ## Math & Stats
 
@@ -571,7 +566,17 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 ![](https://i.imgur.com/JAYs7el.png)
 
-#### Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height.
+#### Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height
+
+**What is Minimal Tree?**
+
+![](https://i.imgur.com/9wkzVyk.png)
+
+**Minimal Tree Simulation**
+
+![](https://i.imgur.com/scpMVbO.png)
+
+[Answer for Creating Minimal Tree Interview Question](src/interview-questions/graph/2-minimal-bs-tree.mjs)
 
 ## References
 
