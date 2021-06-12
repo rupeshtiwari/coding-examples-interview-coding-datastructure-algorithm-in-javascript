@@ -440,7 +440,7 @@ Find all possible routes from `PHX` to `BKK`. Also then you can decide which pat
 
 ![ ](https://i.imgur.com/Fc8HIae.png)
 
-[Question Answer Source Code: Find all possible routes using BFS](./src/data-structure/5-graph/breadth-first-search.mjs)
+[Question Answer Source Code: Find all possible routes between 2 airports using BFS](./src/data-structure/5-graph/breadth-first-search.mjs)
 
 ![ ](https://i.imgur.com/CvPhRQx.png)
 
@@ -450,7 +450,7 @@ Find all possible routes from `PHX` to `BKK`. Also then you can decide which pat
 
 ![ ](https://i.imgur.com/wHevaTK.png)
 
-[Question Answer Source Code: Find shortest path using DFS](./src/data-structure/5-graph/depth-first-search.mjs)
+[Question Answer Source Code: Find shortest route between 2 airports using DFS](./src/data-structure/5-graph/depth-first-search.mjs)
 
 ## Algorithms Q&A
 
@@ -580,3 +580,4 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 - http://btholt.github.io/four-semesters-of-cs/
 - https://btholt.github.io/four-semesters-of-cs-part-two/
+- [Binary Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)
