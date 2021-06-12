@@ -47,10 +47,8 @@
     - [Depth First Search (DFS)](#depth-first-search-dfs)
 - [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
-  - [Quick Sort](#quick-sort)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
-  - [Quick Sort](#quick-sort-1)
-    - [Quick Sort Implementation](#quick-sort-implementation)
+  - [Quick Sort](#quick-sort)
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
   - [Array slice](#array-slice)
@@ -477,7 +475,19 @@ Merge Sort Implementation Visualization:
 - [Merge Sort Implementation Question](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010)
 - [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/ZEeMPPL?editors=0010)
 
+#### Find Median Values (With Merge Sort Algorithm)
+
+2 sorted arrays find the median element. Median is the middle index its not an average of values in an sorted array.
+
+![ ](https://i.imgur.com/anPm3Yx.png)
+
+So in order to find median we can use the stich algorithm since arrays are already sorted. Then we can find the middle index.
+
+[Find Median Values Question & Answer](src/sorting/merge-sort/find-median-values.mjs)
+
 ### Quick Sort
+
+When Browser's are not using Merge sort they most of the time use Quick sort variations. Most powerful sorting algorithm
 
 **Quick sort Algorithm**
 
@@ -499,26 +509,18 @@ Merge Sort Implementation Visualization:
 
 ![Quick Sort Partition Algorithm Simulation](https://i.imgur.com/CkpjhGn.png)
 
-#### Find Median Values (With Merge Sort Algorithm)
-
-2 sorted arrays find the median element. Median is the middle index its not an average of values in an sorted array.
-
-![ ](https://i.imgur.com/anPm3Yx.png)
-
-So in order to find median we can use the stich algorithm since arrays are already sorted. Then we can find the middle index.
-
-[Find Median Values Question & Answer](src/sorting/merge-sort/find-median-values.mjs)
-
-### Quick Sort
-
-When Browser's are not using Merge sort they most of the time use Quick sort variations.
-
 ![ ](https://i.imgur.com/LudZhvH.png)
 
-#### Quick Sort Implementation
+**Implement Quick Sort Algorithm Question**
+[Implement Quick Sort Question](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
 
-- [Implement Quick Sort Question](https://codepen.io/roopkt/pen/NWpzMRv?editors=0010)
-- [Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
+**Quick Sort Answer with extra Array Space complexity O(n)**
+
+[Implement Quick Sort Answer](https://codepen.io/roopkt/pen/eYvKrvP?editors=0010)
+
+**Quick Sort Answer in-place partition with Space complexity O(1) Most Efficient algorithm**
+
+[Implement IN place Quick Sort Answer](https://codepen.io/roopkt/pen/OJpBYKz?editors=0010)
 
 ## Math & Stats
 
