@@ -650,14 +650,17 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 ![x to the power n using optimized recursion with multiple subproblems](https://i.imgur.com/Ym3qjhj.png)
 
+- [Question](https://codepen.io/roopkt/pen/XWMxvKg?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/oNZaKLy?editors=0010)
+
 #### Calculate Modular Exponentiation using recursion
 
 Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`.
 
 ![Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`](https://i.imgur.com/Y3GkhRT.png)
 
-- [Question](https://codepen.io/roopkt/pen/XWMxvKg?editors=0010)
-- [Answer](https://codepen.io/roopkt/pen/oNZaKLy?editors=0010)
+- [Question](https://codepen.io/roopkt/pen/GRWYVEa?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/gOmBVWJ?editors=0010)
 
 ## References
 
