@@ -462,6 +462,14 @@ https://www.youtube.com/watch?v=UxnyImctVzg
 
 ![ ](https://i.imgur.com/YpQSB5J.png)
 
+**Merge Sort Algorithm**
+
+![Merge Sort Algorithm](https://i.imgur.com/DIvX2OX.png)
+
+**Merge Sort Algorithm Simulation**
+
+![Merge Sort Algorithm Simulation](https://i.imgur.com/wDIB4Vz.png)
+
 #### Merge Sort Implementation
 
 Merge Sort Implementation Visualization:
