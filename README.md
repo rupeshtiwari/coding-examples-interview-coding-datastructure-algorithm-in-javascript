@@ -2,6 +2,7 @@
 
 - [Important thing to remember](#important-thing-to-remember)
 - [Working with this repo](#working-with-this-repo)
+- [All Coding interview exercise and answers](#all-coding-interview-exercise-and-answers)
 - [What to practice?](#what-to-practice)
 - [How to Approach?](#how-to-approach)
   - [Before you code](#before-you-code)
@@ -63,6 +64,7 @@
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
   - [Recursion Interview Questions](#recursion-interview-questions)
     - [Calculate x to the power n using recursion](#calculate-x-to-the-power-n-using-recursion)
+    - [Calculate Modular Exponentiation using recursion](#calculate-modular-exponentiation-using-recursion)
 - [References](#references)
 
 ## Important thing to remember
@@ -77,6 +79,10 @@
 - Run `npm ci`
 - Then run individual file to see result on console.
 - You should use `node filename` in console to see results.
+
+  ## All Coding interview exercise and answers
+
+  [View all of the coding exercises and answers](https://codepen.io/collection/VYvwJN?grid_type=list)
 
 ## What to practice?
 
@@ -139,7 +145,7 @@ Learn Big O. Make sure you give what would be the `runtime complexity` and `memo
 ![Recursive Factorial Time complexity](https://i.imgur.com/rPoxJoA.png)
 
 **Recursive Factorial Space complexity is O(n)**
- 
+
 ![Recursive Factorial Space complexity](https://i.imgur.com/uceKl4R.png)
 
 ## Data Structures
@@ -628,25 +634,30 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 [Answer for Creating Minimal Tree Interview Question](src/interview-questions/graph/2-minimal-bs-tree.mjs)
 
-
 ### Recursion Interview Questions
 
 #### Calculate x to the power n using recursion
 
-**x to the power n Brute Force** 
+**x to the power n Brute Force**
 
 ![x to the power n Brute Force](https://i.imgur.com/wy1ANJ5.png)
 
-
-**x to the power n using simple recursion un-optimized** 
+**x to the power n using simple recursion un-optimized**
 
 ![x to the power n using simple recursion un-optimized](https://i.imgur.com/Ed1sLqi.png)
 
-
-**x to the power n using optimized recursion with multiple subproblems** 
+**x to the power n using optimized recursion with multiple subproblems**
 
 ![x to the power n using optimized recursion with multiple subproblems](https://i.imgur.com/Ym3qjhj.png)
 
+#### Calculate Modular Exponentiation using recursion
+
+Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`.
+
+![Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`](https://i.imgur.com/Y3GkhRT.png)
+
+- [Question](https://codepen.io/roopkt/pen/XWMxvKg?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/oNZaKLy?editors=0010)
 
 ## References
 
