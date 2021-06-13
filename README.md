@@ -67,6 +67,7 @@
     - [Calculate Modular Exponentiation using recursion](#calculate-modular-exponentiation-using-recursion)
   - [Binary Search](#binary-search)
     - [Finding first and last occurrence of a number in sorted array.](#finding-first-and-last-occurrence-of-a-number-in-sorted-array)
+      - [Find count of an element in a sorted array.](#find-count-of-an-element-in-a-sorted-array)
 - [References](#references)
 
 ## Important thing to remember
@@ -674,6 +675,11 @@ Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`.
 
 - [Question](https://codepen.io/roopkt/pen/NWpEKgv?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/yLMQBXj?editors=0010)
+
+
+##### Find count of an element in a sorted array. 
+
+`[1,1,3,3,5,5,5,5,5,9,9,11]`  How many `5's` here?
 
 
 ## References
