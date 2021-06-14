@@ -63,6 +63,7 @@
   - [Trees and Graphs](#trees-and-graphs)
     - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
+    - [Check if a given binary tree is BST ( Binary Search Tree )](#check-if-a-given-binary-tree-is-bst--binary-search-tree-)
   - [Recursion Interview Questions](#recursion-interview-questions)
     - [Calculate x to the power n using recursion](#calculate-x-to-the-power-n-using-recursion)
     - [Calculate Modular Exponentiation using recursion](#calculate-modular-exponentiation-using-recursion)
@@ -646,6 +647,13 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 
 [Answer for Creating Minimal Tree Interview Question](src/interview-questions/graph/2-minimal-bs-tree.mjs)
 
+
+#### Check if a given binary tree is BST ( Binary Search Tree ) 
+
+**Binary Search Tree (BST)**: is a binary tree in which for each node value of all the nodes in the left subtree is lesser or equal to the root node. And the values of all the nodes in the right subtree is greater than the root node. 
+
+
+
 ### Recursion Interview Questions
 
 #### Calculate x to the power n using recursion
@@ -722,7 +730,18 @@ Try `Binary Search`.
 
 #### Reverse linked list
 
+![](https://i.imgur.com/iaJ66fu.png)
 
+Algorithm of Reverse Linked List:
+
+![](https://i.imgur.com/WN6yJBJ.png)
+
+Reverse Linked List simulation:
+
+![](https://i.imgur.com/cTLz2fo.png)
+
+- [Question](https://codepen.io/roopkt/pen/mdWayxv?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/dyvwPej?editors=0011)
 
 ## References
 

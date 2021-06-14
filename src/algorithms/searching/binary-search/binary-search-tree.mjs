@@ -52,7 +52,7 @@ export class Tree {
     let temp = start;
 
     while (true) {
-      if (data >= temp.data) {
+      if (data > temp.data) {
         if (temp.right) {
           temp = temp.right;
           continue;
@@ -60,7 +60,7 @@ export class Tree {
           temp.right = node;
           break;
         }
-      } else if (data < temp.data) {
+      } else if (data <= temp.data) {
         if (temp.left) {
           temp = temp.left;
           continue;
