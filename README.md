@@ -63,6 +63,7 @@
     - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
   - [Recursion Interview Questions](#recursion-interview-questions)
+- [Time Memory Trade-Off technique](#time-memory-trade-off-technique)
     - [Calculate x to the power n using recursion](#calculate-x-to-the-power-n-using-recursion)
     - [Calculate Modular Exponentiation using recursion](#calculate-modular-exponentiation-using-recursion)
   - [Binary Search](#binary-search)
@@ -638,6 +639,10 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 [Answer for Creating Minimal Tree Interview Question](src/interview-questions/graph/2-minimal-bs-tree.mjs)
 
 ### Recursion Interview Questions
+
+## Time Memory Trade-Off technique
+Trade off or invest some memory to improve run time complexity. Suppose use Has-table, set etc. to insert some of the calculations that you want to not repeat. 
+
 
 #### Calculate x to the power n using recursion
 
