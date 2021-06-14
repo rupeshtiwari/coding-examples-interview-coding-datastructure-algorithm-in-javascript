@@ -55,6 +55,7 @@
   - [Array slice](#array-slice)
   - [Math.floor](#mathfloor)
   - [Math.round](#mathround)
+  - [JavaScript Integer Max Min](#javascript-integer-max-min)
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
@@ -75,6 +76,8 @@
   - [Linked List](#linked-list-1)
     - [Reverse linked list](#reverse-linked-list)
 - [References](#references)
+
+> Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
 
 ## Important thing to remember
 
@@ -415,6 +418,14 @@ Binary Search can be done both in iterative or recursive way.
 
 ![](https://i.imgur.com/PWjbCaZ.png)
 
+Binary Search tree has left sub tree which is `less than or equal` to root. And right subtree which is `strictly greater` than the root.
+
+![](https://i.imgur.com/PUaVUjq.png)
+
+Below image is not a BST
+
+![](https://i.imgur.com/im9F6cb.png)
+
 #### Binary Search Iterative
 
 ![](https://i.imgur.com/CQSDjqZ.png)
@@ -606,6 +617,13 @@ Math.round(2.8) = 3
 Math.round(2.4) = 2
 ```
 
+### JavaScript Integer Max Min
+
+It is 16 digit number.
+
+- `MIN_SAFE_INTEGER` = -9007199254740992
+- `MAX_SAFE_INTEGER` = 9007199254740991
+
 ## Mock Interview
 
 ### Get the Average value at each level of the tree
@@ -655,6 +673,21 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 #### Check if a given binary tree is BST ( Binary Search Tree )
 
 **Binary Search Tree (BST)**: is a binary tree in which for each node value of all the nodes in the left subtree is lesser or equal to the root node. And the values of all the nodes in the right subtree is greater than the root node.
+
+In order to find a tree as BST we must define each node range that is its outer and inner bound values.
+
+![](https://i.imgur.com/gxHDDqd.png)
+
+Is Binary Search Tree Algorithm
+
+![](https://i.imgur.com/zaxKJxL.png)
+
+Is Binary Search Tree Algorithm Simulation
+
+![](https://i.imgur.com/il4sN6p.png)
+
+- [Question](https://codepen.io/roopkt/pen/JjWwYGo)
+- [Answer](https://codepen.io/roopkt/pen/zYZyvzO)
 
 ### Recursion Interview Questions
 
