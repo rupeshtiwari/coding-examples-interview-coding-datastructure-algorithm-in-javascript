@@ -52,6 +52,7 @@
   - [Quick Sort](#quick-sort)
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
+- [JavaScript Fundamentals](#javascript-fundamentals)
   - [Array slice](#array-slice)
   - [Math.floor](#mathfloor)
   - [Math.round](#mathround)
@@ -587,6 +588,7 @@ node .\src\math-and-stats\integer-division.js
 
 ![ ](https://imgur.com/Cf7cz4W.png)
 
+## JavaScript Fundamentals
 ### Array slice
 
 Slice does not mutate the original array.
@@ -618,6 +620,9 @@ Math.round(2.4) = 2
 ```
 
 ### JavaScript Integer Max Min
+`Number.MAX_SAFE_INTEGER` is the largest integer which can be used safely in calculations.
+
+For example, `Number.MAX_SAFE_INTEGER` + 1 === `Number.MAX_SAFE_INTEGER` + 2 is true — any integer larger than MAX_SAFE_INTEGER cannot always be represented in memory accurately. All bits are used to represent the digits of the number.
 
 It is 16 digit number.
 
