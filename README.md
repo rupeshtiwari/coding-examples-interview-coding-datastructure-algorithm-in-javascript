@@ -71,6 +71,8 @@
     - [Find count of an element in a sorted array.](#find-count-of-an-element-in-a-sorted-array)
     - [How many times is a sorted array rotated?](#how-many-times-is-a-sorted-array-rotated)
     - [Find an element in a circularly sorted array](#find-an-element-in-a-circularly-sorted-array)
+  - [Linked List](#linked-list-1)
+    - [Reverse linked list](#reverse-linked-list)
 - [References](#references)
 
 ## Important thing to remember
@@ -88,7 +90,7 @@
 
   ## All Coding interview exercise and answers
 
-  [View all of the coding exercises and answers](https://codepen.io/collection/VYvwJN?grid_type=list)
+  [View all of the coding exercises and answers](https://codepen.io/collection/VYvwJN)
 
 ## What to practice?
 
@@ -715,6 +717,12 @@ Try `Binary Search`.
 
 - [Question](https://codepen.io/roopkt/pen/NWpeKoa?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/abJPoMr?editors=0010)
+
+### Linked List
+
+#### Reverse linked list
+
+
 
 ## References
 
