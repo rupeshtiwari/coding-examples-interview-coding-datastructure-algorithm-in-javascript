@@ -58,17 +58,19 @@
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
-- [Interview Questions Easy](#interview-questions-easy)
+  - [Time Memory Trade-Off technique](#time-memory-trade-off-technique)
+- [Interview Coding Questions](#interview-coding-questions)
   - [Trees and Graphs](#trees-and-graphs)
     - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
   - [Recursion Interview Questions](#recursion-interview-questions)
-- [Time Memory Trade-Off technique](#time-memory-trade-off-technique)
     - [Calculate x to the power n using recursion](#calculate-x-to-the-power-n-using-recursion)
     - [Calculate Modular Exponentiation using recursion](#calculate-modular-exponentiation-using-recursion)
-  - [Binary Search](#binary-search)
+  - [Sorted Array Interview Coding](#sorted-array-interview-coding)
     - [Finding first and last occurrence of a number in sorted array.](#finding-first-and-last-occurrence-of-a-number-in-sorted-array)
-      - [Find count of an element in a sorted array.](#find-count-of-an-element-in-a-sorted-array)
+    - [Find count of an element in a sorted array.](#find-count-of-an-element-in-a-sorted-array)
+    - [How many times is a sorted array rotated?](#how-many-times-is-a-sorted-array-rotated)
+    - [Find an element in a circularly sorted array](#find-an-element-in-a-circularly-sorted-array)
 - [References](#references)
 
 ## Important thing to remember
@@ -614,7 +616,11 @@ O(logn)
 
 abstract data type (ADT) - ADT is defined as a user point of view of a data type and Does not talk about how exactly it will be implemented.
 
-## Interview Questions Easy
+### Time Memory Trade-Off technique
+
+Trade off or invest some memory to improve run time complexity. Suppose use Has-table, set etc. to insert some of the calculations that you want to not repeat.
+
+## Interview Coding Questions
 
 ### Trees and Graphs
 
@@ -639,10 +645,6 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 [Answer for Creating Minimal Tree Interview Question](src/interview-questions/graph/2-minimal-bs-tree.mjs)
 
 ### Recursion Interview Questions
-
-## Time Memory Trade-Off technique
-Trade off or invest some memory to improve run time complexity. Suppose use Has-table, set etc. to insert some of the calculations that you want to not repeat. 
-
 
 #### Calculate x to the power n using recursion
 
@@ -670,22 +672,49 @@ Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`.
 - [Question](https://codepen.io/roopkt/pen/GRWYVEa?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/gOmBVWJ?editors=0010)
 
-### Binary Search
+### Sorted Array Interview Coding
 
 #### Finding first and last occurrence of a number in sorted array.
 
-`[2,4,10,10,10,18,20]` find first and last occurrence of number `10`. 
+`[2,4,10,10,10,18,20]` find first and last occurrence of number `10`.
 
 ![Finding first and last occurrence of a number in sorted array](https://i.imgur.com/ZWJFGOk.png)
 
 - [Question](https://codepen.io/roopkt/pen/NWpEKgv?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/yLMQBXj?editors=0010)
 
+#### Find count of an element in a sorted array.
 
-##### Find count of an element in a sorted array. 
+`[1,1,3,3,5,5,5,5,5,9,9,11]` How many `5's` here?
 
-`[1,1,3,3,5,5,5,5,5,9,9,11]`  How many `5's` here?
+- [Question](https://codepen.io/roopkt/pen/KKWrPoR)
+- [Answer](https://codepen.io/roopkt/pen/xxqQKzv?editors=0010)
 
+#### How many times is a sorted array rotated?
+
+`[11,12,15,18,2,5,6,8]` how many times this sorted array is rotated?
+**💡 Hint:** Once we find the pivot in this array then the index of the pivot will give you the rotation count.
+
+- [Question](https://codepen.io/roopkt/pen/VwpqZbo?editors=0010)
+- [Answer](https://codepen.io/pen?editors=0010)
+
+#### Find an element in a circularly sorted array
+
+Circularly sorted array means a rotated sorted array. Find index of `8` in `[12, 14, 18, 21, 3, 6, 8, 9]` array.
+
+**💡 Hint:**
+
+- Brute Force => `O(n)` search each element of an array. Don't code for it.
+- Optimized => `O(logN)`
+
+`Circularly sorted array` will have at least one half completely sorted.
+And the other half where you have the pivot element there elements will be also sorted after pivot element.
+Try `Binary Search`.
+
+![](https://i.imgur.com/JbMTZPE.png)
+
+- [Question](https://codepen.io/roopkt/pen/NWpeKoa?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/abJPoMr?editors=0010)
 
 ## References
 
