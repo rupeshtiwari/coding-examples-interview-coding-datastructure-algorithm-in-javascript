@@ -245,6 +245,11 @@ Below are the types of LinkedList:
 
   ![ ](https://i.imgur.com/byjRY7x.png)
 
+**Implement a LinkedList:**
+
+- [Question](https://codepen.io/roopkt/pen/VwpqvMP?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/eYvbpEw?editors=0010)
+
 #### Insert at head
 
 The newly created node will become head of the linked list. · Size of the list is increased by one.
@@ -647,12 +652,9 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 
 [Answer for Creating Minimal Tree Interview Question](src/interview-questions/graph/2-minimal-bs-tree.mjs)
 
+#### Check if a given binary tree is BST ( Binary Search Tree )
 
-#### Check if a given binary tree is BST ( Binary Search Tree ) 
-
-**Binary Search Tree (BST)**: is a binary tree in which for each node value of all the nodes in the left subtree is lesser or equal to the root node. And the values of all the nodes in the right subtree is greater than the root node. 
-
-
+**Binary Search Tree (BST)**: is a binary tree in which for each node value of all the nodes in the left subtree is lesser or equal to the root node. And the values of all the nodes in the right subtree is greater than the root node.
 
 ### Recursion Interview Questions
 
