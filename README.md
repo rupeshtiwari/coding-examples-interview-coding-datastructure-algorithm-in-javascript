@@ -702,8 +702,30 @@ Is Binary Search Tree `Coding Files`
 
 #### Delete node from Binary Search Tree (BST)
 
+![](https://i.imgur.com/Yyfeq6I.png)
 
+There are 3 conditions you should think:
 
+![](https://i.imgur.com/gkpFD2Y.png)
+
+Delete where there is no children 
+
+![](https://i.imgur.com/YaHQ56y.png)
+
+Delete node where there is 1 child
+
+![](https://i.imgur.com/sIiArUH.png)
+
+Delete node where there are 2 children
+
+![](https://i.imgur.com/e8aMAaA.png)
+
+Delete 15 from BST
+
+![](https://i.imgur.com/yqOvCXx.png)
+
+- [Question](https://codepen.io/roopkt/pen/wvJRxJp?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/rNyovyL?editors=0010)
 
 ### Recursion Interview Questions
 
