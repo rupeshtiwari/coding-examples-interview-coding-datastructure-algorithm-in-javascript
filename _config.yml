@@ -1,9 +1,7 @@
 theme: jekyll-theme-dinky
-title: [Coding Interview Questions and Answers]
+title: ['Coding Interview Questions and Answers']
 description:
   [
-    Crack your next Big-4 companies (Facebook,
-    Microsoft,
-    Amazon & Google) coding interview,
+    'Crack your next Big-4 companies (Facebook, Microsoft, Amazon & Google) coding interview',
   ]
 google_analytics: ['UA-128916623-7']
