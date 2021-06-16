@@ -76,10 +76,12 @@
     - [Find an element in a circularly sorted array](#find-an-element-in-a-circularly-sorted-array)
   - [Linked List](#linked-list-1)
     - [Reverse linked list](#reverse-linked-list)
+    - [Find the merge point of 2 Linked List](#find-the-merge-point-of-2-linked-list)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
 > Find all notes and Coding exercises for this repo [here](http://www.rupeshtiwari.com/coding-examples-interview-coding/)
+
 ## Important thing to remember
 
 - Remember: Run through `your code` not through the `algorithm` while executing test.
@@ -864,6 +866,24 @@ Reverse Linked List simulation:
 
 - [Question](https://codepen.io/roopkt/pen/mdWayxv?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/dyvwPej?editors=0011)
+
+#### Find the merge point of 2 Linked List
+
+[Question](https://codepen.io/roopkt/pen/bGqOygE)
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="bGqOygE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGqOygE">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/bGqOygE">
+  bGqOygE</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+[Answer](https://codepen.io/roopkt/pen/poeqBBb)
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="poeqBBb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find merge point of 2 linked list Answer">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/poeqBBb">
+  Find merge point of 2 linked list Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ## References
 
