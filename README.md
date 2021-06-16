@@ -67,6 +67,7 @@
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
     - [Check if a given binary tree is BST ( Binary Search Tree )](#check-if-a-given-binary-tree-is-bst--binary-search-tree-)
     - [Delete node from Binary Search Tree (BST)](#delete-node-from-binary-search-tree-bst)
+    - [Find the In-Order successor in a given BST?](#find-the-in-order-successor-in-a-given-bst)
   - [Recursion Interview Questions](#recursion-interview-questions)
     - [Calculate x to the power n using recursion](#calculate-x-to-the-power-n-using-recursion)
     - [Calculate Modular Exponentiation using recursion](#calculate-modular-exponentiation-using-recursion)
@@ -725,7 +726,21 @@ Delete 15 from BST
 ![](https://i.imgur.com/yqOvCXx.png)
 
 - [Question](https://codepen.io/roopkt/pen/wvJRxJp?editors=0010)
-- [Answer](https://codepen.io/roopkt/pen/rNyovyL?editors=0010)
+- [Answer](https://codepen.io/roopkt/pen/bGqOxyN)
+
+
+
+
+#### Find the In-Order successor in a given BST?
+
+- [Question](https://codepen.io/roopkt/pen/YzZdMxa)
+- [Answer](https://codepen.io/roopkt/pen/bGqOxyN) 
+
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="Find Inorder Successor in BST Question" src="https://codepen.io/roopkt/embed/preview/YzZdMxa?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/roopkt/pen/YzZdMxa'>Find In-order Successor in BST Question</a> by Rupesh Tiwari
+  (<a href='https://codepen.io/roopkt'>@roopkt</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ### Recursion Interview Questions
 
