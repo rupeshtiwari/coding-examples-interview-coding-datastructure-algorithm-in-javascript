@@ -61,7 +61,7 @@
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
   - [Time Memory Trade-Off technique](#time-memory-trade-off-technique)
-- [Interview Coding Questions](#interview-coding-questions)
+- [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Trees and Graphs](#trees-and-graphs)
     - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
@@ -655,7 +655,7 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 Trade off or invest some memory to improve run time complexity. Suppose use Has-table, set etc. to insert some of the calculations that you want to not repeat.
 
-## Interview Coding Questions
+## Coding Interview Question and Answers
 
 ### Trees and Graphs
 
@@ -737,10 +737,12 @@ Delete 15 from BST
 - [Answer](https://codepen.io/roopkt/pen/bGqOxyN) 
 
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Find Inorder Successor in BST Question" src="https://codepen.io/roopkt/embed/preview/YzZdMxa?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/roopkt/pen/YzZdMxa'>Find In-order Successor in BST Question</a> by Rupesh Tiwari
-  (<a href='https://codepen.io/roopkt'>@roopkt</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="bGqOxyN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find In-order Successor in BST Answer">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/bGqOxyN">
+  Find In-order Successor in BST Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Recursion Interview Questions
 
