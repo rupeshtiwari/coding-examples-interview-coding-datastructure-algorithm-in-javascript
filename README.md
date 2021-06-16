@@ -740,7 +740,27 @@ Delete 15 from BST
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 #### Find the In-Order successor in a given BST?
+
+![](https://i.imgur.com/DRdvkOc.png)
+
+**Case 1:** If Node has right sub-tree. Then go deep to left-most node in right subtree or find the min in the right subtree.
+
+![](https://i.imgur.com/pTdpX87.png)
+
+
+**Case 2:** If Node has no right child then go to the nearest ancestor for which given node would be in the left tree. 
+
+![](https://i.imgur.com/29oVu7S.png)
+
+Example: Find in-order successor of `12`?
+
+![](https://i.imgur.com/HPsr9tu.png)
+
+Example: Find in-order successor of `6`?
+
+![](https://i.imgur.com/ejvIFs0.png)
 
 [Question](https://codepen.io/roopkt/pen/YzZdMxa)
 
