@@ -737,12 +737,7 @@ Delete 15 from BST
 - [Answer](https://codepen.io/roopkt/pen/bGqOxyN) 
 
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="bGqOxyN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find In-order Successor in BST Answer">
-  <span>See the Pen <a href="https://codepen.io/roopkt/pen/bGqOxyN">
-  Find In-order Successor in BST Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+[codepen_embed height="265" theme_id="dark" slug_hash="bGqOxyN" default_tab="js,result" user="roopkt"]See the Pen <a href='https://codepen.io/roopkt/pen/bGqOxyN'>Find In-order Successor in BST Answer</a> by Rupesh Tiwari (<a href='https://codepen.io/roopkt'>@roopkt</a>) on <a href='https://codepen.io'>CodePen</a>.[/codepen_embed]
 
 ### Recursion Interview Questions
 
