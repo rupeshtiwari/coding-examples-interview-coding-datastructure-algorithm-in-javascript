@@ -872,3 +872,4 @@ Reverse Linked List simulation:
 - [Binary Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script data-ad-client="ca-pub-1700383344966810" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>
