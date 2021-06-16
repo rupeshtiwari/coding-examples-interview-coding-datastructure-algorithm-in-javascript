@@ -1,5 +1,3 @@
-[Visit this page in Website for Coding interview](http://www.rupeshtiwari.com/coding-examples-cs-fundamentals/)
-
 - [Important thing to remember](#important-thing-to-remember)
 - [Working with this repo](#working-with-this-repo)
 - [All Coding interview exercise and answers](#all-coding-interview-exercise-and-answers)
@@ -81,6 +79,7 @@
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
+> Find all notes and Coding exercises for this repo [here](http://www.rupeshtiwari.com/coding-examples-cs-fundamentals/)
 
 ## Important thing to remember
 
@@ -749,8 +748,7 @@ Delete 15 from BST
 
 ![](https://i.imgur.com/pTdpX87.png)
 
-
-**Case 2:** If Node has no right child then go to the nearest ancestor for which given node would be in the left tree. 
+**Case 2:** If Node has no right child then go to the nearest ancestor for which given node would be in the left tree.
 
 ![](https://i.imgur.com/29oVu7S.png)
 
