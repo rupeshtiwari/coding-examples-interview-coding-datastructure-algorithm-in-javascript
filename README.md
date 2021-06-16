@@ -79,8 +79,7 @@
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
-> Find all notes and Coding exercises for this repo [here](http://www.rupeshtiwari.com/coding-examples-cs-fundamentals/)
-
+> Find all notes and Coding exercises for this repo [here](http://www.rupeshtiwari.com/coding-examples-interview-coding/)
 ## Important thing to remember
 
 - Remember: Run through `your code` not through the `algorithm` while executing test.
