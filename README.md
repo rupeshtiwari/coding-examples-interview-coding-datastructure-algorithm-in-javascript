@@ -700,7 +700,6 @@ Is Binary Search Tree `Coding Files`
 - [Question](https://codepen.io/roopkt/pen/JjWwYGo)
 - [Answer](https://codepen.io/roopkt/pen/zYZyvzO)
 
-
 #### Delete node from Binary Search Tree (BST)
 
 ![](https://i.imgur.com/Yyfeq6I.png)
@@ -709,7 +708,7 @@ There are 3 conditions you should think:
 
 ![](https://i.imgur.com/gkpFD2Y.png)
 
-Delete where there is no children 
+Delete where there is no children
 
 ![](https://i.imgur.com/YaHQ56y.png)
 
@@ -728,16 +727,10 @@ Delete 15 from BST
 - [Question](https://codepen.io/roopkt/pen/wvJRxJp?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/bGqOxyN)
 
-
-
-
 #### Find the In-Order successor in a given BST?
 
 - [Question](https://codepen.io/roopkt/pen/YzZdMxa)
-- [Answer](https://codepen.io/roopkt/pen/bGqOxyN) 
-
-
-[codepen_embed height="265" theme_id="dark" slug_hash="bGqOxyN" default_tab="js,result" user="roopkt"]See the Pen <a href='https://codepen.io/roopkt/pen/bGqOxyN'>Find In-order Successor in BST Answer</a> by Rupesh Tiwari (<a href='https://codepen.io/roopkt'>@roopkt</a>) on <a href='https://codepen.io'>CodePen</a>.[/codepen_embed]
+- [Answer](https://codepen.io/roopkt/pen/bGqOxyN)
 
 ### Recursion Interview Questions
 
@@ -765,8 +758,20 @@ Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`.
 ![Modular Exponentiation is the remainder dividing up on `Pow(x,n)` by `M`](https://i.imgur.com/Y3GkhRT.png)
 
 - [Question](https://codepen.io/roopkt/pen/GRWYVEa?editors=0010)
-
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="YzZdMxa" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find In-order Successor in BST Question">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/YzZdMxa">
+  Find In-order Successor in BST Question</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 - [Answer](https://codepen.io/roopkt/pen/gOmBVWJ?editors=0010)
+
+<p class="codepen" data-height="327" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="bGqOxyN" style="height: 327px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find In-order Successor in BST Answer">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/bGqOxyN">
+  Find In-order Successor in BST Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Sorted Array Interview Coding
 
