@@ -664,6 +664,11 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 
 #### Depth First Search Question
 
+
+**Category**: Graphs
+**Difficulty**: Easy
+
+
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="MWpxezz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Graph: DFS Question (easy)">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/MWpxezz">
   Graph: DFS Question (easy)</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
