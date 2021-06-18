@@ -61,6 +61,8 @@
   - [Time Memory Trade-Off technique](#time-memory-trade-off-technique)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Graphs](#graphs)
+    - [Depth First Search Question](#depth-first-search-question)
+    - [Depth First Search Answer](#depth-first-search-answer)
   - [Trees and Graphs](#trees-and-graphs)
     - [Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a route between two nodes.](#route-between-nodes-given-a-directed-graph-design-an-algorithm-to-find-out-whether-there-is-a-route-between-two-nodes)
     - [Minimal Tree: Given a sorted increasing order array with unique integer elements, write an algorithm to create a binary search tree with minimal height](#minimal-tree-given-a-sorted-increasing-order-array-with-unique-integer-elements-write-an-algorithm-to-create-a-binary-search-tree-with-minimal-height)
@@ -660,6 +662,7 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 
 ### Graphs
 
+#### Depth First Search Question
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="MWpxezz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Graph: DFS Question (easy)">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/MWpxezz">
@@ -667,6 +670,7 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+#### Depth First Search Answer
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="NWpJrjg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Graph: DFS Answer (easy)">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/NWpJrjg">
