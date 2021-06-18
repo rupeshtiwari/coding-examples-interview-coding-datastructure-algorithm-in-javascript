@@ -51,6 +51,7 @@
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [JavaScript Fundamentals](#javascript-fundamentals)
+  - [How to convert -ve to +ve number?](#how-to-convert--ve-to-ve-number)
   - [Array slice](#array-slice)
   - [Math.floor](#mathfloor)
   - [Math.round](#mathround)
@@ -594,6 +595,13 @@ node .\src\math-and-stats\integer-division.js
 ![ ](https://imgur.com/Cf7cz4W.png)
 
 ## JavaScript Fundamentals
+
+### How to convert -ve to +ve number?
+
+```js
+Math.abs(-4)  //4
+Math.abs(2)  //2
+```
 
 ### Array slice
 
