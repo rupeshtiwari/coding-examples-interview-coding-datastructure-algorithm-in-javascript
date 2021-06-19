@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <div class="alert alert-note">
   <p>
     <b>✍ Note</b>

@@ -691,6 +691,7 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+[Graph Depth First Search Explanation](./graph-depth-first-search.md)
 
 ### Trees and Graphs
 
