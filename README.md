@@ -51,7 +51,8 @@
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [JavaScript Fundamentals](#javascript-fundamentals)
-- [increment letters by 3](#increment-letters-by-3)
+  - [What is an Integer](#what-is-an-integer)
+  - [increment letters by 3](#increment-letters-by-3)
   - [How to convert -ve to +ve number?](#how-to-convert--ve-to-ve-number)
   - [Array slice](#array-slice)
   - [Math.floor](#mathfloor)
@@ -597,7 +598,11 @@ node .\src\math-and-stats\integer-division.js
 
 ## JavaScript Fundamentals
 
-## increment letters by 3
+### What is an Integer
+
+An integer is a whole number that can be either greater than 0, called positive, or less than 0, called negative. Zero is neither positive nor negative.
+
+### increment letters by 3
 
 Letters asci code starts from `96` to `122`.
 
