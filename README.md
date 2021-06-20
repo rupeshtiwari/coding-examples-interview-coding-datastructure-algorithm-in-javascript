@@ -51,6 +51,7 @@
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [JavaScript Fundamentals](#javascript-fundamentals)
+- [increment letters by 3](#increment-letters-by-3)
   - [How to convert -ve to +ve number?](#how-to-convert--ve-to-ve-number)
   - [Array slice](#array-slice)
   - [Math.floor](#mathfloor)
@@ -596,11 +597,25 @@ node .\src\math-and-stats\integer-division.js
 
 ## JavaScript Fundamentals
 
+## increment letters by 3
+
+Letters asci code starts from `96` to `122`.
+
+- `charCodeAt()` gives the ascii code.
+- `String.fromCharCode(code)` converts code to string.
+
+```js
+const letter = 'A';
+const newKey = (letter.charCodeAt() + 3) % 122;
+const result = String.fromCharCode(newKey);
+console.log(result); //"D"
+```
+
 ### How to convert -ve to +ve number?
 
 ```js
-Math.abs(-4)  //4
-Math.abs(2)  //2
+Math.abs(-4); //4
+Math.abs(2); //2
 ```
 
 ### Array slice
@@ -672,10 +687,8 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 
 #### Depth First Search Question
 
-
 **Category**: Graphs
 **Difficulty**: Easy
-
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="MWpxezz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Graph: DFS Question (easy)">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/MWpxezz">
