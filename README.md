@@ -51,6 +51,7 @@
 - [Math & Stats](#math--stats)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [JavaScript Fundamentals](#javascript-fundamentals)
+  - [Array Sort](#array-sort)
   - [What is an Integer](#what-is-an-integer)
   - [increment letters by 3](#increment-letters-by-3)
   - [How to convert -ve to +ve number?](#how-to-convert--ve-to-ve-number)
@@ -597,6 +598,40 @@ node .\src\math-and-stats\integer-division.js
 ![ ](https://imgur.com/Cf7cz4W.png)
 
 ## JavaScript Fundamentals
+
+### Array Sort
+
+By default `array.sort` does not work you must pass delegate method.
+
+```js
+var a = [23, 4, 2, 155, 43];
+a.sort();
+// output: [155, 2, 23, 4, 43] Not sorted at all.
+```
+
+![](https://i.imgur.com/w9jmc3O.png)
+
+In order to sort in `ascending` order you must pass delegate method.
+
+**Ascending Order Sorting**
+
+```js
+var a = [23, 4, 2, 155, 43];
+a.sort((a, b) => a - b);
+// output: [2, 4, 23, 43, 155]
+```
+
+![](https://i.imgur.com/LWQHaAE.png)
+
+**Descending Order Sorting**
+
+```js
+var a = [23, 4, 2, 155, 43];
+a.sort((a, b) => b - a);
+// output: [155, 43, 23, 4, 2]
+```
+
+![](https://i.imgur.com/AqYqYyI.png)
 
 ### What is an Integer
 
