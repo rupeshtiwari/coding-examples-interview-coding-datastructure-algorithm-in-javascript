@@ -943,7 +943,7 @@ Try `Binary Search`.
 
 #### Reverse linked list
 
-![](https://i.imgur.com/4z0HUPE.png)
+![](https://i.imgur.com/R9ecxwI.png)
 
 ![](https://i.imgur.com/iaJ66fu.png)
 
