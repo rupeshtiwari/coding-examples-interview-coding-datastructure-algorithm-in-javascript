@@ -961,17 +961,11 @@ Try `Binary Search`.
 
 ![](https://i.imgur.com/eNRiftX.png)
 
-![](https://i.imgur.com/R9ecxwI.png)
-
-![](https://i.imgur.com/iaJ66fu.png)
-
-Algorithm of Reverse Linked List:
-
-![](https://i.imgur.com/WN6yJBJ.png)
-
-Reverse Linked List simulation:
-
-![](https://i.imgur.com/cTLz2fo.png)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="dyvwPej" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/dyvwPej">
+  Reverse Linked List: Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p> 
 
 - [Question](https://codepen.io/roopkt/pen/mdWayxv?editors=0010)
 - [Answer](https://codepen.io/roopkt/pen/dyvwPej?editors=0011)
