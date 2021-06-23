@@ -538,7 +538,7 @@ Merge Sort Implementation Visualization:
 
 ##### Merge Sort In Place Algorithm
 
-![](https://i.imgur.com/Ii8Y5Bv.png)
+![](https://i.imgur.com/sUAomvo.png)
 
 ![](https://i.imgur.com/7NNKWlv.png)
 
