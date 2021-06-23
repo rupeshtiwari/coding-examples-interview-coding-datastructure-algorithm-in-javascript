@@ -973,13 +973,6 @@ Try `Binary Search`.
 #### Find the merge point of 2 Linked List
 
 [Question](https://codepen.io/roopkt/pen/bGqOygE)
-
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="bGqOygE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGqOygE">
-  <span>See the Pen <a href="https://codepen.io/roopkt/pen/bGqOygE">
-  bGqOygE</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
 [Answer](https://codepen.io/roopkt/pen/poeqBBb)
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="poeqBBb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find merge point of 2 linked list Answer">
