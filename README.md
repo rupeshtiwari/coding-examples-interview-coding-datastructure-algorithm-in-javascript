@@ -46,6 +46,7 @@
     - [Depth First Search (DFS)](#depth-first-search-dfs)
 - [Algorithms Q&A](#algorithms-qa)
   - [Merge Sort](#merge-sort)
+      - [Merge Sort In Place Algorithm](#merge-sort-in-place-algorithm)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
 - [Math & Stats](#math--stats)
@@ -533,6 +534,21 @@ Merge Sort Implementation Visualization:
 
 - [Merge Sort Implementation Question](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010)
 - [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/ZEeMPPL?editors=0010)
+
+
+##### Merge Sort In Place Algorithm
+
+![](https://i.imgur.com/Ii8Y5Bv.png)
+
+![](https://i.imgur.com/Lon0P4b.png)
+
+![](https://i.imgur.com/CZkWKT9.png)
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="yLMQvbv" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/yLMQvbv">
+  Merge Sort In-place Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p> 
 
 #### Find Median Values (With Merge Sort Algorithm)
 
