@@ -540,7 +540,7 @@ Merge Sort Implementation Visualization:
 
 ![](https://i.imgur.com/Ii8Y5Bv.png)
 
-![](https://i.imgur.com/Lon0P4b.png)
+![](https://i.imgur.com/7NNKWlv.png)
 
 ![](https://i.imgur.com/CZkWKT9.png)
 
