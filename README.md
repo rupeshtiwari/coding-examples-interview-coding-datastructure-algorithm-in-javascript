@@ -49,7 +49,9 @@
       - [Merge Sort In Place Algorithm](#merge-sort-in-place-algorithm)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
-- [Math & Stats](#math--stats)
+- [Mathematics & Stats You should know](#mathematics--stats-you-should-know)
+  - [How many zeros in 1 Billion](#how-many-zeros-in-1-billion)
+  - [How many zeros in 1 Million](#how-many-zeros-in-1-million)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [JavaScript Fundamentals](#javascript-fundamentals)
   - [Array Sort](#array-sort)
@@ -622,7 +624,19 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 - [quick sort in-place](src/algorithms/sorting/quick-sort/quick-sort-inplace.mjs)
 - [quick sort ](src/algorithms/sorting/quick-sort/quick-sort.mjs)
 
-## Math & Stats
+## Mathematics & Stats You should know
+
+### How many zeros in 1 Billion
+
+Answer: 9 
+
+1,000,000,000 = 1 Billion
+
+### How many zeros in 1 Million
+
+Answer: 6
+
+1,000,000 = 1 Million
 
 ### Integer Division Without Using \* or /
 
