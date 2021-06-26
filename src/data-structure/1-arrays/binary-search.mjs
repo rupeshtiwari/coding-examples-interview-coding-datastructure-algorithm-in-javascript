@@ -122,3 +122,9 @@ log(iterativeBinarySearch([10, 20, 20, 20, 40, 50], 40), 4);
 for (var i = 0; i < inputs.length; i++) {
   log(iterativeBinarySearch(arr, inputs[i][0]), inputs[i][1]);
 }
+
+
+
+
+
+

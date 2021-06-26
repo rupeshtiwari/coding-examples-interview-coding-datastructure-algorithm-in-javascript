@@ -147,6 +147,13 @@ Example:
 
 Learn Big O. Make sure you give what would be the `runtime complexity` and `memory complexity`.
 
+
+
+- Array.push() is O(1) constant time complexity
+- string.indexOf() search is O(n) linear time complexity
+- for loop O(n) linear time complexity
+
+
 ### Big O Space complexity
 
 `Iterative functions` take no extra memory and therefore, `memory complexity` is `constant` O(1).
@@ -425,6 +432,10 @@ Below image showing how to add `[3, 7, 4, 6, 5, 1, 10, 2, 9, 8]` in BST.
 - [Binary Search Tree Implementation Question](https://codepen.io/roopkt/pen/RwpJBOw?editors=0010)
 - [Binary Search Tree Implementation Answer](https://codepen.io/roopkt/pen/LYWBYMM?editors=0010)
 
+**Binary Search Algorithm**
+
+![](https://i.imgur.com/WYh0bug.png)
+
 Binary Search can be done both in iterative or recursive way.
 
 ![](https://i.imgur.com/PWjbCaZ.png)
@@ -516,11 +527,21 @@ Find all possible routes from `PHX` to `BKK`. Also then you can decide which pat
 
 Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
 
+
 https://www.youtube.com/watch?v=UxnyImctVzg
 
 ![ ](https://i.imgur.com/YpQSB5J.png)
 
 **Merge Sort Algorithm**
+
+
+![](https://i.imgur.com/5a8joFC.png)
+
+
+![](https://i.imgur.com/yGrnQrB.png)
+
+
+![](https://i.imgur.com/uu5aDiG.png)
 
 ![Merge Sort Algorithm](https://i.imgur.com/DIvX2OX.png)
 
@@ -959,7 +980,7 @@ Try `Binary Search`.
 
 #### Reverse linked list
 
-![](https://i.imgur.com/eNRiftX.png)
+![](https://i.imgur.com/SEXPIuq.png)
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="dyvwPej" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/dyvwPej">
@@ -989,3 +1010,4 @@ Try `Binary Search`.
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <script data-ad-client="ca-pub-1700383344966810" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>
+
