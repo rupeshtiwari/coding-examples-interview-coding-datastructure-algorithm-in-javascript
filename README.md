@@ -66,6 +66,10 @@
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
   - [Time Memory Trade-Off technique](#time-memory-trade-off-technique)
+- [Mandatory Algorithms](#mandatory-algorithms)
+  - [Binary Search Algorithm](#binary-search-algorithm)
+  - [Reverse Linked List Algorithm](#reverse-linked-list-algorithm)
+  - [Merge Sort Algorithm](#merge-sort-algorithm)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Graphs](#graphs)
     - [Depth First Search Question](#depth-first-search-question)
@@ -772,6 +776,53 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 Trade off or invest some memory to improve run time complexity. Suppose use Has-table, set etc. to insert some of the calculations that you want to not repeat.
 
+
+
+## Mandatory Algorithms
+
+### Binary Search Algorithm
+
+![](https://i.imgur.com/6qgCObC.png)
+<div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="XWRrPBE" data-user="roopkt"  data-prefill='{"title":"Binary Search Algorithm","tags":[],"scripts":[],"stylesheets":[]}'>
+  <pre data-lang="js">// O(log (n)) time | O(1) space
+function binarySearch(array, valueToSearch) {
+    let low =0; let high = array.length-1;
+    while(low&lt;=high) {
+        let mid = low + Math.floor((high-low)/2); 
+        if(valueToSearch === array[mid]) return mid; // Found value, return (exit)
+        else if (valueToSearch &lt; array[mid]) high = mid-1; // Search in left
+        else low = mid + 1; // Search in right
+    }
+    return -1;
+}</pre></div>
+ 
+### Reverse Linked List Algorithm
+
+![](https://i.imgur.com/MbFK2KZ.png)
+<div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="jOmNvRw" data-user="roopkt"  data-prefill='{"title":"Reverse Linked List","tags":[],"scripts":[],"stylesheets":[]}'>
+  <pre data-lang="js">// O(n) time | O(1) space
+function reverse(head) {
+  let current = head;
+  let previous = null;
+  let next = null;
+
+  while (current) {
+    next = current.next;
+    current.next = previous;
+    previous = current;
+    current = next;
+  }
+
+  head = previous;
+
+  return head;
+}</pre></div>
+ 
+### Merge Sort Algorithm
+
+![](https://i.imgur.com/wozvfAe.png)
+
+
 ## Coding Interview Question and Answers
 
 ### Graphs
@@ -1003,6 +1054,7 @@ Try `Binary Search`.
 </p> 
 
 - [Question](https://codepen.io/roopkt/pen/mdWayxv?editors=0010)
+- 
 - [Answer](https://codepen.io/roopkt/pen/dyvwPej?editors=0011)
 
 #### Find the merge point of 2 Linked List
