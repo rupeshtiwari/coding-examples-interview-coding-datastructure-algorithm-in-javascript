@@ -807,6 +807,7 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 ### Merge Sort Algorithm
 
 ![](https://i.imgur.com/wozvfAe.png)
+
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/WNjegBp">
   Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
