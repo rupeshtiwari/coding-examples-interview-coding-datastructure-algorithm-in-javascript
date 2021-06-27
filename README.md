@@ -822,6 +822,52 @@ function reverse(head) {
 
 ![](https://i.imgur.com/wozvfAe.png)
 
+<div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt"  data-prefill='{"title":"Merge Sort Algorithm","tags":[],"scripts":[],"stylesheets":[]}'>
+  <pre data-lang="js">// O(n log(n)) time | O(1) space where n = length of the array.
+function mergeSort(array) {
+  const length = array.length;
+  if (length &lt; 2) {
+    return;
+  }
+  const mid = length / 2;
+  const left = array.slice(0, mid);
+  const right = array.slice(mid, length);
+  mergeSort(left);
+  mergeSort(right);
+  stitch(left, right, array);
+}
+
+function stitch(left, right, array) {
+  let leftIdx = 0;
+  let rightIdx = 0;
+  let arrayIdx = 0;
+  let leftLength = left.length;
+  let rightLength = right.length;
+
+  while (leftIdx &lt; leftLength && rightIdx &lt; rightLength) {
+    if (left[leftIdx] &lt;= right[rightIdx]) {
+      array[arrayIdx] = left[leftIdx];
+      leftIdx++;
+    } else {
+      array[arrayIdx] = right[rightIdx];
+      rightIdx++;
+    }
+    arrayIdx++;
+  }
+
+  while (leftIdx &lt; leftLength) {
+    array[arrayIdx] = left[leftIdx];
+    leftIdx++;
+    arrayIdx++;
+  }
+  while (rightIdx &lt; rightLength) {
+    array[arrayIdx] = right[rightIdx];
+    rightIdx++;
+    arrayIdx++;
+  }
+}</pre></div>
+
+
 
 ## Coding Interview Question and Answers
 
