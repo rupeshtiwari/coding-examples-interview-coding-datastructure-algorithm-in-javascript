@@ -1,95 +1,74 @@
-const tree = {
-  value: 'A',
-  left: {
-    value: 'B',
-    left: {
-      value: 'D',
-      left: {
-        value: 'G',
-        left: null,
-        right: null,
-      },
-      right: null,
-    },
-    right: {
-      value: 'E',
-      left: null,
-      right: {
-        value: 'H',
-        left: {
-          value: 'K',
-          left: null,
-          right: null,
-        },
-      },
-    },
-  },
-  right: {
-    value: 'C',
-    left: {
-      value: 'F',
-      left: {
-        value: 'I',
-        left: null,
-        right: null,
-      },
-      right: {
-        value: 'J',
-        left: null,
-        right: null,
-      },
-    },
-    right: null,
-  },
-};
+/* 
+Nodes are created in the heap seciton of the memory 
+Address of the root node we keep for a tree.
+*/
 
-const answer = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'];
-
-/**
- * Time & Space : O (n logn)
- *
- * @param tree
- */
-
-function breadthFirstTraverse(tree) {
-  let stack = [];
-  stack.push(tree);
-  const answer = [];
-
-  while (stack.length) {
-    let node = stack.shift();
-    answer.push(node.value);
-    if (node.left) {
-      stack.push(node.left);
-    }
-    if (node.right) {
-      stack.push(node.right);
-    }
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.left = null;
+    this.right = null;
   }
-
-  return answer;
 }
 
-const result = breadthFirstTraverse(tree);
-const isCorrect =
-  JSON.stringify(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']) ===
-  JSON.stringify(result);
-console.log('breadthFirstTraverse result: ' + result);
-console.log(isCorrect ? 'PASS' : 'FAIL');
+/*
+O(n) time | O(n) space because we have queue.
+Level-Order Traversal
+*/
+function breadthFirst(root) {
+  // Write your code here
+  if (root == null) return;
+  let queue = [root]; // O(n) space
+  while (queue.length > 0) {
+    let current = queue.shift(); // removing element at front.
+    visit(current);
+    if (current.left) queue.push(current.left);
+    if (current.right) queue.push(current.right);
+  }
+}
 
-/**
- * s [ ]
- * a [A,B,C,D,E,F,G,H,I,J,K]
- */
-/**
- * A: [B,C]
- * B: [D, E]
- * C: [F,-]
- * D: [G,-]
- * E: [-, H]
- * F: [I, J]
- * H: [K, -]
- *
- * output
- * A, B, C, D, E, F, G, H, I, J ,K
- */
+let result = [];
+
+function visit(node) {
+  console.log(node.data);
+  result.push(node.data);
+}
+
+// unit tests
+// do not modify the below code
+describe('Breadth First Traversal', () => {
+  let root = null;
+
+  beforeEach(() => {
+    root = null;
+    root = insert(root, 15);
+    root = insert(root, 10);
+    root = insert(root, 20);
+    root = insert(root, 25);
+    root = insert(root, 8);
+    root = insert(root, 12);
+  });
+  it('should work correctly', () => {
+    breadthFirst(root);
+    expect(result).toEqual([15, 10, 20, 8, 12, 25]);
+  });
+});
+
+function insert(root, data) {
+  // If the tree is empty create new node.
+  let notToInsert = new Node(data);
+
+  let current = root;
+  let previous = null;
+  while (current != null) {
+    previous = current;
+    if (data <= current.data) current = current.left;
+    else current = current.right;
+  }
+
+  if (previous == null) return notToInsert;
+  else if (data <= previous.data) previous.left = notToInsert;
+  else previous.right = notToInsert;
+
+  return root;
+}

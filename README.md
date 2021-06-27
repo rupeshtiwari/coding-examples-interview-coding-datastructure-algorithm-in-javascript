@@ -70,7 +70,8 @@
   - [Binary Search on sorted Array Algorithm](#binary-search-on-sorted-array-algorithm)
   - [Reverse Linked List Algorithm](#reverse-linked-list-algorithm)
   - [Merge Sort Algorithm](#merge-sort-algorithm)
-  - [Breadth-First Traversal](#breadth-first-traversal)
+  - [Breadth-First Binary Tree Traversal](#breadth-first-binary-tree-traversal)
+  - [Depth-First Binary Tree Traversal](#depth-first-binary-tree-traversal)
   - [Binary Search Tree Implementation](#binary-search-tree-implementation)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Graphs](#graphs)
@@ -812,7 +813,7 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-### Breadth-First Traversal
+### Breadth-First Binary Tree Traversal
 
 ![](https://i.imgur.com/yW3E6Ph.png)
 
@@ -822,8 +823,18 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+### Depth-First Binary Tree Traversal
+
+ <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="ExmYGze" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/ExmYGze">
+  </a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+![](https://i.imgur.com/mbFltXf.png)
 
 ### Binary Search Tree Implementation
+
 
 ![](https://i.imgur.com/QcEahdu.png)
 
