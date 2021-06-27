@@ -128,3 +128,21 @@ for (var i = 0; i < inputs.length; i++) {
 
 
 
+
+
+
+/*
+O(n) time | O(n) space because we have queue.
+Level-Order Traversal
+*/
+function breadthFirst(root) {
+  // Write your code here
+  if (root == null) return;
+  let queue = [root]; // O(n) space
+  while (queue.length > 0) {
+    let current = queue.shift(); // removing element at front.
+    visit(current);
+    if (current.left) queue.push(current.left);
+    if (current.right) queue.push(current.right);
+  }
+}

@@ -70,6 +70,7 @@
   - [Binary Search on sorted Array Algorithm](#binary-search-on-sorted-array-algorithm)
   - [Reverse Linked List Algorithm](#reverse-linked-list-algorithm)
   - [Merge Sort Algorithm](#merge-sort-algorithm)
+  - [Breadth-First Traversal](#breadth-first-traversal)
   - [Binary Search Tree Implementation](#binary-search-tree-implementation)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Graphs](#graphs)
@@ -810,6 +811,17 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
   Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+### Breadth-First Traversal
+
+![](https://i.imgur.com/yW3E6Ph.png)
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="XWRroaz" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/XWRroaz">
+  Binary Tree Traversal</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
 
 ### Binary Search Tree Implementation
 
