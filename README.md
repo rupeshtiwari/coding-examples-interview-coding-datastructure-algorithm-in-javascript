@@ -67,9 +67,10 @@
   - [ADT](#adt)
   - [Time Memory Trade-Off technique](#time-memory-trade-off-technique)
 - [Mandatory Algorithms](#mandatory-algorithms)
-  - [Binary Search Algorithm](#binary-search-algorithm)
+  - [Binary Search on sorted Array Algorithm](#binary-search-on-sorted-array-algorithm)
   - [Reverse Linked List Algorithm](#reverse-linked-list-algorithm)
   - [Merge Sort Algorithm](#merge-sort-algorithm)
+  - [Binary Search Tree Implementation](#binary-search-tree-implementation)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Graphs](#graphs)
     - [Depth First Search Question](#depth-first-search-question)
@@ -776,96 +777,44 @@ abstract data type (ADT) - ADT is defined as a user point of view of a data type
 
 Trade off or invest some memory to improve run time complexity. Suppose use Has-table, set etc. to insert some of the calculations that you want to not repeat.
 
-
+![](https://i.imgur.com/wERnlTM.png)
 
 ## Mandatory Algorithms
 
-### Binary Search Algorithm
+### Binary Search on sorted Array Algorithm
 
 ![](https://i.imgur.com/6qgCObC.png)
-<div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="XWRrPBE" data-user="roopkt"  data-prefill='{"title":"Binary Search Algorithm","tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="js">// O(log (n)) time | O(1) space
-function binarySearch(array, valueToSearch) {
-    let low =0; let high = array.length-1;
-    while(low&lt;=high) {
-        let mid = low + Math.floor((high-low)/2); 
-        if(valueToSearch === array[mid]) return mid; // Found value, return (exit)
-        else if (valueToSearch &lt; array[mid]) high = mid-1; // Search in left
-        else low = mid + 1; // Search in right
-    }
-    return -1;
-}</pre></div>
+
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="XWRrPBE" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/XWRrPBE">
+  Binary Search Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
  
 ### Reverse Linked List Algorithm
 
 ![](https://i.imgur.com/MbFK2KZ.png)
-<div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="jOmNvRw" data-user="roopkt"  data-prefill='{"title":"Reverse Linked List","tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="js">// O(n) time | O(1) space
-function reverse(head) {
-  let current = head;
-  let previous = null;
-  let next = null;
 
-  while (current) {
-    next = current.next;
-    current.next = previous;
-    previous = current;
-    current = next;
-  }
 
-  head = previous;
-
-  return head;
-}</pre></div>
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/WNjegBp">
+  Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
  
 ### Merge Sort Algorithm
 
 ![](https://i.imgur.com/wozvfAe.png)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/WNjegBp">
+  Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
-<div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt"  data-prefill='{"title":"Merge Sort Algorithm","tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="js">// O(n log(n)) time | O(1) space where n = length of the array.
-function mergeSort(array) {
-  const length = array.length;
-  if (length &lt; 2) {
-    return;
-  }
-  const mid = length / 2;
-  const left = array.slice(0, mid);
-  const right = array.slice(mid, length);
-  mergeSort(left);
-  mergeSort(right);
-  stitch(left, right, array);
-}
+### Binary Search Tree Implementation
 
-function stitch(left, right, array) {
-  let leftIdx = 0;
-  let rightIdx = 0;
-  let arrayIdx = 0;
-  let leftLength = left.length;
-  let rightLength = right.length;
-
-  while (leftIdx &lt; leftLength && rightIdx &lt; rightLength) {
-    if (left[leftIdx] &lt;= right[rightIdx]) {
-      array[arrayIdx] = left[leftIdx];
-      leftIdx++;
-    } else {
-      array[arrayIdx] = right[rightIdx];
-      rightIdx++;
-    }
-    arrayIdx++;
-  }
-
-  while (leftIdx &lt; leftLength) {
-    array[arrayIdx] = left[leftIdx];
-    leftIdx++;
-    arrayIdx++;
-  }
-  while (rightIdx &lt; rightLength) {
-    array[arrayIdx] = right[rightIdx];
-    rightIdx++;
-    arrayIdx++;
-  }
-}</pre></div>
+![](https://i.imgur.com/QcEahdu.png)
 
 
 
