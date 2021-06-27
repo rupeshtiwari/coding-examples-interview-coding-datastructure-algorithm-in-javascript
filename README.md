@@ -816,7 +816,11 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 
 ![](https://i.imgur.com/QcEahdu.png)
 
-
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="rNmBqWQ" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/rNmBqWQ">
+  Binary Search Tree Implementation</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ## Coding Interview Question and Answers
 
