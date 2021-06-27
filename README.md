@@ -785,10 +785,9 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 
 ![](https://i.imgur.com/6qgCObC.png)
 
-
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="XWRrPBE" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="XWRrPBE" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/XWRrPBE">
-  Binary Search Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Binary Search on Sorted Array Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
  
