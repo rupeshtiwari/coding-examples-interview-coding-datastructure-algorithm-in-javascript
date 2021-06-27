@@ -819,7 +819,7 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/rNmBqWQ">
   Binary Search Tree Implementation</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+</p> 
 
 ## Coding Interview Question and Answers
 
