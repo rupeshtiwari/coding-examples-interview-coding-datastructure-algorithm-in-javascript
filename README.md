@@ -73,6 +73,7 @@
   - [Breadth-First Binary Tree Traversal](#breadth-first-binary-tree-traversal)
   - [Depth-First Binary Tree Traversal](#depth-first-binary-tree-traversal)
   - [Insert in MIN-HEAP](#insert-in-min-heap)
+  - [Remove from MIN-HEAP](#remove-from-min-heap)
   - [Binary Search Tree Implementation](#binary-search-tree-implementation)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Facebook Recruiting Portal Coding Interview Questions](#facebook-recruiting-portal-coding-interview-questions)
@@ -158,12 +159,9 @@ Example:
 
 Learn Big O. Make sure you give what would be the `runtime complexity` and `memory complexity`.
 
-
-
 - Array.push() is O(1) constant time complexity
 - string.indexOf() search is O(n) linear time complexity
 - for loop O(n) linear time complexity
-
 
 ### Big O Space complexity
 
@@ -538,19 +536,15 @@ Find all possible routes from `PHX` to `BKK`. Also then you can decide which pat
 
 Browser's JavaScript Engine (`Array.prototype.sort`) uses merge sort maximum time. Runtime complexity O(n logn), Memory complexity O(n) because we have to create new list. It uses divide-and-conquer algorithm! and also it is recursive.
 
-
 https://www.youtube.com/watch?v=UxnyImctVzg
 
 ![ ](https://i.imgur.com/YpQSB5J.png)
 
 **Merge Sort Algorithm**
 
-
 ![](https://i.imgur.com/5a8joFC.png)
 
-
 ![](https://i.imgur.com/yGrnQrB.png)
-
 
 ![](https://i.imgur.com/uu5aDiG.png)
 
@@ -567,7 +561,6 @@ Merge Sort Implementation Visualization:
 - [Merge Sort Implementation Question](https://codepen.io/roopkt/pen/ExWRRgP?editors=0010)
 - [Merge Sort Implementation Answer](https://codepen.io/roopkt/pen/ZEeMPPL?editors=0010)
 
-
 ##### Merge Sort In Place Algorithm
 
 ![](https://i.imgur.com/sUAomvo.png)
@@ -580,7 +573,7 @@ Merge Sort Implementation Visualization:
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/yLMQvbv">
   Merge Sort In-place Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p> 
+</p>
 
 #### Find Median Values (With Merge Sort Algorithm)
 
@@ -637,7 +630,7 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 
 ### How many zeros in 1 Billion
 
-Answer: 9 
+Answer: 9
 
 1,000,000,000 = 1 Billion
 
@@ -784,6 +777,7 @@ Trade off or invest some memory to improve run time complexity. Suppose use Has-
 ![](https://i.imgur.com/wERnlTM.png)
 
 ## Mandatory Algorithms
+
 All Mandatory algorithm source code [download here](https://codepen.io/collection/BNaddx).
 
 ### Binary Search on sorted Array Algorithm
@@ -799,7 +793,6 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 ### Reverse Linked List Algorithm
 
 ![](https://i.imgur.com/MbFK2KZ.png)
-
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/WNjegBp">
@@ -847,9 +840,17 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+### Remove from MIN-HEAP
+
+![](https://i.imgur.com/5gmtiBx.png)
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="PomwXJX" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/PomwXJX">
+  Practice</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ### Binary Search Tree Implementation
-
 
 ![](https://i.imgur.com/QcEahdu.png)
 
@@ -857,12 +858,14 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/rNmBqWQ">
   Binary Search Tree Implementation</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p> 
+</p>
 
 ## Coding Interview Question and Answers
 
 ### Facebook Recruiting Portal Coding Interview Questions
+
 Download solutions to [Facebook Recruiting Portal Coding](https://www.facebookrecruiting.com/portal/interview_prep_hub?scrollToSection=CODING_EXERCISES) Interview Questions [here](https://codepen.io/collection/pgjZRG).
+
 ### Graphs
 
 #### Depth First Search Question
@@ -1089,10 +1092,10 @@ Try `Binary Search`.
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/dyvwPej">
   Reverse Linked List: Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p> 
+</p>
 
 - [Question](https://codepen.io/roopkt/pen/mdWayxv?editors=0010)
-- 
+-
 - [Answer](https://codepen.io/roopkt/pen/dyvwPej?editors=0011)
 
 #### Find the merge point of 2 Linked List
@@ -1114,4 +1117,3 @@ Try `Binary Search`.
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <script data-ad-client="ca-pub-1700383344966810" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>
-
