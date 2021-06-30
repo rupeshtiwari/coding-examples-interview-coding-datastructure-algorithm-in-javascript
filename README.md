@@ -72,6 +72,7 @@
   - [Merge Sort Algorithm](#merge-sort-algorithm)
   - [Breadth-First Binary Tree Traversal](#breadth-first-binary-tree-traversal)
   - [Depth-First Binary Tree Traversal](#depth-first-binary-tree-traversal)
+  - [Insert in MIN-HEAP](#insert-in-min-heap)
   - [Binary Search Tree Implementation](#binary-search-tree-implementation)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Facebook Recruiting Portal Coding Interview Questions](#facebook-recruiting-portal-coding-interview-questions)
@@ -835,6 +836,17 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 </p>
 
 ![](https://i.imgur.com/mbFltXf.png)
+
+### Insert in MIN-HEAP
+
+![](https://i.imgur.com/H1Hm4Pe.png)
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="PomwXJX" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/roopkt/pen/PomwXJX">
+  Practice</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
 
 ### Binary Search Tree Implementation
 
