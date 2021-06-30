@@ -54,7 +54,9 @@
   - [How many zeros in 1 Million](#how-many-zeros-in-1-million)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [JavaScript Fundamentals](#javascript-fundamentals)
+  - [JavaScript Map](#javascript-map)
   - [Array Sort](#array-sort)
+  - [Array Sort](#array-sort-1)
   - [What is an Integer](#what-is-an-integer)
   - [increment letters by 3](#increment-letters-by-3)
   - [How to convert -ve to +ve number?](#how-to-convert--ve-to-ve-number)
@@ -652,6 +654,23 @@ node .\src\math-and-stats\integer-division.js
 
 ## JavaScript Fundamentals
 
+### JavaScript Map
+
+```js
+const map = new Map();
+// insert
+map.set('key', 'value');
+
+// get
+map.get('key');
+
+// remove
+map.delete('key');
+
+// check key exist
+map.has('key');
+```
+
 ### Array Sort
 
 By default `array.sort` does not work you must pass delegate method.
@@ -665,6 +684,8 @@ a.sort();
 ![](https://i.imgur.com/w9jmc3O.png)
 
 In order to sort in `ascending` order you must pass delegate method.
+
+### Array Sort
 
 **Ascending Order Sorting**
 
@@ -714,7 +735,8 @@ Math.abs(2); //2
 ### Array slice
 
 Slice does not mutate the original array.
-`slice(index,count) `: Starts taking number from given index and go till given count.
+`slice(index,count) `: Starts taking number from
+given index and go till given count.
 
 [Example of slice](https://i.imgur.com/9iaew6W.png):
 
