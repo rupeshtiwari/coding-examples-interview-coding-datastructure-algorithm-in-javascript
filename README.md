@@ -76,7 +76,12 @@
   - [Depth-First Binary Tree Traversal](#depth-first-binary-tree-traversal)
   - [Insert in MIN-HEAP](#insert-in-min-heap)
   - [Remove from MIN-HEAP](#remove-from-min-heap)
-  - [Binary Search Tree Implementation](#binary-search-tree-implementation)
+  - [Binary Search Tree (BST) Implementation](#binary-search-tree-bst-implementation)
+    - [Insert node in BST](#insert-node-in-bst)
+    - [Remove node from BST](#remove-node-from-bst)
+    - [Search in BST](#search-in-bst)
+    - [Min Max and Height in BST](#min-max-and-height-in-bst)
+    - [Complete BST implementation source code](#complete-bst-implementation-source-code)
 - [Coding Interview Question and Answers](#coding-interview-question-and-answers)
   - [Facebook Recruiting Portal Coding Interview Questions](#facebook-recruiting-portal-coding-interview-questions)
   - [Graphs](#graphs)
@@ -669,6 +674,9 @@ map.delete('key');
 
 // check key exist
 map.has('key');
+
+// size
+map.size;
 ```
 
 ### Array Sort
@@ -872,9 +880,36 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-### Binary Search Tree Implementation
+### Binary Search Tree (BST) Implementation
 
 ![](https://i.imgur.com/QcEahdu.png)
+
+#### Insert node in BST
+
+**O(Log(n)) time | Space O(1)**
+
+For 1 insert operation, avg case is O(lgn) and worst case is O(n)
+For n insert operations, avg case is O(nlgn) and worst case is O(n^2)
+
+![](https://i.imgur.com/8fWHF2B.png)
+
+#### Remove node from BST
+
+**O(log n) time | space O(1)**
+
+![](https://i.imgur.com/KCKZohE.png)
+
+#### Search in BST
+
+**O(log(n)) time | O(1)**
+
+![](https://i.imgur.com/rb6qlIB.png)
+
+#### Min Max and Height in BST
+
+![](https://i.imgur.com/3VEHOE1.png)
+
+#### Complete BST implementation source code
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="rNmBqWQ" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/rNmBqWQ">

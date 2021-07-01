@@ -28,29 +28,32 @@ function insertRecursively(root, data) {
 
 /*
 O(Log(n)) time | Space O(1) 
-
-For 1 insert operation, avg case is O(lgn) and worst case is O(n)
+For 1 insert operation, avg case is O(log(n)) and worst case is O(n)
 For n insert operations, avg case is O(nlgn) and worst case is O(n^2)
 */
 function insert(root, data) {
-  // If the tree is empty create new node.
-  let notToInsert = new Node(data);
-
+  const nodeToInsert = new Node(data);
+  if (root == null) return nodeToInsert;
   let current = root;
-  let previous = null;
+  let previous = root;
   while (current != null) {
     previous = current;
     if (data <= current.data) current = current.left;
     else current = current.right;
   }
-
-  if (previous == null) return notToInsert;
-  else if (data <= previous.data) previous.left = notToInsert;
-  else previous.right = notToInsert;
+  if (data <= previous.data) previous.left = nodeToInsert;
+  else previous.right = nodeToInsert;
 
   return root;
 }
-
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.left = null;
+    this.right = null;
+  }
+}
+// O(log n) time | space O(1)
 function remove(root, data) {
   if (root == null) return root;
   else if (data < root.data) root.left = remove(root.left, data);
@@ -60,10 +63,8 @@ function remove(root, data) {
     // case 1: no child
     if (root.left == null && root.right == null) {
       root = null;
-    }
-
-    // case 2: One child
-    else if (root.left == null) {
+    } else if (root.left == null) {
+      // case 2: One child
       let current = root;
       root = root.right;
       current = null;
@@ -71,14 +72,14 @@ function remove(root, data) {
       let current = root;
       root = root.left;
       current = null;
-    }
-    
-    // case 3: Two child
-    else {
-      let current  = findMin(root.right);
+    } else {
+      // case 3: Two child
+      let current = findMin(root.right);
       root.data = current.data;
-      root.right = remove(root.right,current.data);
+      root.right = remove(root.right, current.data);
+    }
   }
+  return root;
 }
 
 // O(log(n)) time | O(log (n))
@@ -89,7 +90,7 @@ function searchRecursive(root, data) {
   else return search(root.right, data);
 }
 
-// O(log(n)) time | O(log (n))
+// O(log(n)) time | O(1)
 function search(root, data) {
   while (root != null) {
     if (data === root.data) return true;
@@ -100,6 +101,7 @@ function search(root, data) {
   return false;
 }
 
+// O(log(n)) time | O(1)
 function findMin(root) {
   if (root == null) return root;
 
@@ -110,6 +112,7 @@ function findMin(root) {
   return root.data;
 }
 
+// O(log(n)) time | O(1)
 function findMax(root) {
   if (root == null) return root;
 
@@ -126,8 +129,8 @@ function findHeight(root) {
   return Math.max(findHeight(root.left), findHeight(root.right)) + 1;
 }
 
-describe("In Binary Search Tree", () => {
-  it("I can insert", () => {
+describe('In Binary Search Tree', () => {
+  it('I can insert', () => {
     let root = null;
     root = insert(root, 15);
     root = insert(root, 10);
@@ -139,7 +142,7 @@ describe("In Binary Search Tree", () => {
     expect(root).toBeTruthy();
   });
 
-  it("I can insert recursively", () => {
+  it('I can insert recursively', () => {
     let root = null;
     root = insertRecursively(root, 15);
     root = insertRecursively(root, 10);
@@ -152,7 +155,7 @@ describe("In Binary Search Tree", () => {
   });
 });
 
-describe("I can perform below operations in BST", () => {
+describe('I can perform below operations in BST', () => {
   let root = null;
 
   beforeEach(() => {
@@ -165,25 +168,30 @@ describe("I can perform below operations in BST", () => {
     root = insert(root, 12);
   });
 
-  it("I can search recursively", () => {
+  it('I can search recursively', () => {
     expect(searchRecursive(root, 8)).toBeTruthy();
     expect(searchRecursive(root, 22)).toBeFalsy();
   });
 
-  it("I can search iteratively", () => {
+  it('I can search iteratively', () => {
     expect(search(root, 8)).toBeTruthy();
     expect(search(root, 22)).toBeFalsy();
   });
 
-  it("I can find Minimum in BST", () => {
+  it('I can find Minimum in BST', () => {
     expect(findMin(root)).toBe(8);
   });
 
-  it("I can find Maximum in BST", () => {
+  it('I can find Maximum in BST', () => {
     expect(findMax(root)).toBe(25);
   });
 
-  it("I can find Height of BST", () => {
+  it('I can find Height of BST', () => {
     expect(findHeight(root)).toBe(2);
+  });
+
+  it('I can find Delete 8 from BST', () => {
+    remove(root, 8);
+    expect(search(root, 8)).toBeFalsy();
   });
 });
