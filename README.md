@@ -49,6 +49,7 @@
       - [Merge Sort In Place Algorithm](#merge-sort-in-place-algorithm)
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
+  - [Why Quick sort is used in Array and Merge Sort in Linked List?](#why-quick-sort-is-used-in-array-and-merge-sort-in-linked-list)
 - [Mathematics & Stats You should know](#mathematics--stats-you-should-know)
   - [How to initialize array of size n?](#how-to-initialize-array-of-size-n)
   - [How many zeros in 1 Billion](#how-many-zeros-in-1-billion)
@@ -73,6 +74,7 @@
   - [Binary Search on sorted Array Algorithm](#binary-search-on-sorted-array-algorithm)
   - [Reverse Linked List Algorithm](#reverse-linked-list-algorithm)
   - [Merge Sort Algorithm](#merge-sort-algorithm)
+  - [Quick Sort Algorithm](#quick-sort-algorithm)
   - [Breadth-First Binary Tree Traversal](#breadth-first-binary-tree-traversal)
   - [Depth-First Binary Tree Traversal](#depth-first-binary-tree-traversal)
   - [Insert in MIN-HEAP](#insert-in-min-heap)
@@ -106,6 +108,9 @@
     - [Reverse linked list](#reverse-linked-list)
     - [Find the merge point of 2 Linked List](#find-the-merge-point-of-2-linked-list)
 - [Binary Search for competitive programming from zero to advanced](#binary-search-for-competitive-programming-from-zero-to-advanced)
+  - [Binary Search Concept](#binary-search-concept)
+  - [Binary Search Basic Problems](#binary-search-basic-problems)
+  - [Binary Search Advanced Questions](#binary-search-advanced-questions)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
@@ -580,7 +585,7 @@ Merge Sort Implementation Visualization:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="yLMQvbv" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/yLMQvbv">
-  Merge Sort In-place Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Merge Sort In-place Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -635,6 +640,10 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 - [quick sort in-place](src/algorithms/sorting/quick-sort/quick-sort-inplace.mjs)
 - [quick sort ](src/algorithms/sorting/quick-sort/quick-sort.mjs)
 
+### Why Quick sort is used in Array and Merge Sort in Linked List?
+
+In Quick sort we do not create auxiliary arrays. Therefore, it is good choice for Array to use quick sort. However in merge sort we create 2 auxiliary arrays. Therefore, linked list is a good choice.
+
 ## Mathematics & Stats You should know
 
 ### How to initialize array of size n?
@@ -643,7 +652,7 @@ Example create an array containing numbers from 0 to 9.
 `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
 
 ```js
-var y = new Array.from(Array(10).keys())
+var y = new Array.from(Array(10).keys());
 ```
 
 ![](https://i.imgur.com/mVBT7jl.png)
@@ -829,7 +838,7 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="XWRrPBE" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/XWRrPBE">
-  Binary Search on Sorted Array Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Binary Search on Sorted Array Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
  
@@ -839,7 +848,7 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/WNjegBp">
-  Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
  
@@ -849,7 +858,17 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js" data-slug-hash="WNjegBp" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/WNjegBp">
-  Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Merge Sort Algorithm</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+### Quick Sort Algorithm
+
+![](https://i.imgur.com/LAouqTY.png)
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="OJpBYKz" data-user="rupeshtiwari" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/rupeshtiwari/pen/OJpBYKz">
+  Quick Sort In-place Implementation: Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/rupeshtiwari">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -859,7 +878,7 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="XWRroaz" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/XWRroaz">
-  Binary Tree Traversal</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Binary Tree Traversal</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -867,7 +886,7 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
  <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="ExmYGze" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/ExmYGze">
-  </a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  </a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -879,7 +898,7 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="PomwXJX" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/PomwXJX">
-  Practice</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Practice</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -889,7 +908,7 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="PomwXJX" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/PomwXJX">
-  Practice</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Practice</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -901,8 +920,8 @@ All Mandatory algorithm source code [download here](https://codepen.io/collectio
 
 **O(Log(n)) time | Space O(1)**
 
-For 1 insert operation, avg case is O(lgn) and worst case is O(n)
-For n insert operations, avg case is O(nlgn) and worst case is O(n^2)
+For 1 insert operation, avg case is O(log(n)) and worst case is O(n)
+For n insert operations, avg case is O(n log(n)) and worst case is O(n^2)
 
 ![](https://i.imgur.com/8fWHF2B.png)
 
@@ -926,7 +945,7 @@ For n insert operations, avg case is O(nlgn) and worst case is O(n^2)
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="rNmBqWQ" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/rNmBqWQ">
-  Binary Search Tree Implementation</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Binary Search Tree Implementation</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -945,7 +964,7 @@ Download solutions to [Facebook Recruiting Portal Coding](https://www.facebookre
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="MWpxezz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Graph: DFS Question (easy)">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/MWpxezz">
-  Graph: DFS Question (easy)</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Graph: DFS Question (easy)</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -953,7 +972,7 @@ Download solutions to [Facebook Recruiting Portal Coding](https://www.facebookre
 
 <p class="codepen" data-height="560" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="NWpJrjg" style="height: 560px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Graph: DFS Answer (easy)">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/NWpJrjg">
-  Graph: DFS Answer (easy)</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Graph: DFS Answer (easy)</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -1030,7 +1049,7 @@ Delete 15 from BST
 
  <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="wvJRxJp" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Delete node in BST Question">
     <span>See the Pen <a href="https://codepen.io/roopkt/pen/wvJRxJp">
-    Delete node in BST Question</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+    Delete node in BST Question</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
     on <a href="https://codepen.io">CodePen</a>.</span>
   </p>
 
@@ -1038,7 +1057,7 @@ Delete 15 from BST
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="rNyovyL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Delete node in BST Answer">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/rNyovyL">
-  Delete node in BST Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Delete node in BST Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -1067,7 +1086,7 @@ Example: Find in-order successor of `6`?
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="YzZdMxa" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find In-order Successor in BST Question">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/YzZdMxa">
-  Find In-order Successor in BST Question</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Find In-order Successor in BST Question</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -1075,7 +1094,7 @@ Example: Find in-order successor of `6`?
 
 <p class="codepen" data-height="327" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="bGqOxyN" style="height: 327px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find In-order Successor in BST Answer">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/bGqOxyN">
-  Find In-order Successor in BST Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Find In-order Successor in BST Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -1160,7 +1179,7 @@ Try `Binary Search`.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="dyvwPej" data-user="roopkt" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/dyvwPej">
-  Reverse Linked List: Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Reverse Linked List: Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -1175,27 +1194,43 @@ Try `Binary Search`.
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="roopkt" data-slug-hash="poeqBBb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Find merge point of 2 linked list Answer">
   <span>See the Pen <a href="https://codepen.io/roopkt/pen/poeqBBb">
-  Find merge point of 2 linked list Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
+  Find merge point of 2 linked list Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
 ## Binary Search for competitive programming from zero to advanced
 
+Binary Search is used to solve 2 kinds of problems:
+1- Search problems, find real numbers.
+2- Optimization problems. Maximize element x keeping y minimum. Or minimize element x keeping y maximum.
+
+### Binary Search Concept
+
 - Watch [Code School Binary Search Videos](https://www.youtube.com/watch?v=j5uXyPJ0Pew&list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j)
-- Watch this [Binary Search video and do problems](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80)
-- Do all basic problems related to binary search [that I have given in this link](https://codepen.io/collection/vBORpO).
+- Watch this [Binary Search conceptual video from Errichto and do problems](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80)
 
+### Binary Search Basic Problems
 
+- Do all basics problems related to binary search [that I have given in this link](https://codepen.io/collection/vBORpO)
+- Next do all below advanced problems
 
+### Binary Search Advanced Questions
 
+Below problems are lying under optimization problems. Just watch Book Allocation and Aggressive Cows videos to understand optimization logic. Once you understood them after that for rest problems you need to apply same logic. 
+
+- [Book Allocation](https://www.youtube.com/watch?v=Ss9ta1zmiZo&t=1335s) 
+- [Aggressive Cows](https://www.youtube.com/watch?v=TC6snf6KPdE)
+- ROTI (SPOJ)
+- Painter's Partition
+- EKO (SPOJ)
+- PARATA (SPOJ)
 
 ## References
 
 - http://btholt.github.io/four-semesters-of-cs/
 - https://btholt.github.io/four-semesters-of-cs-part-two/
 - [Binary Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)
-- [[Part 3] Binary Search, Competitive Programming Series | from Zero to Advanced](https://www.youtube.com/watch?v=cLkcNeiploY&list=PL4PCksYQGLJOcaPLgeMFaxaHigPFjBuTG&index=4) 
-
+- [[Part 3] Binary Search, Competitive Programming Series | from Zero to Advanced](https://www.youtube.com/watch?v=cLkcNeiploY&list=PL4PCksYQGLJOcaPLgeMFaxaHigPFjBuTG&index=4)
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <script data-ad-client="ca-pub-1700383344966810" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>
