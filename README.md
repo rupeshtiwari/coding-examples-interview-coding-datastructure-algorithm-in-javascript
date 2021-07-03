@@ -1207,8 +1207,9 @@ Binary Search is used to solve 2 kinds of problems:
 ### Binary Search Concept
 
 - Watch [Code School Binary Search Videos](https://www.youtube.com/watch?v=j5uXyPJ0Pew&list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j)
-- Watch this [Binary Search conceptual video from Errichto and do problems](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80)
+- Watch this [Binary Search conceptual video from Errichto](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80)
 
+Next you have to solve some basic binary search problems.
 ### Binary Search Basic Problems
 
 - Do all basics problems related to binary search [that I have given in this link](https://codepen.io/collection/vBORpO)
@@ -1216,7 +1217,7 @@ Binary Search is used to solve 2 kinds of problems:
 
 ### Binary Search Advanced Questions
 
-Below problems are lying under optimization problems. Just watch Book Allocation and Aggressive Cows videos to understand optimization logic. Once you understood them after that for rest problems you need to apply same logic. 
+Below problems are lying under optimization problems. Just watch Book Allocation and Aggressive Cows videos to understand optimization logic. Once you understood them after that for rest problems you need to apply same logic. Every iteration you reduce the search space by either maximizing or minimizing the solution. 
 
 - [Book Allocation](https://www.youtube.com/watch?v=Ss9ta1zmiZo&t=1335s) 
 - [Aggressive Cows](https://www.youtube.com/watch?v=TC6snf6KPdE)
