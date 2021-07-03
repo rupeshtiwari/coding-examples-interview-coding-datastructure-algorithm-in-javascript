@@ -105,7 +105,7 @@
   - [Linked List](#linked-list-1)
     - [Reverse linked list](#reverse-linked-list)
     - [Find the merge point of 2 Linked List](#find-the-merge-point-of-2-linked-list)
-- [How to Learn Binary Search Tree from zero to Hero?](#how-to-learn-binary-search-tree-from-zero-to-hero)
+- [Binary Search for competitive programming from zero to advanced](#binary-search-for-competitive-programming-from-zero-to-advanced)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
@@ -1179,10 +1179,14 @@ Try `Binary Search`.
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-## How to Learn Binary Search Tree from zero to Hero? 
+## Binary Search for competitive programming from zero to advanced
 
-- Learn binary [search basics first](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80).
-- Do all basic problems related to binary search [given in this link](https://codepen.io/collection/vBORpO).
+- Watch [Code School Binary Search Videos](https://www.youtube.com/watch?v=j5uXyPJ0Pew&list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j)
+- Watch this [Binary Search video and do problems](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80)
+- Do all basic problems related to binary search [that I have given in this link](https://codepen.io/collection/vBORpO).
+
+
+
 
 
 ## References
@@ -1190,6 +1194,8 @@ Try `Binary Search`.
 - http://btholt.github.io/four-semesters-of-cs/
 - https://btholt.github.io/four-semesters-of-cs-part-two/
 - [Binary Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+- [[Part 3] Binary Search, Competitive Programming Series | from Zero to Advanced](https://www.youtube.com/watch?v=cLkcNeiploY&list=PL4PCksYQGLJOcaPLgeMFaxaHigPFjBuTG&index=4) 
+
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <script data-ad-client="ca-pub-1700383344966810" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>
