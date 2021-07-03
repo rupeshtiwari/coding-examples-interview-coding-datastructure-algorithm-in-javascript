@@ -50,6 +50,7 @@
     - [Find Median Values (With Merge Sort Algorithm)](#find-median-values-with-merge-sort-algorithm)
   - [Quick Sort](#quick-sort)
 - [Mathematics & Stats You should know](#mathematics--stats-you-should-know)
+  - [How to initialize array of size n?](#how-to-initialize-array-of-size-n)
   - [How many zeros in 1 Billion](#how-many-zeros-in-1-billion)
   - [How many zeros in 1 Million](#how-many-zeros-in-1-million)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
@@ -104,6 +105,7 @@
   - [Linked List](#linked-list-1)
     - [Reverse linked list](#reverse-linked-list)
     - [Find the merge point of 2 Linked List](#find-the-merge-point-of-2-linked-list)
+- [How to Learn Binary Search Tree from zero to Hero?](#how-to-learn-binary-search-tree-from-zero-to-hero)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
@@ -635,6 +637,17 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 
 ## Mathematics & Stats You should know
 
+### How to initialize array of size n?
+
+Example create an array containing numbers from 0 to 9.
+`[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
+
+```js
+var y = new Array.from(Array(10).keys())
+```
+
+![](https://i.imgur.com/mVBT7jl.png)
+
 ### How many zeros in 1 Billion
 
 Answer: 9
@@ -1165,6 +1178,12 @@ Try `Binary Search`.
   Find merge point of 2 linked list Answer</a> by Rupesh Tiwari (<a href="https://codepen.io/roopkt">@roopkt</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+## How to Learn Binary Search Tree from zero to Hero? 
+
+- Learn binary [search basics first](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80).
+- Do all basic problems related to binary search [given in this link](https://codepen.io/collection/vBORpO).
+
 
 ## References
 
