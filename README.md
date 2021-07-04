@@ -1211,6 +1211,7 @@ Binary Search is used to solve 2 kinds of problems:
 - Watch this [Binary Search conceptual video from Errichto](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80)
 
 Next you have to solve some basic binary search problems.
+
 ### Binary Search Basic Problems
 
 - Do all basics problems related to binary search [that I have given in this link](https://codepen.io/collection/vBORpO)
@@ -1218,24 +1219,31 @@ Next you have to solve some basic binary search problems.
 
 ### Binary Search Advanced Questions
 
-Below problems are lying under optimization problems. Just watch `Book Allocation` and `Aggressive Cows` videos (links are below) to understand optimization logic. Once you understood them after that for rest problems you need to apply same logic. Every iteration you reduce the search space by either maximizing or minimizing the solution. 
+Below problems are lying under optimization problems. Just watch `Book Allocation` and `Aggressive Cows` videos (links are below) to understand optimization logic. Once you understood them after that for rest problems you need to apply same logic. Every iteration you reduce the search space by either maximizing or minimizing the solution.
 
-- [Book Allocation](https://www.youtube.com/watch?v=Ss9ta1zmiZo&t=1335s) 
+- [Book Allocation](https://www.youtube.com/watch?v=Ss9ta1zmiZo&t=1335s)
 - [Aggressive Cows](https://www.youtube.com/watch?v=TC6snf6KPdE)
 - [Painter's Partition](https://www.geeksforgeeks.org/painters-partition-problem/)
 - [EKO (SPOJ)](https://www.spoj.com/problems/EKO/)
 - [PARATA - Roti (SPOJ)](https://www.spoj.com/problems/PRATA/)
 
+## Greedy Algorithm
 
+It is useful for optimization problem.
+Below is the template.
 
-## Greedy Algorithm 
-
-It is useful for optimization problem. 
+```js
+getOptimal(items, n)
+1- Initialize result as 0
+2- while(all items are not considered) {
+  i = selectAnItem()
+  if(feasible(i))
+    result = result +1;
+}
+3- return result;
+```
 
 - Watch [these videos](https://www.youtube.com/watch?v=HzeK7g8cD0Y&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&t=0s) to learn greedy algorithm
-
-
-
 
 ## References
 
