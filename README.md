@@ -111,6 +111,7 @@
   - [Binary Search Concept](#binary-search-concept)
   - [Binary Search Basic Problems](#binary-search-basic-problems)
   - [Binary Search Advanced Questions](#binary-search-advanced-questions)
+- [Greedy Algorithm](#greedy-algorithm)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
@@ -1217,14 +1218,24 @@ Next you have to solve some basic binary search problems.
 
 ### Binary Search Advanced Questions
 
-Below problems are lying under optimization problems. Just watch Book Allocation and Aggressive Cows videos to understand optimization logic. Once you understood them after that for rest problems you need to apply same logic. Every iteration you reduce the search space by either maximizing or minimizing the solution. 
+Below problems are lying under optimization problems. Just watch `Book Allocation` and `Aggressive Cows` videos (links are below) to understand optimization logic. Once you understood them after that for rest problems you need to apply same logic. Every iteration you reduce the search space by either maximizing or minimizing the solution. 
 
 - [Book Allocation](https://www.youtube.com/watch?v=Ss9ta1zmiZo&t=1335s) 
 - [Aggressive Cows](https://www.youtube.com/watch?v=TC6snf6KPdE)
-- ROTI (SPOJ)
-- Painter's Partition
-- EKO (SPOJ)
-- PARATA (SPOJ)
+- [Painter's Partition](https://www.geeksforgeeks.org/painters-partition-problem/)
+- [EKO (SPOJ)](https://www.spoj.com/problems/EKO/)
+- [PARATA - Roti (SPOJ)](https://www.spoj.com/problems/PRATA/)
+
+
+
+## Greedy Algorithm 
+
+It is useful for optimization problem. 
+
+- Watch [these videos](https://www.youtube.com/watch?v=HzeK7g8cD0Y&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&t=0s) to learn greedy algorithm
+
+
+
 
 ## References
 
