@@ -112,6 +112,7 @@
   - [Binary Search Basic Problems](#binary-search-basic-problems)
   - [Binary Search Advanced Questions](#binary-search-advanced-questions)
 - [Greedy Algorithm](#greedy-algorithm)
+  - [Min Coins Problem](#min-coins-problem)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
@@ -1232,6 +1233,8 @@ Below problems are lying under optimization problems. Just watch `Book Allocatio
 It is useful for optimization problem.
 Below is the template.
 
+- Watch [these videos](https://www.youtube.com/watch?v=HzeK7g8cD0Y&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&t=0s) to learn greedy algorithm
+
 ```js
 getOptimal(items, n)
 1- Initialize result as 0
@@ -1243,7 +1246,13 @@ getOptimal(items, n)
 3- return result;
 ```
 
-- Watch [these videos](https://www.youtube.com/watch?v=HzeK7g8cD0Y&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&t=0s) to learn greedy algorithm
+### Min Coins Problem
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="XWRmVLj" data-user="rupeshtiwari" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/rupeshtiwari/pen/XWRmVLj">
+  Min Coins</a> by Rupesh Tiwari (<a href="https://codepen.io/rupeshtiwari">@rupeshtiwari</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ## References
 
