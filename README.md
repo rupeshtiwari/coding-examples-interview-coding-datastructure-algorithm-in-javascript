@@ -113,6 +113,11 @@
   - [Binary Search Advanced Questions](#binary-search-advanced-questions)
 - [Greedy Algorithm](#greedy-algorithm)
   - [Min Coins Problem](#min-coins-problem)
+  - [Where Greedy Algorithms can be used?](#where-greedy-algorithms-can-be-used)
+  - [Huffman Coding](#huffman-coding)
+- [BST](#bst)
+  - [For Finding PREDECESSOR](#for-finding-predecessor)
+  - [For Finding SUCCESSOR](#for-finding-successor)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
@@ -1231,7 +1236,7 @@ Below problems are lying under optimization problems. Just watch `Book Allocatio
 ## Greedy Algorithm
 
 It is useful for optimization problem.
-Below is the template.
+Below is the template for Greedy Algorithm.
 
 - Watch [these videos](https://www.youtube.com/watch?v=HzeK7g8cD0Y&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&t=0s) to learn greedy algorithm
 
@@ -1253,6 +1258,47 @@ getOptimal(items, n)
   Min Coins</a> by Rupesh Tiwari (<a href="https://codepen.io/rupeshtiwari">@rupeshtiwari</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+Note: Greedy Algorithms may not work always like Longest Path in Binary Tree.
+
+![](https://i.imgur.com/utmaXM3.png)
+
+### Where Greedy Algorithms can be used?
+
+Below are the standard problems solved by Greedy Algorithms.
+
+- Activity Selection
+- Fractional Knapsack
+- Job Sequencing
+- Prim's Algorithm
+- Kruskal's algorithm
+- Dijkstra's algorithm
+- Huffman Coding
+- DIEHARD
+- DEFKIN
+- Finding close to optimal solutions for `NP Hard Problem` like `Travelling Salesman Problem`
+
+### Huffman Coding
+Merge 2 smallest and make one node.
+Next select 2 smallest and make one node. 
+Repeat the merge process
+
+Always select 2 minimum one is called as Greedy Algorithm.
+This is called as Optimal Merge Pattern Tree which is Greedy approach
+
+![](https://i.imgur.com/eg0KRQ5.png)
+## BST 
+
+### For Finding PREDECESSOR 
+	- Take a LEFT then go extreme RIGHT to get predecessor of given node
+	- While going right update predecessor
+
+### For Finding SUCCESSOR 
+	- Take a RIGHT then go extreme LEFT to get successor of given node
+	- While going left update successor
+
+
+
 
 ## References
 
