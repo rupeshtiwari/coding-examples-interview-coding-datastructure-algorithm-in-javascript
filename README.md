@@ -1249,7 +1249,9 @@ Below problems are lying under optimization problems. Just watch `Book Allocatio
 It is useful for optimization problem.
 Below is the template for Greedy Algorithm.
 
+- Watch this [video from Love Babbar](https://www.youtube.com/watch?v=sq_cXYjSglQ&list=PL4PCksYQGLJOcaPLgeMFaxaHigPFjBuTG&index=5) 
 - Watch [these videos](https://www.youtube.com/watch?v=HzeK7g8cD0Y&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&t=0s) to learn greedy algorithm
+- Find the solutions of the problems shared by [Love Babbar here](https://www.youtube.com/watch?v=AsbDqOauGZE&list=PLDdcY4olLQk3cAxZPJXMbxqrM3PlNkmO8) 
 
 ```js
 getOptimal(items, n)
