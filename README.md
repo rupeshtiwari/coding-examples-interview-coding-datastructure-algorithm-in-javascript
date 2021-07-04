@@ -56,6 +56,7 @@
   - [How many zeros in 1 Million](#how-many-zeros-in-1-million)
   - [Integer Division Without Using \* or /](#integer-division-without-using--or-)
 - [JavaScript Fundamentals](#javascript-fundamentals)
+  - [Initialize 2D Array 4x4 with 0](#initialize-2d-array-4x4-with-0)
   - [JavaScript Map](#javascript-map)
   - [Array Sort](#array-sort)
   - [Array Sort](#array-sort-1)
@@ -688,6 +689,16 @@ node .\src\math-and-stats\integer-division.js
 
 ## JavaScript Fundamentals
 
+
+### Initialize 2D Array 4x4 with 0
+
+```js
+const x = new Array(4).fill( new Array(4).fill(0))
+```
+
+![](https://i.imgur.com/JXVJGgJ.png)
+
+
 ### JavaScript Map
 
 ```js
@@ -1265,17 +1276,19 @@ Note: Greedy Algorithms may not work always like Longest Path in Binary Tree.
 
 ### Where Greedy Algorithms can be used?
 
-Below are the standard problems solved by Greedy Algorithms.
+Below are the standard problems solved by Greedy Algorithms. I have solved first 4 problems listed below:
+
+https://codepen.io/collection/QWbzGB 
 
 - Activity Selection
 - Fractional Knapsack
+- DIEHARD
+- DEFKIN
 - Job Sequencing
+- Huffman Coding
 - Prim's Algorithm
 - Kruskal's algorithm
 - Dijkstra's algorithm
-- Huffman Coding
-- DIEHARD
-- DEFKIN
 - Finding close to optimal solutions for `NP Hard Problem` like `Travelling Salesman Problem`
 
 ### Huffman Coding
