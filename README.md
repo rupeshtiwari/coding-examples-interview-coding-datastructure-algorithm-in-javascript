@@ -119,6 +119,14 @@
 - [BST](#bst)
   - [For Finding PREDECESSOR](#for-finding-predecessor)
   - [For Finding SUCCESSOR](#for-finding-successor)
+- [Constraints on Coding interview](#constraints-on-coding-interview)
+  - [Most Important](#most-important)
+- [How to start DSA?](#how-to-start-dsa)
+  - [Step 1: First learn language](#step-1-first-learn-language)
+  - [Step 2: Learn Data Structure (DS)](#step-2-learn-data-structure-ds)
+  - [Step 3: Learn Algorithms](#step-3-learn-algorithms)
+  - [How much questions I should do?](#how-much-questions-i-should-do)
+  - [How to solve questions?](#how-to-solve-questions)
 - [References](#references)
 
 > Coding interview question answers in JavaScript for Facebook, Amazon, Google, Microsoft or any company.
@@ -689,15 +697,13 @@ node .\src\math-and-stats\integer-division.js
 
 ## JavaScript Fundamentals
 
-
 ### Initialize 2D Array 4x4 with 0
 
 ```js
-const x = new Array(4).fill( new Array(4).fill(0))
+const x = new Array(4).fill(new Array(4).fill(0));
 ```
 
 ![](https://i.imgur.com/JXVJGgJ.png)
-
 
 ### JavaScript Map
 
@@ -1249,9 +1255,9 @@ Below problems are lying under optimization problems. Just watch `Book Allocatio
 It is useful for optimization problem.
 Below is the template for Greedy Algorithm.
 
-- Watch this [video from Love Babbar](https://www.youtube.com/watch?v=sq_cXYjSglQ&list=PL4PCksYQGLJOcaPLgeMFaxaHigPFjBuTG&index=5) 
+- Watch this [video from Love Babbar](https://www.youtube.com/watch?v=sq_cXYjSglQ&list=PL4PCksYQGLJOcaPLgeMFaxaHigPFjBuTG&index=5)
 - Watch [these videos](https://www.youtube.com/watch?v=HzeK7g8cD0Y&list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW&t=0s) to learn greedy algorithm
-- Find the solutions of the problems shared by [Love Babbar here](https://www.youtube.com/watch?v=AsbDqOauGZE&list=PLDdcY4olLQk3cAxZPJXMbxqrM3PlNkmO8) 
+- Find the solutions of the problems shared by [Love Babbar here](https://www.youtube.com/watch?v=AsbDqOauGZE&list=PLDdcY4olLQk3cAxZPJXMbxqrM3PlNkmO8)
 
 ```js
 getOptimal(items, n)
@@ -1280,7 +1286,7 @@ Note: Greedy Algorithms may not work always like Longest Path in Binary Tree.
 
 Below are the standard problems solved by Greedy Algorithms. I have solved first 4 problems listed below:
 
-https://codepen.io/collection/QWbzGB 
+https://codepen.io/collection/QWbzGB
 
 - Activity Selection
 - Fractional Knapsack
@@ -1294,26 +1300,82 @@ https://codepen.io/collection/QWbzGB
 - Finding close to optimal solutions for `NP Hard Problem` like `Travelling Salesman Problem`
 
 ### Huffman Coding
+
 Merge 2 smallest and make one node.
-Next select 2 smallest and make one node. 
+Next select 2 smallest and make one node.
 Repeat the merge process
 
 Always select 2 minimum one is called as Greedy Algorithm.
 This is called as Optimal Merge Pattern Tree which is Greedy approach
 
 ![](https://i.imgur.com/eg0KRQ5.png)
-## BST 
 
-### For Finding PREDECESSOR 
-	- Take a LEFT then go extreme RIGHT to get predecessor of given node
-	- While going right update predecessor
+## BST
 
-### For Finding SUCCESSOR 
-	- Take a RIGHT then go extreme LEFT to get successor of given node
-	- While going left update successor
+### For Finding PREDECESSOR
 
+    - Take a LEFT then go extreme RIGHT to get predecessor of given node
+    - While going right update predecessor
 
+### For Finding SUCCESSOR
 
+    - Take a RIGHT then go extreme LEFT to get successor of given node
+    - While going left update successor
+
+## Constraints on Coding interview
+
+Read the given constraints before coding and applying algorithm.
+
+If `N < 10^5` then you must solve the problem in run time complexity of `O(N)` or `O(N log (n))`
+
+### Most Important
+
+If constraints are given then read them and then decide complexity.
+
+| N               | RunTime Complexity     |
+| --------------- | ---------------------- |
+| N < 4000 (10^3) | O(n^n) or O( n log(n)) |
+| 10^5            | O(n) or O(n log (n))   |
+| 10^9            | O(log(n)) or O(1)      |
+
+**Examples:**
+
+https://www.codechef.com/problems/DECODEIT This should be done within `O(n) or O(n log (n))`
+
+## How to start DSA?
+
+### Step 1: First learn language
+
+### Step 2: Learn Data Structure (DS)
+
+While learning DS solve problems for the same DS also. Example if you are learning string then solve the problems for the string.
+
+### Step 3: Learn Algorithms
+
+- Number Theory
+- Sorting Algorithms
+  - Merge
+  - Quick
+- Searching
+  - Linear
+  - Binary
+- Recursion & Backtracking
+- Greedy
+- Graph
+
+### How much questions I should do?
+
+Every topic finish `30 to 40` questions. For `Array`, `String`, `Recursion` and `Graph` do more than 50 questions.
+
+### How to solve questions?
+
+Go to practice page: https://practice.geeksforgeeks.org/explore/?page=1
+
+**Every day do below:**
+
+- 3 easy questions
+- 2 medium questions
+- 1 hard question
 
 ## References
 
