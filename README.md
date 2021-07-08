@@ -51,6 +51,8 @@
   - [Quick Sort](#quick-sort)
   - [Why Quick sort is used in Array and Merge Sort in Linked List?](#why-quick-sort-is-used-in-array-and-merge-sort-in-linked-list)
 - [Mathematics & Stats You should know](#mathematics--stats-you-should-know)
+  - [XOR operator](#xor-operator)
+    - [Different Numbers can be solved by XOR](#different-numbers-can-be-solved-by-xor)
   - [How to initialize array of size n?](#how-to-initialize-array-of-size-n)
   - [How many zeros in 1 Billion](#how-many-zeros-in-1-billion)
   - [How many zeros in 1 Million](#how-many-zeros-in-1-million)
@@ -660,7 +662,32 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 
 In Quick sort we do not create auxiliary arrays. Therefore, it is good choice for Array to use quick sort. However in merge sort we create 2 auxiliary arrays. Therefore, linked list is a good choice.
 
+
+
 ## Mathematics & Stats You should know
+
+
+### XOR operator
+
+XOR represents the inequality function, i.e., the output is true if the inputs are not alike otherwise the output is false. A way to remember XOR is "must have one or the other but not both". XOR can also be viewed as addition modulo 2.
+
+#### Different Numbers can be solved by XOR
+
+Find how many different numbers in the array. 
+
+Input =[3, 5, 6, 3, 3 , 9, 5] 
+
+answer = 4 
+
+There are 4 values 3,5, 6,9. 
+
+```js
+x =0;
+array.forEach(num=> x ^= num);
+return x;
+```
+
+`^=` [XOR assignment operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR). 
 
 ### How to initialize array of size n?
 
