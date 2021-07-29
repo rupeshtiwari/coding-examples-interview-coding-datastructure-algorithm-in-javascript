@@ -70,7 +70,8 @@
   - [Math.round](#mathround)
   - [JavaScript Integer Max Min](#javascript-integer-max-min)
 - [Bitwise operation in JavaScript](#bitwise-operation-in-javascript)
-  - [x>>y](#xy)
+  - [Right Shift x>>y](#right-shift-xy)
+  - [Left Shift x<<y](#left-shift-xy)
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
@@ -860,11 +861,19 @@ It is 16 digit number.
 
 ## Bitwise operation in JavaScript 
 
-### x>>y 
+### Right Shift x>>y 
+
+Moving bit/s towards the right side in binary number. 
 
 `x>>y` means `x/2^y` divide x by 2 to the power of y.
 
+### Left Shift x<<y
 
+Moving bit/s towards the left side in binary number. 
+
+`4<<2 == 0` 
+
+`x<<y` means `x*2^y` multiply x by 2 to the power of y.
 
 ## Mock Interview
 
