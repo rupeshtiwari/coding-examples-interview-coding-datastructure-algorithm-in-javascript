@@ -69,6 +69,8 @@
   - [Math.floor](#mathfloor)
   - [Math.round](#mathround)
   - [JavaScript Integer Max Min](#javascript-integer-max-min)
+- [Bitwise operation in JavaScript](#bitwise-operation-in-javascript)
+  - [x>>y](#xy)
 - [Mock Interview](#mock-interview)
   - [Get the Average value at each level of the tree](#get-the-average-value-at-each-level-of-the-tree)
   - [ADT](#adt)
@@ -854,6 +856,15 @@ It is 16 digit number.
 
 - `Number.MIN_SAFE_INTEGER` = -9007199254740992
 - `Number.MAX_SAFE_INTEGER` = 9007199254740991
+
+
+## Bitwise operation in JavaScript 
+
+### x>>y 
+
+`x>>y` means `x/2^y` divide x by 2 to the power of y.
+
+
 
 ## Mock Interview
 
