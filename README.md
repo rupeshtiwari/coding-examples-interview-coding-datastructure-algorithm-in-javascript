@@ -69,6 +69,7 @@
   - [Math.floor](#mathfloor)
   - [Math.round](#mathround)
   - [JavaScript Integer Max Min](#javascript-integer-max-min)
+- [Difference between i++ and ++i](#difference-between-i-and-i)
 - [Bitwise operation in JavaScript](#bitwise-operation-in-javascript)
   - [Right Shift x>>y](#right-shift-xy)
   - [Left Shift x<<y](#left-shift-xy)
@@ -665,10 +666,7 @@ When Browser's are not using Merge sort they most of the time use Quick sort var
 
 In Quick sort we do not create auxiliary arrays. Therefore, it is good choice for Array to use quick sort. However in merge sort we create 2 auxiliary arrays. Therefore, linked list is a good choice.
 
-
-
 ## Mathematics & Stats You should know
-
 
 ### XOR operator
 
@@ -676,21 +674,21 @@ XOR represents the inequality function, i.e., the output is true if the inputs a
 
 #### Different Numbers can be solved by XOR
 
-Find how many different numbers in the array. 
+Find how many different numbers in the array.
 
-Input =[3, 5, 6, 3, 3 , 9, 5] 
+Input =[3, 5, 6, 3, 3 , 9, 5]
 
-answer = 4 
+answer = 4
 
-There are 4 values 3,5, 6,9. 
+There are 4 values 3,5, 6,9.
 
 ```js
-x =0;
-array.forEach(num=> x ^= num);
+x = 0;
+array.forEach((num) => (x ^= num));
 return x;
 ```
 
-`^=` [XOR assignment operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR). 
+`^=` [XOR assignment operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR).
 
 ### How to initialize array of size n?
 
@@ -858,20 +856,29 @@ It is 16 digit number.
 - `Number.MIN_SAFE_INTEGER` = -9007199254740992
 - `Number.MAX_SAFE_INTEGER` = 9007199254740991
 
+## Difference between i++ and ++i
 
-## Bitwise operation in JavaScript 
+So basically ++i returns the value after it is incremented, while i++ return the value before it is incremented.
 
-### Right Shift x>>y 
+![](https://i.imgur.com/mwT7aco.png)
 
-Moving bit/s towards the right side in binary number. 
+![](https://i.imgur.com/mp77XBD.png)
+
+## Bitwise operation in JavaScript
+
+### Right Shift x>>y
+
+Moving bit/s towards the right side in binary number.
+
+`4>>2 = 16` 
 
 `x>>y` means `x/2^y` divide x by 2 to the power of y.
 
 ### Left Shift x<<y
 
-Moving bit/s towards the left side in binary number. 
+Moving bit/s towards the left side in binary number.
 
-`4<<2 == 0` 
+`4<<2 = 0`
 
 `x<<y` means `x*2^y` multiply x by 2 to the power of y.
 
